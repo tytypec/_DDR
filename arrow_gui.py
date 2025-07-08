@@ -7,8 +7,8 @@ import time
 import csv
 from datetime import datetime
 import os
-import asyncio
-from bleak import BleakClient
+# import asyncio
+# from bleak import BleakClient
 
 #steps creates a variable that we can count steps into.
 #calories_per_step is a made up number we assign to each step to get an estimated calorie count when multiplied by step count
