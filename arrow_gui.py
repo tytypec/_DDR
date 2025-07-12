@@ -25,12 +25,15 @@ calories_from_hr = 0.0 #this creates a variable for us to count in our calories 
 calories_per_step = 0.05 #calories_per_step is a made up number we assign to each step to get an estimated calorie count when multiplied by step count
 start_time = None #start_time starts at 'None' so we can 'turn it on' when we are ready to dance!
 tracking = False # tracking starts as false because we dont want the calorie counter to start until we are ready to dance (just like the timer)
+paused = False #adding a pause button incase of... emergencies :)
+session_start = None
+session_end = None
 
 #HR variables
 bpm = 0 #creates a variable for our heart rate readings from BT monitor
 hr_readings = [] #creates an array of heart rate readings to be used for calculating avg and max bpm
 hr_time_series = [] #creates an array for more hear rate readings with time component!
-hr_time_series_interval = 5000 #interval for refresh 5,000= 5 seconds 10,000 = 10 seconds
+bpm_interval_ms = 5000 #interval for refresh 5,000= 5 seconds 10,000 = 10 seconds
 #moving_average_interval = 10000
 max_bpm = 0 #creats variable for the maximum BPM
 #average_bpm = 0 # lol similar to above but for average bpm
@@ -40,10 +43,13 @@ client = None
 HR_MEASUREMENT_UUID = "00002a37-0000-1000-8000-00805f9b34fb" #This is a device specific code for the BT heart rate monitor i purchased
 device_address = "F9:2D:CB:FD:CD:87" #specific address for BT device. If this gets lost use blue_tooth_find.py
 
+#I want to look into summary csv at some point
 #session specific variables
 timestamp = datetime.now().strftime("%Y-%m-%d-%H-%M")
 session_id = f"session_{timestamp}"
 json_format = "version 1.0"
+dance_pad = "OSTENT EVA/PVC" #metal pad is "LTEK Prime Metal"
+event_log = []
 
 
 
@@ -71,13 +77,21 @@ def handle_hr_data(_, data):
             max_bpm = bpm
     update_hr_label()
 
+def log_event(event_type, elapsed_seconds):
+    global event_log
+    event_log.append({
+        "type": event_type,
+        "clock_time": datetime.now().strftime("%H:%M:%S"),
+        "elapsed_seconds": elapsed_seconds       
+    })
+
 #handles heart rate and steps per minute data
 def log_hr_over_time():
     global previous_step_count
 
-    if tracking and bpm > 0:
+    if tracking and not paused and bpm > 0:
         current_time = datetime.now().strftime("%H:%M:%S")
-        interval_seconds = hr_time_series_interval / 1000
+        interval_seconds = bpm_interval_ms / 1000
 
         #calculate short-term steps per minute
         steps_in_interval = steps - previous_step_count
@@ -89,18 +103,20 @@ def log_hr_over_time():
         #calculate average SPM 
         avg_steps_per_minute = (steps / elapsed_time) * 60 if elapsed_time > 0 else 0
 
-        # Append to time series
-        hr_time_series.append([
-            current_time,
-            elapsed_time,
-            bpm,
-            round(avg_steps_per_minute, 2)
-        ])
+        # Append to time series **Switched back to a dictionary for easier intergration with r and tidyverse
+        hr_time_series.append({
+            "session_id": session_id,
+            "clock_time": current_time,
+            "elapsed_seconds": elapsed_time,
+            "bpm": bpm,
+            "steps_per_minute": round(avg_steps_per_minute, 2),
+            "sequence": len(hr_time_series) + 1 #just some extra bloat. fall back if elapsed_seconds runs into issues
+        })
 
         # Update GUI display with real-time SPM
         steps_per_minute_label.config(text=f"Steps/min: {round(interval_steps_per_minute, 2)}")
 
-    root.after(hr_time_series_interval, log_hr_over_time) #reruns log_hr_over_time dependant on an interval time
+    root.after(bpm_interval_ms, log_hr_over_time) #reruns log_hr_over_time dependant on an interval time
 
 def calculate_calories_per_second(hr, weight_kg, age):
     # Male formula (Keytel et al., 2005 https://pubmed.ncbi.nlm.nih.gov/15966347/ Worth a read!)
@@ -116,7 +132,7 @@ def format_elapsed_time(seconds):
 #this function has a break down of how we want the timer to display time.
 def update_timer():
     global calories_from_hr, elapsed_time
-    if tracking and start_time is not None:
+    if tracking and not paused and start_time is not None:
         elapsed_time += 1
         timer_label.config(text=f"Time: {format_elapsed_time(elapsed_time)}")
 
@@ -133,7 +149,7 @@ def update_timer():
 #this takes an arrow press and adds a +1 into steps.
 def on_arrow_press(event):
     global steps, calories_from_steps
-    if tracking:
+    if tracking and not paused:
         steps += 1
         calories_from_steps = steps * calories_per_step  # Only counts calories from steps with our made up magic number
         update_labels()
@@ -141,46 +157,61 @@ def on_arrow_press(event):
 #this is what my start button activates when pressed! It begins the timer and step tracker
 #***Do I want a pause button?
 def start_tracking():
-    global start_time, tracking, elapsed_time, steps
+    global start_time, tracking, elapsed_time, steps, session_start
     steps = 0
     elapsed_time = 0
     start_time = time.time()
+    session_start = datetime.now()
     tracking = True
     update_labels()
     start_btn.config(state="disabled", bg="#666")
 
-
 def get_stepmania_session_songs():
+    global session_start, session_end
     try:
         stepmania_stats_path = os.path.expanduser(
             r"C:\Users\typec\AppData\Roaming\StepMania 5\Save\LocalProfiles\00000000\Stats.xml"
         )
         tree = ET.parse(stepmania_stats_path)
         root = tree.getroot()
-        today = datetime.now().date()
         songs = []
 
-        for song in root.findall(".//Song"):
-            song_path = song.attrib.get("Dir", "Unknown Song")
+        for song in root.findall(".//Song"): #loops through all <Song> entries stepmania stats XML
+            song_path = song.attrib.get("Dir", "Unknown Song") #gets song name from Dir like "Dance Dance Revolution/Butterfly"
 
-            for steps in song.findall(".//Steps"):
+            for steps in song.findall(".//Steps"): #loops through all <Steps> entries for the specific <Song>
                 highscore_list = steps.find("HighScoreList")
                 if highscore_list is None:
                     continue
 
-                last_played_text = highscore_list.findtext("LastPlayed")
-                if not last_played_text:
-                    continue
-                last_played = datetime.strptime(last_played_text, "%Y-%m-%d").date()
-                if last_played != today:
+                highscore = highscore_list.find("HighScore") #looks for <Highscore>
+                if highscore is None:
                     continue
 
-                highscore = highscore_list.find("HighScore")  # may be None
+                datetime_text = highscore.findtext("DateTime") #This is what makes the session specific song list work
+                if not datetime_text:                          #the value above stores the last time you plated the song in <DateTime>
+                    continue
+
+                try:
+                    song_datetime = datetime.strptime(datetime_text, "%Y-%m-%d %H:%M:%S") #we convert our time to the same format as <DateTime>
+                except ValueError:
+                    continue
+
+                if session_start is None or session_end is None: #then we check to see if the song played time matches the range for our play session!
+                    continue
+                if not (session_start <= song_datetime <= session_end):
+                    continue
+
                 difficulty = steps.attrib.get("Difficulty", "Unknown")
-                score = highscore.findtext("Score") if highscore is not None else None
-                duration = highscore.findtext("SurviveSeconds") if highscore is not None else None
+                score = highscore.findtext("Score")
 
-                tap_scores = highscore.find("TapNoteScores") if highscore is not None else None
+                raw_duration = highscore.findtext("SurviveSeconds")
+                try:
+                    duration = float(raw_duration) if raw_duration else None
+                except ValueError:
+                    duration = None
+
+                tap_scores = highscore.find("TapNoteScores")
                 miss = tap_scores.findtext("Miss") if tap_scores is not None else None
                 boo = tap_scores.findtext("W5") if tap_scores is not None else None
                 good = tap_scores.findtext("W4") if tap_scores is not None else None
@@ -189,11 +220,12 @@ def get_stepmania_session_songs():
                 flawless = tap_scores.findtext("W1") if tap_scores is not None else None
 
                 songs.append({
+                    "session_id": session_id,
                     "song": os.path.basename(os.path.normpath(song_path)),
                     "difficulty": difficulty,
                     "score": score,
                     "duration": duration,
-                    "last_played": last_played_text,
+                    "played_at": datetime_text,
                     "miss": miss,
                     "boo": boo,
                     "good": good,
@@ -209,13 +241,14 @@ def get_stepmania_session_songs():
         return []
 
 def save_to_json():
-    global elapsed_time
+    global elapsed_time, session_end
     if not tracking or start_time is None:
         messagebox.showinfo("Info", "No session data to save.")
         return
 
     #elapsed = int(time.time() - start_time) global variable now: elapsed_time
     duration = format_elapsed_time(elapsed_time)
+    session_end = datetime.now()
     average_bpm = round(sum(hr_readings) / len(hr_readings), 2) if hr_readings else 0
 
     #where json lives
@@ -239,17 +272,25 @@ def save_to_json():
     avg_steps_per_song = steps / safe_song_count
     session_intensity = average_bpm * step_density  # made-up but fun metric
 
-    biometrics_data = {
+    session_information = {
     "date": datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
+    "json_version": json_format,
+    "dance_pad_type": dance_pad
+    }
+
+    biometrics_data = {
+    "weight_kg": weight_kg,
+    "age": age,
     "steps": steps,
-    "elapsed_time":elapsed_time,
-    "duration": duration,
+    "elapsed_seconds":elapsed_time,
+    "formatted_duration": duration,
     "average_bpm": average_bpm,
     "max_bpm": max_bpm,
-    "bpm_interval_header": ["timestamp", "elapsed_seconds", "bpm", "steps_per_minute"],
-    "bpm_interval": hr_time_series,
-    "calories": round(calories_from_hr + calories_from_steps, 2),
-    "step_density": round(step_density, 3),
+    #"bpm_interval_header": ["timestamp", "elapsed_seconds", "bpm", "steps_per_minute"], #no longer needed bpm_interval is now a dictionary instead of an array
+    "total_calories": round(calories_from_hr + calories_from_steps, 2),
+    "calories_from_steps": round(calories_from_steps, 2),
+    "calories_from_hr": round(calories_from_hr, 2),
+    "step_density_per_second": round(step_density, 3),
     "avg_steps_per_song": round(avg_steps_per_song, 2),
     "session_intensity": round(session_intensity, 2)
     }
@@ -295,16 +336,14 @@ def save_to_json():
     # jason data structure
     session_data = {
         "session_id": session_id,
-        "json_version": json_format,
+        # "json_version": json_format,
+        "session_information": session_information,
+        "event_log": event_log,
         "biometrics": biometrics_data,
+        "hr_time_series": hr_time_series,
         "songs": song_data,
         "session_steps": session_steps_rating
     }
-
-    #so the json is a little more visually appealing
-    session_data["biometrics"]["bpm_interval"] = json.loads(
-        json.dumps(hr_time_series, separators=(",", ":"))
-    )
 
     # write to file
     try:
@@ -325,7 +364,7 @@ def on_close():
 #GUI setup
 root = tk.Tk()
 root.title("DDR Step Tracker")
-root.geometry("520x320")
+root.geometry("720x420")
 root.configure(bg=BG_GRADIENT)
 root.protocol("WM_DELETE_WINDOW", on_close)  # Ask on close
 
@@ -339,6 +378,19 @@ if age is None:
     age = 33  # default age for me 
 
 weight_kg = weight_lbs * 0.45359237 #convert it into kg lol
+
+#allows pause / unpause
+def toggle_pause():
+    global paused
+    paused = not paused
+    if paused:
+        pause_btn.config(text="Resume", bg="#1abc9c")  #teal
+        pause_indicator.config(text="PAUSED", fg="#ff00ff")  #purple
+        log_event("pause", elapsed_time) 
+    else:
+        pause_btn.config(text="Pause", bg="#9b59b6")  #purple
+        pause_indicator.config(text="")  #hide it
+        log_event("resume", elapsed_time)
 
 def update_connection_status(connected):
     if connected:
@@ -393,6 +445,10 @@ connection_label = tk.Label(bottom_controls, text="HR Monitor: Not connected", f
                             bg=BG_GRADIENT, fg="red")
 connection_label.pack(pady=5)
 
+pause_indicator = tk.Label(bottom_controls, text="", font=("Helvetica", 20, "bold"),
+                           bg=BG_GRADIENT, fg="#ff00ff")  # hot pink / magenta
+pause_indicator.pack(pady=5)
+
 button_frame = tk.Frame(bottom_controls, bg=BG_GRADIENT)
 button_frame.pack(pady=5)
 
@@ -404,6 +460,10 @@ start_btn.pack(side="left", padx=10)
 save_btn = tk.Button(button_frame, text="Save to JSON", font=("Helvetica", 12),
                      command=save_to_json, bg="#dddddd", fg="black", width=15)
 save_btn.pack(side="left", padx=10)
+
+pause_btn = tk.Button(button_frame, text="Pause", font=("Helvetica", 12),
+                      command=toggle_pause, bg="#9b59b6", fg="white", width=15)
+pause_btn.pack(side="left", padx=10)
 
 ###
 ### GUI ENDS
@@ -423,7 +483,7 @@ def start_ble_loop():
                     update_connection_status(True)
                     print("Connected to HR monitor")
 
-                    root.after(hr_time_series_interval, log_hr_over_time)
+                    root.after(bpm_interval_ms, log_hr_over_time)
 
                     while True:
                         if not client.is_connected:
@@ -446,6 +506,13 @@ def start_ble_loop():
 
 threading.Thread(target=start_ble_loop, daemon=True).start()
 
+def flash_pause_indicator():
+    if paused:
+        current_color = pause_indicator.cget("fg")
+        new_color = "#ff00ff" if current_color == "#6dcfff" else "#6dcfff"
+        pause_indicator.config(fg=new_color)
+    root.after(500, flash_pause_indicator)  # change color every 0.5s
 
+flash_pause_indicator()
 update_timer()
 root.mainloop()
