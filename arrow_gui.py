@@ -18,6 +18,8 @@ from bleak import BleakClient #needed to connect to bt hr monitor
 
 
 steps = 0  #steps creates a variable that we can count steps into.
+previous_step_count = 0 #global for step per min gui 
+elapsed_time = 0 #global time variable used
 calories_from_steps = 0.0 #need 2 calorie counters so I can add up both steps and basal calorie stuff
 calories_from_hr = 0.0 #this creates a variable for us to count in our calories burned from heart rate using Male formula from Keytel paper
 calories_per_step = 0.05 #calories_per_step is a made up number we assign to each step to get an estimated calorie count when multiplied by step count
@@ -27,10 +29,21 @@ tracking = False # tracking starts as false because we dont want the calorie cou
 #HR variables
 bpm = 0 #creates a variable for our heart rate readings from BT monitor
 hr_readings = [] #creates an array of heart rate readings to be used for calculating avg and max bpm
+hr_time_series = [] #creates an array for more hear rate readings with time component!
+hr_time_series_interval = 5000 #interval for refresh 5,000= 5 seconds 10,000 = 10 seconds
+#moving_average_interval = 10000
 max_bpm = 0 #creats variable for the maximum BPM
-average_bpm = 0 # lol similar to above but for average bpm
+#average_bpm = 0 # lol similar to above but for average bpm
+
+#Bleak Variables
+client = None
 HR_MEASUREMENT_UUID = "00002a37-0000-1000-8000-00805f9b34fb" #This is a device specific code for the BT heart rate monitor i purchased
 device_address = "F9:2D:CB:FD:CD:87" #specific address for BT device. If this gets lost use blue_tooth_find.py
+
+#session specific variables
+timestamp = datetime.now().strftime("%Y-%m-%d-%H-%M")
+session_id = f"session_{timestamp}"
+json_format = "version 1.0"
 
 
 
@@ -58,20 +71,54 @@ def handle_hr_data(_, data):
             max_bpm = bpm
     update_hr_label()
 
+#handles heart rate and steps per minute data
+def log_hr_over_time():
+    global previous_step_count
+
+    if tracking and bpm > 0:
+        current_time = datetime.now().strftime("%H:%M:%S")
+        interval_seconds = hr_time_series_interval / 1000
+
+        #calculate short-term steps per minute
+        steps_in_interval = steps - previous_step_count
+        interval_steps_per_minute = steps_in_interval * (60 / interval_seconds)
+
+        #update previous step count
+        previous_step_count = steps
+
+        #calculate average SPM 
+        avg_steps_per_minute = (steps / elapsed_time) * 60 if elapsed_time > 0 else 0
+
+        # Append to time series
+        hr_time_series.append([
+            current_time,
+            elapsed_time,
+            bpm,
+            round(avg_steps_per_minute, 2)
+        ])
+
+        # Update GUI display with real-time SPM
+        steps_per_minute_label.config(text=f"Steps/min: {round(interval_steps_per_minute, 2)}")
+
+    root.after(hr_time_series_interval, log_hr_over_time) #reruns log_hr_over_time dependant on an interval time
+
 def calculate_calories_per_second(hr, weight_kg, age):
     # Male formula (Keytel et al., 2005 https://pubmed.ncbi.nlm.nih.gov/15966347/ Worth a read!)
     calories_per_min = (-55.0969 + (0.6309 * hr) + (0.1988 * weight_kg) + (0.2017 * age)) / 4.184
     return max(calories_per_min / 60, 0)
 
+def format_elapsed_time(seconds):
+    hrs = seconds // 3600
+    mins = (seconds % 3600) // 60
+    secs = seconds % 60
+    return f"{hrs:02}:{mins:02}:{secs:02}"
+
 #this function has a break down of how we want the timer to display time.
 def update_timer():
-    global calories_from_hr
+    global calories_from_hr, elapsed_time
     if tracking and start_time is not None:
-        elapsed = int(time.time() - start_time)
-        hrs = elapsed // 3600
-        mins = (elapsed % 3600) // 60
-        secs = elapsed % 60
-        timer_label.config(text=f"Time: {hrs:02}:{mins:02}:{secs:02}")
+        elapsed_time += 1
+        timer_label.config(text=f"Time: {format_elapsed_time(elapsed_time)}")
 
         #this function handles our 2 intermediate calorie values to give us a total calorie count
         if bpm > 0:
@@ -94,8 +141,9 @@ def on_arrow_press(event):
 #this is what my start button activates when pressed! It begins the timer and step tracker
 #***Do I want a pause button?
 def start_tracking():
-    global start_time, tracking
+    global start_time, tracking, elapsed_time, steps
     steps = 0
+    elapsed_time = 0
     start_time = time.time()
     tracking = True
     update_labels()
@@ -161,15 +209,14 @@ def get_stepmania_session_songs():
         return []
 
 def save_to_json():
+    global elapsed_time
     if not tracking or start_time is None:
         messagebox.showinfo("Info", "No session data to save.")
         return
 
-    elapsed = int(time.time() - start_time)
-    hrs = elapsed // 3600
-    mins = (elapsed % 3600) // 60
-    secs = elapsed % 60
-    duration = f"{hrs:02}:{mins:02}:{secs:02}"
+    #elapsed = int(time.time() - start_time) global variable now: elapsed_time
+    duration = format_elapsed_time(elapsed_time)
+    average_bpm = round(sum(hr_readings) / len(hr_readings), 2) if hr_readings else 0
 
     #where json lives
     base_dir = os.path.dirname(os.path.abspath(__file__))
@@ -177,22 +224,34 @@ def save_to_json():
     os.makedirs(save_dir, exist_ok=True)
 
     #file name: timestamped
-    timestamp = datetime.now().strftime("%Y-%m-%d-%H")
     default_name = f"DDR_Session_{timestamp}.json" 
     filename = os.path.join(save_dir, default_name)
 
     #get a data
     song_data = get_stepmania_session_songs()
 
-    #step_rating_adder()
+    #preventing devides by zero issues
+    safe_elapsed = elapsed_time if elapsed_time > 0 else 1
+    safe_song_count = len(song_data) if song_data else 1
+
+    #nerdy stats to play with later
+    step_density = steps / safe_elapsed  # steps per second
+    avg_steps_per_song = steps / safe_song_count
+    session_intensity = average_bpm * step_density  # made-up but fun metric
 
     biometrics_data = {
     "date": datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
     "steps": steps,
+    "elapsed_time":elapsed_time,
     "duration": duration,
     "average_bpm": average_bpm,
     "max_bpm": max_bpm,
-    "calories": round(calories_from_hr + calories_from_steps, 2)
+    "bpm_interval_header": ["timestamp", "elapsed_seconds", "bpm", "steps_per_minute"],
+    "bpm_interval": hr_time_series,
+    "calories": round(calories_from_hr + calories_from_steps, 2),
+    "step_density": round(step_density, 3),
+    "avg_steps_per_song": round(avg_steps_per_song, 2),
+    "session_intensity": round(session_intensity, 2)
     }
 
     session_steps_rating = {
@@ -207,12 +266,12 @@ def save_to_json():
 
     #iterates through our songs (array?) object and counts the quality of step in song for total session
     for song in song_data:
-        session_steps_rating["flawless"] += int(song.get("flawless", 0))
-        session_steps_rating["perfect"] += int(song.get("perfect", 0))
-        session_steps_rating["great"] += int(song.get("great", 0))
-        session_steps_rating["good"] += int(song.get("good", 0))
-        session_steps_rating["boo"] += int(song.get("boo", 0))
-        session_steps_rating["miss"] += int(song.get("miss", 0))
+        session_steps_rating["flawless"] += int(song.get("flawless", 0) or 0)
+        session_steps_rating["perfect"] += int(song.get("perfect", 0) or 0)
+        session_steps_rating["great"] += int(song.get("great", 0) or 0)
+        session_steps_rating["good"] += int(song.get("good", 0) or 0)
+        session_steps_rating["boo"] += int(song.get("boo", 0) or 0)
+        session_steps_rating["miss"] += int(song.get("miss", 0) or 0)
 
     #adds up all steps except misses (this is different than our steps above that will count menu presses etc.)
     #this is import for our accuracy statistic
@@ -225,9 +284,8 @@ def save_to_json():
     )
     
     #creates an accuracy statistic
-    accuracy = 100 * total_dance_steps / (
-    total_dance_steps + session_steps_rating["miss"]
-    )
+    denominator = total_dance_steps + session_steps_rating["miss"]
+    accuracy = 100 * total_dance_steps / denominator if denominator > 0 else 0.0 #ugh okay I would rather do this than have it get borqed
 
     #adds the above count of total steps to json
     session_steps_rating["total_dance_steps"] = total_dance_steps
@@ -236,15 +294,23 @@ def save_to_json():
     
     # jason data structure
     session_data = {
+        "session_id": session_id,
+        "json_version": json_format,
         "biometrics": biometrics_data,
         "songs": song_data,
-        "session steps": session_steps_rating
+        "session_steps": session_steps_rating
     }
+
+    #so the json is a little more visually appealing
+    session_data["biometrics"]["bpm_interval"] = json.loads(
+        json.dumps(hr_time_series, separators=(",", ":"))
+    )
 
     # write to file
     try:
         with open(filename, "w") as f:
-            json.dump(session_data, f, indent=4)
+            json.dump(session_data, f, indent=4) #the array is very spacious want to see how it looks with other json save formats
+            #json.dump(session_data, f, separators=(",", ":")) #yup NOPE do NOT like how that looks
         messagebox.showinfo("Saved", f"Session saved to:\n{filename}")
     except Exception as error:
         messagebox.showerror("Error", f"Failed to save session:\n{error}")
@@ -256,10 +322,10 @@ def on_close():
             save_to_json()
     root.destroy()
 
-# GUI setup
+#GUI setup
 root = tk.Tk()
 root.title("DDR Step Tracker")
-root.geometry("360x360")
+root.geometry("520x320")
 root.configure(bg=BG_GRADIENT)
 root.protocol("WM_DELETE_WINDOW", on_close)  # Ask on close
 
@@ -274,32 +340,73 @@ if age is None:
 
 weight_kg = weight_lbs * 0.45359237 #convert it into kg lol
 
-# Labels
-step_label = tk.Label(root, text="Steps: 0", font=("Helvetica", 24, "bold"),
-                      bg=BG_GRADIENT, fg=ACCENT)
-step_label.pack(pady=(20, 5))
+def update_connection_status(connected):
+    if connected:
+        connection_label.config(text="HR Monitor: Connected", fg="green")
+    else:
+        connection_label.config(text="HR Monitor: Not connected", fg="red")
 
-calorie_label = tk.Label(root, text="Calories: 0.00", font=("Helvetica", 18),
-                         bg=BG_GRADIENT, fg=TEXT_COLOR)
-calorie_label.pack(pady=5)
 
-timer_label = tk.Label(root, text="Time: 00:00:00", font=("Helvetica", 18),
-                       bg=BG_GRADIENT, fg=TEXT_COLOR)
-timer_label.pack(pady=5)
+###
+### GUI BEGINS ***
 
-hr_label = tk.Label(root, text="Heart Rate: -- bpm", font=("Helvetica", 18),
-                    bg=BG_GRADIENT, fg=TEXT_COLOR)
-hr_label.pack(pady=5)
+#main container
+main_frame = tk.Frame(root, bg=BG_GRADIENT)
+main_frame.pack(padx=20, pady=20)
 
-# Buttons
-start_btn = tk.Button(root, text="Start", font=("Helvetica", 14, "bold"),
+#first row: steps and calories
+row1 = tk.Frame(main_frame, bg=BG_GRADIENT)
+row1.pack(fill="x", pady=5)
+
+step_label = tk.Label(row1, text="Steps: 0", font=("Helvetica", 18, "bold"),
+                      bg=BG_GRADIENT, fg=ACCENT, width=15, anchor="w")
+step_label.pack(side="left", padx=10)
+
+calorie_label = tk.Label(row1, text="Calories: 0.00", font=("Helvetica", 16),
+                         bg=BG_GRADIENT, fg=TEXT_COLOR, width=15, anchor="w")
+calorie_label.pack(side="left", padx=10)
+
+#second row time, HR, steps/min
+row2 = tk.Frame(main_frame, bg=BG_GRADIENT)
+row2.pack(fill="x", pady=5)
+
+timer_label = tk.Label(row2, text="Time: 00:00:00", font=("Helvetica", 16),
+                       bg=BG_GRADIENT, fg=TEXT_COLOR, width=15, anchor="w")
+timer_label.pack(side="left", padx=10)
+
+hr_label = tk.Label(row2, text="Heart Rate: -- bpm", font=("Helvetica", 16),
+                    bg=BG_GRADIENT, fg=TEXT_COLOR, width=15, anchor="w")
+hr_label.pack(side="left", padx=10)
+
+steps_per_minute_label = tk.Label(row2, text="Steps/min: --", font=("Helvetica", 16),
+                                  bg=BG_GRADIENT, fg=TEXT_COLOR, width=15, anchor="w")
+steps_per_minute_label.pack(side="left", padx=10)
+
+#bottom section connection + buttons
+bottom_controls = tk.Frame(main_frame, bg=BG_GRADIENT)
+bottom_controls.pack(fill="x", pady=10)
+
+#a little spacer
+tk.Label(bottom_controls, text="", bg=BG_GRADIENT, height=1).pack(pady=10)
+
+connection_label = tk.Label(bottom_controls, text="HR Monitor: Not connected", font=("Helvetica", 14),
+                            bg=BG_GRADIENT, fg="red")
+connection_label.pack(pady=5)
+
+button_frame = tk.Frame(bottom_controls, bg=BG_GRADIENT)
+button_frame.pack(pady=5)
+
+start_btn = tk.Button(button_frame, text="Start", font=("Helvetica", 14, "bold"),
                       command=start_tracking, bg=ACCENT, fg="black",
-                      activebackground="#d66fbe", activeforeground="white")
-start_btn.pack(pady=10)
+                      activebackground="#d66fbe", activeforeground="white", width=15)
+start_btn.pack(side="left", padx=10)
 
-save_btn = tk.Button(root, text="Save to JSON", font=("Helvetica", 12),
-                     command=save_to_json, bg="#dddddd", fg="black")
-save_btn.pack(pady=5)
+save_btn = tk.Button(button_frame, text="Save to JSON", font=("Helvetica", 12),
+                     command=save_to_json, bg="#dddddd", fg="black", width=15)
+save_btn.pack(side="left", padx=10)
+
+###
+### GUI ENDS
 
 # Keyboard listeners (this will need to change when I get my DDR pad!)
 for key in ['up', 'down', 'left', 'right']:
@@ -308,13 +415,30 @@ for key in ['up', 'down', 'left', 'right']:
 #*** I should have a rescan check and also an indicator that BT is connected. It would stink to have a long session where I cant get HR data back
 def start_ble_loop():
     async def run():
-        try:
-            async with BleakClient(device_address) as client:
-                await client.start_notify(HR_MEASUREMENT_UUID, handle_hr_data)
-                while True:
-                    await asyncio.sleep(1)  # Keep connection alive
-        except Exception as error:
-            print(f"BLE Error: {error}")
+        while True:
+            try:
+                print("Attempting to connect to HR monitor...")
+                async with BleakClient(device_address) as client:
+                    await client.start_notify(HR_MEASUREMENT_UUID, handle_hr_data)
+                    update_connection_status(True)
+                    print("Connected to HR monitor")
+
+                    root.after(hr_time_series_interval, log_hr_over_time)
+
+                    while True:
+                        if not client.is_connected:
+                            print("Disconnected from HR monitor")
+                            update_connection_status(False)
+                            break
+                        await asyncio.sleep(1)
+
+            except Exception as error:
+                print("BLE Error occurred:")
+                print(f"Type: {type(error).__name__}")
+                print(f"BLE Error: {error}")
+                update_connection_status(False)
+
+            await asyncio.sleep(5)  # Wait before trying to reconnect
 
     loop = asyncio.new_event_loop()
     asyncio.set_event_loop(loop)

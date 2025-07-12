@@ -1,0 +1,233 @@
+{
+    "session_id": "session_2025-07-11-20-38",
+    "json_version": "version 1.0",
+    "biometrics": {
+        "date": "2025-07-11 20:41:13",
+        "steps": 446,
+        "elapsed_time": 110,
+        "duration": "00:01:50",
+        "average_bpm": 80.99,
+        "max_bpm": 85,
+        "bpm_interval_header": [
+            "timestamp",
+            "elapsed_seconds",
+            "bpm",
+            "steps_per_minute"
+        ],
+        "bpm_interval": [
+            [
+                "20:39:27",
+                4,
+                79,
+                0.0
+            ],
+            [
+                "20:39:32",
+                9,
+                83,
+                6.67
+            ],
+            [
+                "20:39:37",
+                14,
+                83,
+                25.71
+            ],
+            [
+                "20:39:42",
+                19,
+                82,
+                75.79
+            ],
+            [
+                "20:39:47",
+                24,
+                80,
+                187.5
+            ],
+            [
+                "20:39:52",
+                29,
+                82,
+                204.83
+            ],
+            [
+                "20:39:57",
+                34,
+                83,
+                206.47
+            ],
+            [
+                "20:40:02",
+                39,
+                83,
+                215.38
+            ],
+            [
+                "20:40:07",
+                44,
+                83,
+                223.64
+            ],
+            [
+                "20:40:12",
+                48,
+                83,
+                232.5
+            ],
+            [
+                "20:40:17",
+                53,
+                82,
+                237.74
+            ],
+            [
+                "20:40:22",
+                58,
+                83,
+                243.1
+            ],
+            [
+                "20:40:27",
+                63,
+                82,
+                245.71
+            ],
+            [
+                "20:40:32",
+                68,
+                82,
+                245.29
+            ],
+            [
+                "20:40:37",
+                73,
+                81,
+                244.11
+            ],
+            [
+                "20:40:42",
+                78,
+                80,
+                248.46
+            ],
+            [
+                "20:40:47",
+                83,
+                78,
+                250.12
+            ],
+            [
+                "20:40:52",
+                88,
+                77,
+                250.23
+            ],
+            [
+                "20:40:57",
+                93,
+                78,
+                252.9
+            ],
+            [
+                "20:41:02",
+                98,
+                81,
+                252.86
+            ],
+            [
+                "20:41:07",
+                103,
+                83,
+                259.81
+            ],
+            [
+                "20:41:12",
+                108,
+                85,
+                247.78
+            ]
+        ],
+        "calories": 30.47,
+        "step_density": 4.055,
+        "avg_steps_per_song": 89.2,
+        "session_intensity": 328.38
+    },
+    "songs": [
+        {
+            "song": "BREAK DOWN!",
+            "difficulty": "Beginner",
+            "score": "93711728",
+            "duration": "107.715622",
+            "last_played": "2025-07-11",
+            "miss": "2",
+            "boo": "0",
+            "good": "0",
+            "great": "7",
+            "perfect": "38",
+            "flawless": "56"
+        },
+        {
+            "song": "CANDY HEART",
+            "difficulty": "Easy",
+            "score": "88593567",
+            "duration": "100.763870",
+            "last_played": "2025-07-11",
+            "miss": "0",
+            "boo": "0",
+            "good": "0",
+            "great": "19",
+            "perfect": "42",
+            "flawless": "65"
+        },
+        {
+            "song": "D2R",
+            "difficulty": "Easy",
+            "score": "85457443",
+            "duration": "101.012482",
+            "last_played": "2025-07-11",
+            "miss": "6",
+            "boo": "1",
+            "good": "2",
+            "great": "16",
+            "perfect": "35",
+            "flawless": "87"
+        },
+        {
+            "song": "Sweet Sweet Love Magic",
+            "difficulty": "Medium",
+            "score": "77310901",
+            "duration": "96.991844",
+            "last_played": "2025-07-11",
+            "miss": "5",
+            "boo": "5",
+            "good": "10",
+            "great": "55",
+            "perfect": "82",
+            "flawless": "119"
+        },
+        {
+            "song": "ever snow",
+            "difficulty": "Medium",
+            "score": "84799887",
+            "duration": "95.626762",
+            "last_played": "2025-07-11",
+            "miss": "1",
+            "boo": "1",
+            "good": "2",
+            "great": "34",
+            "perfect": "75",
+            "flawless": "96"
+        }
+    ],
+    "session_steps": {
+        "flawless": 423,
+        "perfect": 272,
+        "great": 131,
+        "good": 14,
+        "boo": 7,
+        "miss": 14,
+        "total_dance_steps": 847,
+        "accuracy": 98.3739837398374
+    }
+}
