@@ -222,7 +222,6 @@ def get_stepmania_session_songs():
                 perfect = tap_scores.findtext("W2") if tap_scores is not None else None
                 flawless = tap_scores.findtext("W1") if tap_scores is not None else None
 
-                safe_song_count
                 songs.append({
                     "session_id": session_id,
                     "song": os.path.basename(os.path.normpath(song_path)),

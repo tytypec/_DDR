@@ -1,0 +1,4424 @@
+{
+    "session_id": "session_2025-07-13-14-59",
+    "session_information": {
+        "date": "2025-07-13 15:46:51",
+        "json_version": "version 1.1",
+        "json_format_update_date": "2025-07-13",
+        "dance_pad_type": "OSTENT EVA/PVC"
+    },
+    "event_log": [],
+    "biometrics": {
+        "weight_kg": 79.015790854,
+        "age": 33,
+        "steps": 5435,
+        "songs_played_count": 1,
+        "elapsed_seconds": 2700,
+        "formatted_duration": "00:45:00",
+        "average_bpm": 115.95,
+        "max_bpm": 161,
+        "total_calories": 711.06,
+        "calories_from_steps": 271.75,
+        "calories_from_hr": 439.31,
+        "step_density_per_second": 2.013,
+        "avg_steps_per_song": 5435.0,
+        "session_intensity": 233.4
+    },
+    "hr_time_series": [
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:01:03",
+            "elapsed_seconds": 3,
+            "bpm": 82,
+            "steps_per_minute": 40.0,
+            "sequence": 1
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:01:08",
+            "elapsed_seconds": 8,
+            "bpm": 86,
+            "steps_per_minute": 22.5,
+            "sequence": 2
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:01:13",
+            "elapsed_seconds": 13,
+            "bpm": 89,
+            "steps_per_minute": 46.15,
+            "sequence": 3
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:01:18",
+            "elapsed_seconds": 17,
+            "bpm": 91,
+            "steps_per_minute": 74.12,
+            "sequence": 4
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:01:23",
+            "elapsed_seconds": 22,
+            "bpm": 92,
+            "steps_per_minute": 79.09,
+            "sequence": 5
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:01:28",
+            "elapsed_seconds": 27,
+            "bpm": 95,
+            "steps_per_minute": 80.0,
+            "sequence": 6
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:01:33",
+            "elapsed_seconds": 32,
+            "bpm": 98,
+            "steps_per_minute": 88.12,
+            "sequence": 7
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:01:38",
+            "elapsed_seconds": 37,
+            "bpm": 99,
+            "steps_per_minute": 89.19,
+            "sequence": 8
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:01:43",
+            "elapsed_seconds": 42,
+            "bpm": 101,
+            "steps_per_minute": 90.0,
+            "sequence": 9
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:01:48",
+            "elapsed_seconds": 47,
+            "bpm": 102,
+            "steps_per_minute": 94.47,
+            "sequence": 10
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:01:53",
+            "elapsed_seconds": 52,
+            "bpm": 105,
+            "steps_per_minute": 98.08,
+            "sequence": 11
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:01:58",
+            "elapsed_seconds": 57,
+            "bpm": 106,
+            "steps_per_minute": 101.05,
+            "sequence": 12
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:02:03",
+            "elapsed_seconds": 62,
+            "bpm": 107,
+            "steps_per_minute": 106.45,
+            "sequence": 13
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:02:08",
+            "elapsed_seconds": 67,
+            "bpm": 110,
+            "steps_per_minute": 109.25,
+            "sequence": 14
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:02:13",
+            "elapsed_seconds": 72,
+            "bpm": 108,
+            "steps_per_minute": 110.83,
+            "sequence": 15
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:02:18",
+            "elapsed_seconds": 77,
+            "bpm": 109,
+            "steps_per_minute": 114.55,
+            "sequence": 16
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:02:23",
+            "elapsed_seconds": 82,
+            "bpm": 111,
+            "steps_per_minute": 116.34,
+            "sequence": 17
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:02:28",
+            "elapsed_seconds": 86,
+            "bpm": 111,
+            "steps_per_minute": 120.7,
+            "sequence": 18
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:02:33",
+            "elapsed_seconds": 91,
+            "bpm": 112,
+            "steps_per_minute": 121.32,
+            "sequence": 19
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:02:38",
+            "elapsed_seconds": 96,
+            "bpm": 112,
+            "steps_per_minute": 120.62,
+            "sequence": 20
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:02:43",
+            "elapsed_seconds": 101,
+            "bpm": 110,
+            "steps_per_minute": 121.19,
+            "sequence": 21
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:02:48",
+            "elapsed_seconds": 106,
+            "bpm": 109,
+            "steps_per_minute": 118.3,
+            "sequence": 22
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:02:53",
+            "elapsed_seconds": 111,
+            "bpm": 109,
+            "steps_per_minute": 113.51,
+            "sequence": 23
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:02:58",
+            "elapsed_seconds": 116,
+            "bpm": 107,
+            "steps_per_minute": 108.62,
+            "sequence": 24
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:03:04",
+            "elapsed_seconds": 121,
+            "bpm": 102,
+            "steps_per_minute": 104.63,
+            "sequence": 25
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:03:09",
+            "elapsed_seconds": 126,
+            "bpm": 102,
+            "steps_per_minute": 100.95,
+            "sequence": 26
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:03:14",
+            "elapsed_seconds": 131,
+            "bpm": 102,
+            "steps_per_minute": 97.56,
+            "sequence": 27
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:03:19",
+            "elapsed_seconds": 136,
+            "bpm": 97,
+            "steps_per_minute": 97.06,
+            "sequence": 28
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:03:24",
+            "elapsed_seconds": 141,
+            "bpm": 95,
+            "steps_per_minute": 97.02,
+            "sequence": 29
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:03:29",
+            "elapsed_seconds": 146,
+            "bpm": 104,
+            "steps_per_minute": 97.4,
+            "sequence": 30
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:03:34",
+            "elapsed_seconds": 151,
+            "bpm": 104,
+            "steps_per_minute": 97.75,
+            "sequence": 31
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:03:39",
+            "elapsed_seconds": 155,
+            "bpm": 103,
+            "steps_per_minute": 98.71,
+            "sequence": 32
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:03:44",
+            "elapsed_seconds": 160,
+            "bpm": 104,
+            "steps_per_minute": 99.0,
+            "sequence": 33
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:03:49",
+            "elapsed_seconds": 165,
+            "bpm": 104,
+            "steps_per_minute": 99.64,
+            "sequence": 34
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:03:54",
+            "elapsed_seconds": 170,
+            "bpm": 104,
+            "steps_per_minute": 99.88,
+            "sequence": 35
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:03:59",
+            "elapsed_seconds": 175,
+            "bpm": 100,
+            "steps_per_minute": 99.77,
+            "sequence": 36
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:04:04",
+            "elapsed_seconds": 180,
+            "bpm": 98,
+            "steps_per_minute": 100.0,
+            "sequence": 37
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:04:09",
+            "elapsed_seconds": 185,
+            "bpm": 99,
+            "steps_per_minute": 101.51,
+            "sequence": 38
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:04:14",
+            "elapsed_seconds": 190,
+            "bpm": 101,
+            "steps_per_minute": 102.0,
+            "sequence": 39
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:04:19",
+            "elapsed_seconds": 195,
+            "bpm": 104,
+            "steps_per_minute": 102.15,
+            "sequence": 40
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:04:24",
+            "elapsed_seconds": 200,
+            "bpm": 106,
+            "steps_per_minute": 102.6,
+            "sequence": 41
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:04:29",
+            "elapsed_seconds": 205,
+            "bpm": 110,
+            "steps_per_minute": 103.02,
+            "sequence": 42
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:04:34",
+            "elapsed_seconds": 210,
+            "bpm": 108,
+            "steps_per_minute": 103.71,
+            "sequence": 43
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:04:39",
+            "elapsed_seconds": 215,
+            "bpm": 105,
+            "steps_per_minute": 104.09,
+            "sequence": 44
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:04:44",
+            "elapsed_seconds": 219,
+            "bpm": 106,
+            "steps_per_minute": 104.93,
+            "sequence": 45
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:04:49",
+            "elapsed_seconds": 224,
+            "bpm": 108,
+            "steps_per_minute": 104.73,
+            "sequence": 46
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:04:54",
+            "elapsed_seconds": 229,
+            "bpm": 105,
+            "steps_per_minute": 103.23,
+            "sequence": 47
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:04:59",
+            "elapsed_seconds": 234,
+            "bpm": 104,
+            "steps_per_minute": 101.03,
+            "sequence": 48
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:05:04",
+            "elapsed_seconds": 239,
+            "bpm": 106,
+            "steps_per_minute": 98.91,
+            "sequence": 49
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:05:09",
+            "elapsed_seconds": 244,
+            "bpm": 110,
+            "steps_per_minute": 96.89,
+            "sequence": 50
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:05:14",
+            "elapsed_seconds": 249,
+            "bpm": 115,
+            "steps_per_minute": 94.94,
+            "sequence": 51
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:05:19",
+            "elapsed_seconds": 254,
+            "bpm": 113,
+            "steps_per_minute": 93.07,
+            "sequence": 52
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:05:24",
+            "elapsed_seconds": 259,
+            "bpm": 111,
+            "steps_per_minute": 91.27,
+            "sequence": 53
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:05:29",
+            "elapsed_seconds": 264,
+            "bpm": 110,
+            "steps_per_minute": 90.45,
+            "sequence": 54
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:05:34",
+            "elapsed_seconds": 269,
+            "bpm": 106,
+            "steps_per_minute": 90.11,
+            "sequence": 55
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:05:39",
+            "elapsed_seconds": 274,
+            "bpm": 105,
+            "steps_per_minute": 89.56,
+            "sequence": 56
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:05:44",
+            "elapsed_seconds": 279,
+            "bpm": 105,
+            "steps_per_minute": 91.18,
+            "sequence": 57
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:05:49",
+            "elapsed_seconds": 283,
+            "bpm": 108,
+            "steps_per_minute": 92.44,
+            "sequence": 58
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:05:54",
+            "elapsed_seconds": 288,
+            "bpm": 110,
+            "steps_per_minute": 93.75,
+            "sequence": 59
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:05:59",
+            "elapsed_seconds": 293,
+            "bpm": 112,
+            "steps_per_minute": 95.43,
+            "sequence": 60
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:06:04",
+            "elapsed_seconds": 298,
+            "bpm": 117,
+            "steps_per_minute": 96.64,
+            "sequence": 61
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:06:09",
+            "elapsed_seconds": 303,
+            "bpm": 121,
+            "steps_per_minute": 97.82,
+            "sequence": 62
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:06:14",
+            "elapsed_seconds": 308,
+            "bpm": 121,
+            "steps_per_minute": 98.96,
+            "sequence": 63
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:06:19",
+            "elapsed_seconds": 313,
+            "bpm": 119,
+            "steps_per_minute": 99.49,
+            "sequence": 64
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:06:24",
+            "elapsed_seconds": 318,
+            "bpm": 118,
+            "steps_per_minute": 99.81,
+            "sequence": 65
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:06:29",
+            "elapsed_seconds": 323,
+            "bpm": 117,
+            "steps_per_minute": 100.68,
+            "sequence": 66
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:06:34",
+            "elapsed_seconds": 328,
+            "bpm": 115,
+            "steps_per_minute": 101.52,
+            "sequence": 67
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:06:39",
+            "elapsed_seconds": 333,
+            "bpm": 117,
+            "steps_per_minute": 102.16,
+            "sequence": 68
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:06:44",
+            "elapsed_seconds": 338,
+            "bpm": 122,
+            "steps_per_minute": 103.67,
+            "sequence": 69
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:06:49",
+            "elapsed_seconds": 342,
+            "bpm": 117,
+            "steps_per_minute": 105.26,
+            "sequence": 70
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:06:54",
+            "elapsed_seconds": 347,
+            "bpm": 120,
+            "steps_per_minute": 105.3,
+            "sequence": 71
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:06:59",
+            "elapsed_seconds": 352,
+            "bpm": 120,
+            "steps_per_minute": 103.81,
+            "sequence": 72
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:07:04",
+            "elapsed_seconds": 357,
+            "bpm": 109,
+            "steps_per_minute": 102.35,
+            "sequence": 73
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:07:09",
+            "elapsed_seconds": 362,
+            "bpm": 114,
+            "steps_per_minute": 100.94,
+            "sequence": 74
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:07:14",
+            "elapsed_seconds": 367,
+            "bpm": 120,
+            "steps_per_minute": 99.56,
+            "sequence": 75
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:07:19",
+            "elapsed_seconds": 372,
+            "bpm": 121,
+            "steps_per_minute": 98.23,
+            "sequence": 76
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:07:24",
+            "elapsed_seconds": 377,
+            "bpm": 114,
+            "steps_per_minute": 96.92,
+            "sequence": 77
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:07:29",
+            "elapsed_seconds": 382,
+            "bpm": 106,
+            "steps_per_minute": 95.65,
+            "sequence": 78
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:07:34",
+            "elapsed_seconds": 387,
+            "bpm": 99,
+            "steps_per_minute": 94.42,
+            "sequence": 79
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:07:39",
+            "elapsed_seconds": 392,
+            "bpm": 99,
+            "steps_per_minute": 93.21,
+            "sequence": 80
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:07:44",
+            "elapsed_seconds": 397,
+            "bpm": 107,
+            "steps_per_minute": 92.49,
+            "sequence": 81
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:07:49",
+            "elapsed_seconds": 402,
+            "bpm": 109,
+            "steps_per_minute": 93.43,
+            "sequence": 82
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:07:54",
+            "elapsed_seconds": 406,
+            "bpm": 107,
+            "steps_per_minute": 95.17,
+            "sequence": 83
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:07:59",
+            "elapsed_seconds": 411,
+            "bpm": 114,
+            "steps_per_minute": 96.64,
+            "sequence": 84
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:08:04",
+            "elapsed_seconds": 416,
+            "bpm": 131,
+            "steps_per_minute": 97.64,
+            "sequence": 85
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:08:09",
+            "elapsed_seconds": 421,
+            "bpm": 130,
+            "steps_per_minute": 98.91,
+            "sequence": 86
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:08:14",
+            "elapsed_seconds": 426,
+            "bpm": 128,
+            "steps_per_minute": 100.0,
+            "sequence": 87
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:08:19",
+            "elapsed_seconds": 431,
+            "bpm": 133,
+            "steps_per_minute": 101.35,
+            "sequence": 88
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:08:24",
+            "elapsed_seconds": 436,
+            "bpm": 140,
+            "steps_per_minute": 102.52,
+            "sequence": 89
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:08:29",
+            "elapsed_seconds": 441,
+            "bpm": 139,
+            "steps_per_minute": 103.81,
+            "sequence": 90
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:08:34",
+            "elapsed_seconds": 446,
+            "bpm": 142,
+            "steps_per_minute": 105.07,
+            "sequence": 91
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:08:39",
+            "elapsed_seconds": 451,
+            "bpm": 144,
+            "steps_per_minute": 105.63,
+            "sequence": 92
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:08:44",
+            "elapsed_seconds": 456,
+            "bpm": 145,
+            "steps_per_minute": 107.5,
+            "sequence": 93
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:08:49",
+            "elapsed_seconds": 461,
+            "bpm": 140,
+            "steps_per_minute": 108.42,
+            "sequence": 94
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:08:54",
+            "elapsed_seconds": 466,
+            "bpm": 148,
+            "steps_per_minute": 109.06,
+            "sequence": 95
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:09:00",
+            "elapsed_seconds": 470,
+            "bpm": 147,
+            "steps_per_minute": 110.04,
+            "sequence": 96
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:09:05",
+            "elapsed_seconds": 475,
+            "bpm": 146,
+            "steps_per_minute": 110.65,
+            "sequence": 97
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:09:10",
+            "elapsed_seconds": 480,
+            "bpm": 143,
+            "steps_per_minute": 111.5,
+            "sequence": 98
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:09:15",
+            "elapsed_seconds": 485,
+            "bpm": 143,
+            "steps_per_minute": 111.09,
+            "sequence": 99
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:09:20",
+            "elapsed_seconds": 490,
+            "bpm": 142,
+            "steps_per_minute": 109.96,
+            "sequence": 100
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:09:25",
+            "elapsed_seconds": 495,
+            "bpm": 143,
+            "steps_per_minute": 108.85,
+            "sequence": 101
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:09:30",
+            "elapsed_seconds": 500,
+            "bpm": 141,
+            "steps_per_minute": 107.76,
+            "sequence": 102
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:09:35",
+            "elapsed_seconds": 505,
+            "bpm": 138,
+            "steps_per_minute": 106.69,
+            "sequence": 103
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:09:40",
+            "elapsed_seconds": 510,
+            "bpm": 123,
+            "steps_per_minute": 105.65,
+            "sequence": 104
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:09:45",
+            "elapsed_seconds": 515,
+            "bpm": 117,
+            "steps_per_minute": 104.62,
+            "sequence": 105
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:09:50",
+            "elapsed_seconds": 520,
+            "bpm": 114,
+            "steps_per_minute": 103.62,
+            "sequence": 106
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:09:55",
+            "elapsed_seconds": 525,
+            "bpm": 103,
+            "steps_per_minute": 102.63,
+            "sequence": 107
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:10:00",
+            "elapsed_seconds": 530,
+            "bpm": 109,
+            "steps_per_minute": 101.77,
+            "sequence": 108
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:10:05",
+            "elapsed_seconds": 534,
+            "bpm": 107,
+            "steps_per_minute": 101.24,
+            "sequence": 109
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:10:10",
+            "elapsed_seconds": 539,
+            "bpm": 97,
+            "steps_per_minute": 100.52,
+            "sequence": 110
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:10:15",
+            "elapsed_seconds": 544,
+            "bpm": 94,
+            "steps_per_minute": 100.04,
+            "sequence": 111
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:10:20",
+            "elapsed_seconds": 549,
+            "bpm": 102,
+            "steps_per_minute": 99.89,
+            "sequence": 112
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:10:25",
+            "elapsed_seconds": 554,
+            "bpm": 100,
+            "steps_per_minute": 99.75,
+            "sequence": 113
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:10:30",
+            "elapsed_seconds": 559,
+            "bpm": 100,
+            "steps_per_minute": 99.71,
+            "sequence": 114
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:10:35",
+            "elapsed_seconds": 564,
+            "bpm": 104,
+            "steps_per_minute": 99.36,
+            "sequence": 115
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:10:40",
+            "elapsed_seconds": 569,
+            "bpm": 106,
+            "steps_per_minute": 98.91,
+            "sequence": 116
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:10:45",
+            "elapsed_seconds": 574,
+            "bpm": 102,
+            "steps_per_minute": 98.47,
+            "sequence": 117
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:10:50",
+            "elapsed_seconds": 579,
+            "bpm": 105,
+            "steps_per_minute": 98.45,
+            "sequence": 118
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:10:55",
+            "elapsed_seconds": 584,
+            "bpm": 107,
+            "steps_per_minute": 98.42,
+            "sequence": 119
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:11:00",
+            "elapsed_seconds": 589,
+            "bpm": 108,
+            "steps_per_minute": 98.71,
+            "sequence": 120
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:11:05",
+            "elapsed_seconds": 594,
+            "bpm": 109,
+            "steps_per_minute": 98.69,
+            "sequence": 121
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:11:10",
+            "elapsed_seconds": 598,
+            "bpm": 110,
+            "steps_per_minute": 98.93,
+            "sequence": 122
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:11:15",
+            "elapsed_seconds": 603,
+            "bpm": 105,
+            "steps_per_minute": 99.3,
+            "sequence": 123
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:11:20",
+            "elapsed_seconds": 608,
+            "bpm": 106,
+            "steps_per_minute": 99.28,
+            "sequence": 124
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:11:25",
+            "elapsed_seconds": 613,
+            "bpm": 108,
+            "steps_per_minute": 99.54,
+            "sequence": 125
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:11:30",
+            "elapsed_seconds": 618,
+            "bpm": 108,
+            "steps_per_minute": 99.22,
+            "sequence": 126
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:11:35",
+            "elapsed_seconds": 623,
+            "bpm": 108,
+            "steps_per_minute": 99.0,
+            "sequence": 127
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:11:40",
+            "elapsed_seconds": 628,
+            "bpm": 106,
+            "steps_per_minute": 98.79,
+            "sequence": 128
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:11:45",
+            "elapsed_seconds": 633,
+            "bpm": 104,
+            "steps_per_minute": 98.48,
+            "sequence": 129
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:11:50",
+            "elapsed_seconds": 638,
+            "bpm": 109,
+            "steps_per_minute": 97.71,
+            "sequence": 130
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:11:55",
+            "elapsed_seconds": 643,
+            "bpm": 107,
+            "steps_per_minute": 96.95,
+            "sequence": 131
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:12:00",
+            "elapsed_seconds": 648,
+            "bpm": 104,
+            "steps_per_minute": 96.2,
+            "sequence": 132
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:12:05",
+            "elapsed_seconds": 653,
+            "bpm": 97,
+            "steps_per_minute": 95.47,
+            "sequence": 133
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:12:10",
+            "elapsed_seconds": 658,
+            "bpm": 98,
+            "steps_per_minute": 94.92,
+            "sequence": 134
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:12:15",
+            "elapsed_seconds": 663,
+            "bpm": 102,
+            "steps_per_minute": 95.2,
+            "sequence": 135
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:12:20",
+            "elapsed_seconds": 667,
+            "bpm": 100,
+            "steps_per_minute": 95.89,
+            "sequence": 136
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:12:25",
+            "elapsed_seconds": 672,
+            "bpm": 103,
+            "steps_per_minute": 95.8,
+            "sequence": 137
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:12:30",
+            "elapsed_seconds": 677,
+            "bpm": 102,
+            "steps_per_minute": 96.16,
+            "sequence": 138
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:12:35",
+            "elapsed_seconds": 682,
+            "bpm": 104,
+            "steps_per_minute": 96.42,
+            "sequence": 139
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:12:40",
+            "elapsed_seconds": 687,
+            "bpm": 109,
+            "steps_per_minute": 96.42,
+            "sequence": 140
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:12:45",
+            "elapsed_seconds": 692,
+            "bpm": 105,
+            "steps_per_minute": 96.76,
+            "sequence": 141
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:12:50",
+            "elapsed_seconds": 697,
+            "bpm": 104,
+            "steps_per_minute": 96.84,
+            "sequence": 142
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:12:55",
+            "elapsed_seconds": 702,
+            "bpm": 105,
+            "steps_per_minute": 96.92,
+            "sequence": 143
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:13:00",
+            "elapsed_seconds": 707,
+            "bpm": 108,
+            "steps_per_minute": 97.43,
+            "sequence": 144
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:13:05",
+            "elapsed_seconds": 712,
+            "bpm": 111,
+            "steps_per_minute": 97.84,
+            "sequence": 145
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:13:10",
+            "elapsed_seconds": 717,
+            "bpm": 111,
+            "steps_per_minute": 97.91,
+            "sequence": 146
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:13:15",
+            "elapsed_seconds": 722,
+            "bpm": 111,
+            "steps_per_minute": 98.23,
+            "sequence": 147
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:13:20",
+            "elapsed_seconds": 726,
+            "bpm": 109,
+            "steps_per_minute": 98.43,
+            "sequence": 148
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:13:25",
+            "elapsed_seconds": 731,
+            "bpm": 108,
+            "steps_per_minute": 98.5,
+            "sequence": 149
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:13:30",
+            "elapsed_seconds": 736,
+            "bpm": 107,
+            "steps_per_minute": 98.48,
+            "sequence": 150
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:13:35",
+            "elapsed_seconds": 741,
+            "bpm": 112,
+            "steps_per_minute": 98.7,
+            "sequence": 151
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:13:40",
+            "elapsed_seconds": 746,
+            "bpm": 112,
+            "steps_per_minute": 99.17,
+            "sequence": 152
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:13:45",
+            "elapsed_seconds": 751,
+            "bpm": 115,
+            "steps_per_minute": 99.55,
+            "sequence": 153
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:13:50",
+            "elapsed_seconds": 756,
+            "bpm": 118,
+            "steps_per_minute": 100.0,
+            "sequence": 154
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:13:55",
+            "elapsed_seconds": 761,
+            "bpm": 114,
+            "steps_per_minute": 100.45,
+            "sequence": 155
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:14:00",
+            "elapsed_seconds": 766,
+            "bpm": 114,
+            "steps_per_minute": 100.18,
+            "sequence": 156
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:14:05",
+            "elapsed_seconds": 771,
+            "bpm": 115,
+            "steps_per_minute": 99.53,
+            "sequence": 157
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:14:10",
+            "elapsed_seconds": 776,
+            "bpm": 110,
+            "steps_per_minute": 98.89,
+            "sequence": 158
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:14:15",
+            "elapsed_seconds": 781,
+            "bpm": 103,
+            "steps_per_minute": 98.26,
+            "sequence": 159
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:14:20",
+            "elapsed_seconds": 786,
+            "bpm": 102,
+            "steps_per_minute": 97.79,
+            "sequence": 160
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:14:25",
+            "elapsed_seconds": 790,
+            "bpm": 103,
+            "steps_per_minute": 97.75,
+            "sequence": 161
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:14:30",
+            "elapsed_seconds": 795,
+            "bpm": 105,
+            "steps_per_minute": 98.04,
+            "sequence": 162
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:14:35",
+            "elapsed_seconds": 800,
+            "bpm": 101,
+            "steps_per_minute": 97.95,
+            "sequence": 163
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:14:40",
+            "elapsed_seconds": 805,
+            "bpm": 96,
+            "steps_per_minute": 98.16,
+            "sequence": 164
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:14:45",
+            "elapsed_seconds": 810,
+            "bpm": 99,
+            "steps_per_minute": 98.07,
+            "sequence": 165
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:14:51",
+            "elapsed_seconds": 815,
+            "bpm": 100,
+            "steps_per_minute": 98.28,
+            "sequence": 166
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:14:56",
+            "elapsed_seconds": 820,
+            "bpm": 101,
+            "steps_per_minute": 98.56,
+            "sequence": 167
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:15:01",
+            "elapsed_seconds": 825,
+            "bpm": 102,
+            "steps_per_minute": 98.55,
+            "sequence": 168
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:15:06",
+            "elapsed_seconds": 830,
+            "bpm": 104,
+            "steps_per_minute": 98.6,
+            "sequence": 169
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:15:11",
+            "elapsed_seconds": 835,
+            "bpm": 107,
+            "steps_per_minute": 98.73,
+            "sequence": 170
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:15:16",
+            "elapsed_seconds": 840,
+            "bpm": 107,
+            "steps_per_minute": 98.93,
+            "sequence": 171
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:15:21",
+            "elapsed_seconds": 845,
+            "bpm": 106,
+            "steps_per_minute": 98.98,
+            "sequence": 172
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:15:26",
+            "elapsed_seconds": 850,
+            "bpm": 106,
+            "steps_per_minute": 99.18,
+            "sequence": 173
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:15:31",
+            "elapsed_seconds": 854,
+            "bpm": 108,
+            "steps_per_minute": 99.48,
+            "sequence": 174
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:15:36",
+            "elapsed_seconds": 859,
+            "bpm": 105,
+            "steps_per_minute": 99.6,
+            "sequence": 175
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:15:41",
+            "elapsed_seconds": 864,
+            "bpm": 104,
+            "steps_per_minute": 99.86,
+            "sequence": 176
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:15:46",
+            "elapsed_seconds": 869,
+            "bpm": 106,
+            "steps_per_minute": 100.05,
+            "sequence": 177
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:15:51",
+            "elapsed_seconds": 874,
+            "bpm": 108,
+            "steps_per_minute": 100.37,
+            "sequence": 178
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:15:56",
+            "elapsed_seconds": 879,
+            "bpm": 107,
+            "steps_per_minute": 100.55,
+            "sequence": 179
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:16:01",
+            "elapsed_seconds": 884,
+            "bpm": 108,
+            "steps_per_minute": 100.86,
+            "sequence": 180
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:16:06",
+            "elapsed_seconds": 889,
+            "bpm": 110,
+            "steps_per_minute": 101.03,
+            "sequence": 181
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:16:11",
+            "elapsed_seconds": 894,
+            "bpm": 111,
+            "steps_per_minute": 101.34,
+            "sequence": 182
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:16:16",
+            "elapsed_seconds": 899,
+            "bpm": 110,
+            "steps_per_minute": 100.85,
+            "sequence": 183
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:16:21",
+            "elapsed_seconds": 904,
+            "bpm": 109,
+            "steps_per_minute": 100.29,
+            "sequence": 184
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:16:26",
+            "elapsed_seconds": 909,
+            "bpm": 115,
+            "steps_per_minute": 99.74,
+            "sequence": 185
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:16:31",
+            "elapsed_seconds": 913,
+            "bpm": 121,
+            "steps_per_minute": 99.3,
+            "sequence": 186
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:16:36",
+            "elapsed_seconds": 918,
+            "bpm": 118,
+            "steps_per_minute": 98.76,
+            "sequence": 187
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:16:41",
+            "elapsed_seconds": 923,
+            "bpm": 108,
+            "steps_per_minute": 98.22,
+            "sequence": 188
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:16:46",
+            "elapsed_seconds": 928,
+            "bpm": 108,
+            "steps_per_minute": 97.69,
+            "sequence": 189
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:16:51",
+            "elapsed_seconds": 933,
+            "bpm": 109,
+            "steps_per_minute": 97.17,
+            "sequence": 190
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:16:56",
+            "elapsed_seconds": 938,
+            "bpm": 108,
+            "steps_per_minute": 97.16,
+            "sequence": 191
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:17:01",
+            "elapsed_seconds": 943,
+            "bpm": 106,
+            "steps_per_minute": 97.35,
+            "sequence": 192
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:17:06",
+            "elapsed_seconds": 948,
+            "bpm": 111,
+            "steps_per_minute": 97.41,
+            "sequence": 193
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:17:11",
+            "elapsed_seconds": 953,
+            "bpm": 108,
+            "steps_per_minute": 97.59,
+            "sequence": 194
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:17:16",
+            "elapsed_seconds": 958,
+            "bpm": 106,
+            "steps_per_minute": 98.02,
+            "sequence": 195
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:17:21",
+            "elapsed_seconds": 963,
+            "bpm": 106,
+            "steps_per_minute": 98.63,
+            "sequence": 196
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:17:26",
+            "elapsed_seconds": 968,
+            "bpm": 113,
+            "steps_per_minute": 99.42,
+            "sequence": 197
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:17:31",
+            "elapsed_seconds": 973,
+            "bpm": 125,
+            "steps_per_minute": 100.21,
+            "sequence": 198
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:17:36",
+            "elapsed_seconds": 978,
+            "bpm": 128,
+            "steps_per_minute": 100.74,
+            "sequence": 199
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:17:41",
+            "elapsed_seconds": 982,
+            "bpm": 130,
+            "steps_per_minute": 101.36,
+            "sequence": 200
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:17:46",
+            "elapsed_seconds": 987,
+            "bpm": 131,
+            "steps_per_minute": 101.76,
+            "sequence": 201
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:17:51",
+            "elapsed_seconds": 992,
+            "bpm": 128,
+            "steps_per_minute": 102.22,
+            "sequence": 202
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:17:56",
+            "elapsed_seconds": 997,
+            "bpm": 131,
+            "steps_per_minute": 102.61,
+            "sequence": 203
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:18:01",
+            "elapsed_seconds": 1002,
+            "bpm": 129,
+            "steps_per_minute": 103.35,
+            "sequence": 204
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:18:06",
+            "elapsed_seconds": 1007,
+            "bpm": 135,
+            "steps_per_minute": 103.73,
+            "sequence": 205
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:18:11",
+            "elapsed_seconds": 1012,
+            "bpm": 142,
+            "steps_per_minute": 104.47,
+            "sequence": 206
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:18:16",
+            "elapsed_seconds": 1017,
+            "bpm": 143,
+            "steps_per_minute": 104.96,
+            "sequence": 207
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:18:21",
+            "elapsed_seconds": 1022,
+            "bpm": 140,
+            "steps_per_minute": 105.44,
+            "sequence": 208
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:18:26",
+            "elapsed_seconds": 1027,
+            "bpm": 141,
+            "steps_per_minute": 105.22,
+            "sequence": 209
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:18:31",
+            "elapsed_seconds": 1032,
+            "bpm": 140,
+            "steps_per_minute": 104.77,
+            "sequence": 210
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:18:36",
+            "elapsed_seconds": 1037,
+            "bpm": 133,
+            "steps_per_minute": 104.26,
+            "sequence": 211
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:18:41",
+            "elapsed_seconds": 1042,
+            "bpm": 129,
+            "steps_per_minute": 103.88,
+            "sequence": 212
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:18:46",
+            "elapsed_seconds": 1046,
+            "bpm": 129,
+            "steps_per_minute": 104.11,
+            "sequence": 213
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:18:51",
+            "elapsed_seconds": 1051,
+            "bpm": 127,
+            "steps_per_minute": 104.02,
+            "sequence": 214
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:18:56",
+            "elapsed_seconds": 1056,
+            "bpm": 114,
+            "steps_per_minute": 104.15,
+            "sequence": 215
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:19:01",
+            "elapsed_seconds": 1061,
+            "bpm": 118,
+            "steps_per_minute": 104.0,
+            "sequence": 216
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:19:06",
+            "elapsed_seconds": 1066,
+            "bpm": 115,
+            "steps_per_minute": 104.02,
+            "sequence": 217
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:19:11",
+            "elapsed_seconds": 1071,
+            "bpm": 116,
+            "steps_per_minute": 104.15,
+            "sequence": 218
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:19:16",
+            "elapsed_seconds": 1076,
+            "bpm": 119,
+            "steps_per_minute": 104.5,
+            "sequence": 219
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:19:21",
+            "elapsed_seconds": 1081,
+            "bpm": 119,
+            "steps_per_minute": 104.68,
+            "sequence": 220
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:19:26",
+            "elapsed_seconds": 1086,
+            "bpm": 116,
+            "steps_per_minute": 104.97,
+            "sequence": 221
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:19:31",
+            "elapsed_seconds": 1091,
+            "bpm": 116,
+            "steps_per_minute": 105.15,
+            "sequence": 222
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:19:36",
+            "elapsed_seconds": 1096,
+            "bpm": 121,
+            "steps_per_minute": 105.49,
+            "sequence": 223
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:19:41",
+            "elapsed_seconds": 1101,
+            "bpm": 119,
+            "steps_per_minute": 105.56,
+            "sequence": 224
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:19:46",
+            "elapsed_seconds": 1106,
+            "bpm": 121,
+            "steps_per_minute": 105.95,
+            "sequence": 225
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:19:51",
+            "elapsed_seconds": 1111,
+            "bpm": 117,
+            "steps_per_minute": 105.96,
+            "sequence": 226
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:19:56",
+            "elapsed_seconds": 1115,
+            "bpm": 115,
+            "steps_per_minute": 105.96,
+            "sequence": 227
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:20:01",
+            "elapsed_seconds": 1120,
+            "bpm": 113,
+            "steps_per_minute": 105.8,
+            "sequence": 228
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:20:06",
+            "elapsed_seconds": 1125,
+            "bpm": 113,
+            "steps_per_minute": 106.03,
+            "sequence": 229
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:20:11",
+            "elapsed_seconds": 1130,
+            "bpm": 121,
+            "steps_per_minute": 106.46,
+            "sequence": 230
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:20:16",
+            "elapsed_seconds": 1135,
+            "bpm": 121,
+            "steps_per_minute": 107.0,
+            "sequence": 231
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:20:21",
+            "elapsed_seconds": 1140,
+            "bpm": 125,
+            "steps_per_minute": 107.63,
+            "sequence": 232
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:20:26",
+            "elapsed_seconds": 1145,
+            "bpm": 125,
+            "steps_per_minute": 107.69,
+            "sequence": 233
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:20:31",
+            "elapsed_seconds": 1150,
+            "bpm": 123,
+            "steps_per_minute": 107.74,
+            "sequence": 234
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:20:36",
+            "elapsed_seconds": 1155,
+            "bpm": 121,
+            "steps_per_minute": 107.48,
+            "sequence": 235
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:20:41",
+            "elapsed_seconds": 1160,
+            "bpm": 122,
+            "steps_per_minute": 107.02,
+            "sequence": 236
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:20:46",
+            "elapsed_seconds": 1165,
+            "bpm": 121,
+            "steps_per_minute": 106.56,
+            "sequence": 237
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:20:52",
+            "elapsed_seconds": 1170,
+            "bpm": 118,
+            "steps_per_minute": 106.31,
+            "sequence": 238
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:20:57",
+            "elapsed_seconds": 1175,
+            "bpm": 116,
+            "steps_per_minute": 106.01,
+            "sequence": 239
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:21:02",
+            "elapsed_seconds": 1179,
+            "bpm": 107,
+            "steps_per_minute": 106.21,
+            "sequence": 240
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:21:07",
+            "elapsed_seconds": 1184,
+            "bpm": 104,
+            "steps_per_minute": 106.22,
+            "sequence": 241
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:21:12",
+            "elapsed_seconds": 1189,
+            "bpm": 106,
+            "steps_per_minute": 106.27,
+            "sequence": 242
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:21:17",
+            "elapsed_seconds": 1194,
+            "bpm": 106,
+            "steps_per_minute": 106.23,
+            "sequence": 243
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:21:22",
+            "elapsed_seconds": 1199,
+            "bpm": 104,
+            "steps_per_minute": 106.19,
+            "sequence": 244
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:21:27",
+            "elapsed_seconds": 1204,
+            "bpm": 104,
+            "steps_per_minute": 106.3,
+            "sequence": 245
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:21:32",
+            "elapsed_seconds": 1209,
+            "bpm": 105,
+            "steps_per_minute": 106.3,
+            "sequence": 246
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:21:37",
+            "elapsed_seconds": 1214,
+            "bpm": 103,
+            "steps_per_minute": 106.26,
+            "sequence": 247
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:21:42",
+            "elapsed_seconds": 1219,
+            "bpm": 103,
+            "steps_per_minute": 106.12,
+            "sequence": 248
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:21:47",
+            "elapsed_seconds": 1224,
+            "bpm": 104,
+            "steps_per_minute": 106.08,
+            "sequence": 249
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:21:52",
+            "elapsed_seconds": 1229,
+            "bpm": 107,
+            "steps_per_minute": 106.09,
+            "sequence": 250
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:21:57",
+            "elapsed_seconds": 1234,
+            "bpm": 112,
+            "steps_per_minute": 106.14,
+            "sequence": 251
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:22:02",
+            "elapsed_seconds": 1239,
+            "bpm": 108,
+            "steps_per_minute": 106.25,
+            "sequence": 252
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:22:07",
+            "elapsed_seconds": 1243,
+            "bpm": 109,
+            "steps_per_minute": 106.44,
+            "sequence": 253
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:22:12",
+            "elapsed_seconds": 1248,
+            "bpm": 109,
+            "steps_per_minute": 106.49,
+            "sequence": 254
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:22:17",
+            "elapsed_seconds": 1253,
+            "bpm": 112,
+            "steps_per_minute": 106.59,
+            "sequence": 255
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:22:22",
+            "elapsed_seconds": 1258,
+            "bpm": 108,
+            "steps_per_minute": 106.55,
+            "sequence": 256
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:22:27",
+            "elapsed_seconds": 1263,
+            "bpm": 105,
+            "steps_per_minute": 106.6,
+            "sequence": 257
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:22:32",
+            "elapsed_seconds": 1268,
+            "bpm": 111,
+            "steps_per_minute": 106.8,
+            "sequence": 258
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:22:37",
+            "elapsed_seconds": 1273,
+            "bpm": 114,
+            "steps_per_minute": 106.52,
+            "sequence": 259
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:22:42",
+            "elapsed_seconds": 1278,
+            "bpm": 110,
+            "steps_per_minute": 106.2,
+            "sequence": 260
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:22:47",
+            "elapsed_seconds": 1283,
+            "bpm": 107,
+            "steps_per_minute": 105.78,
+            "sequence": 261
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:22:52",
+            "elapsed_seconds": 1288,
+            "bpm": 107,
+            "steps_per_minute": 105.37,
+            "sequence": 262
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:22:57",
+            "elapsed_seconds": 1293,
+            "bpm": 111,
+            "steps_per_minute": 104.97,
+            "sequence": 263
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:23:02",
+            "elapsed_seconds": 1298,
+            "bpm": 113,
+            "steps_per_minute": 104.56,
+            "sequence": 264
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:23:07",
+            "elapsed_seconds": 1303,
+            "bpm": 102,
+            "steps_per_minute": 104.16,
+            "sequence": 265
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:23:12",
+            "elapsed_seconds": 1307,
+            "bpm": 95,
+            "steps_per_minute": 103.84,
+            "sequence": 266
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:23:17",
+            "elapsed_seconds": 1312,
+            "bpm": 97,
+            "steps_per_minute": 103.54,
+            "sequence": 267
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:23:22",
+            "elapsed_seconds": 1317,
+            "bpm": 105,
+            "steps_per_minute": 103.42,
+            "sequence": 268
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:23:27",
+            "elapsed_seconds": 1322,
+            "bpm": 101,
+            "steps_per_minute": 103.39,
+            "sequence": 269
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:23:32",
+            "elapsed_seconds": 1327,
+            "bpm": 98,
+            "steps_per_minute": 103.27,
+            "sequence": 270
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:23:37",
+            "elapsed_seconds": 1332,
+            "bpm": 95,
+            "steps_per_minute": 103.06,
+            "sequence": 271
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:23:42",
+            "elapsed_seconds": 1337,
+            "bpm": 95,
+            "steps_per_minute": 103.08,
+            "sequence": 272
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:23:47",
+            "elapsed_seconds": 1342,
+            "bpm": 97,
+            "steps_per_minute": 103.06,
+            "sequence": 273
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:23:52",
+            "elapsed_seconds": 1347,
+            "bpm": 101,
+            "steps_per_minute": 102.94,
+            "sequence": 274
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:23:57",
+            "elapsed_seconds": 1352,
+            "bpm": 102,
+            "steps_per_minute": 102.96,
+            "sequence": 275
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:24:02",
+            "elapsed_seconds": 1357,
+            "bpm": 101,
+            "steps_per_minute": 103.07,
+            "sequence": 276
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:24:07",
+            "elapsed_seconds": 1362,
+            "bpm": 101,
+            "steps_per_minute": 103.04,
+            "sequence": 277
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:24:12",
+            "elapsed_seconds": 1367,
+            "bpm": 102,
+            "steps_per_minute": 103.06,
+            "sequence": 278
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:24:17",
+            "elapsed_seconds": 1371,
+            "bpm": 101,
+            "steps_per_minute": 103.15,
+            "sequence": 279
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:24:22",
+            "elapsed_seconds": 1376,
+            "bpm": 103,
+            "steps_per_minute": 103.3,
+            "sequence": 280
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:24:27",
+            "elapsed_seconds": 1381,
+            "bpm": 103,
+            "steps_per_minute": 103.45,
+            "sequence": 281
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:24:32",
+            "elapsed_seconds": 1386,
+            "bpm": 102,
+            "steps_per_minute": 103.29,
+            "sequence": 282
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:24:37",
+            "elapsed_seconds": 1391,
+            "bpm": 101,
+            "steps_per_minute": 103.13,
+            "sequence": 283
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:24:42",
+            "elapsed_seconds": 1396,
+            "bpm": 101,
+            "steps_per_minute": 102.98,
+            "sequence": 284
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:24:47",
+            "elapsed_seconds": 1401,
+            "bpm": 99,
+            "steps_per_minute": 103.0,
+            "sequence": 285
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:24:52",
+            "elapsed_seconds": 1406,
+            "bpm": 98,
+            "steps_per_minute": 102.89,
+            "sequence": 286
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:24:57",
+            "elapsed_seconds": 1411,
+            "bpm": 98,
+            "steps_per_minute": 102.86,
+            "sequence": 287
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:25:02",
+            "elapsed_seconds": 1416,
+            "bpm": 102,
+            "steps_per_minute": 102.63,
+            "sequence": 288
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:25:07",
+            "elapsed_seconds": 1421,
+            "bpm": 103,
+            "steps_per_minute": 102.27,
+            "sequence": 289
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:25:12",
+            "elapsed_seconds": 1426,
+            "bpm": 98,
+            "steps_per_minute": 101.91,
+            "sequence": 290
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:25:17",
+            "elapsed_seconds": 1431,
+            "bpm": 102,
+            "steps_per_minute": 101.55,
+            "sequence": 291
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:25:22",
+            "elapsed_seconds": 1435,
+            "bpm": 104,
+            "steps_per_minute": 101.27,
+            "sequence": 292
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:25:27",
+            "elapsed_seconds": 1440,
+            "bpm": 103,
+            "steps_per_minute": 100.96,
+            "sequence": 293
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:25:32",
+            "elapsed_seconds": 1445,
+            "bpm": 103,
+            "steps_per_minute": 101.02,
+            "sequence": 294
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:25:37",
+            "elapsed_seconds": 1450,
+            "bpm": 99,
+            "steps_per_minute": 101.26,
+            "sequence": 295
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:25:42",
+            "elapsed_seconds": 1455,
+            "bpm": 99,
+            "steps_per_minute": 101.48,
+            "sequence": 296
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:25:47",
+            "elapsed_seconds": 1460,
+            "bpm": 103,
+            "steps_per_minute": 101.71,
+            "sequence": 297
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:25:52",
+            "elapsed_seconds": 1465,
+            "bpm": 104,
+            "steps_per_minute": 102.1,
+            "sequence": 298
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:25:57",
+            "elapsed_seconds": 1470,
+            "bpm": 105,
+            "steps_per_minute": 102.37,
+            "sequence": 299
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:26:02",
+            "elapsed_seconds": 1475,
+            "bpm": 109,
+            "steps_per_minute": 102.63,
+            "sequence": 300
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:26:07",
+            "elapsed_seconds": 1480,
+            "bpm": 110,
+            "steps_per_minute": 102.85,
+            "sequence": 301
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:26:12",
+            "elapsed_seconds": 1485,
+            "bpm": 109,
+            "steps_per_minute": 103.03,
+            "sequence": 302
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:26:17",
+            "elapsed_seconds": 1490,
+            "bpm": 113,
+            "steps_per_minute": 103.25,
+            "sequence": 303
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:26:22",
+            "elapsed_seconds": 1495,
+            "bpm": 115,
+            "steps_per_minute": 103.51,
+            "sequence": 304
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:26:27",
+            "elapsed_seconds": 1499,
+            "bpm": 114,
+            "steps_per_minute": 103.83,
+            "sequence": 305
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:26:32",
+            "elapsed_seconds": 1504,
+            "bpm": 116,
+            "steps_per_minute": 104.04,
+            "sequence": 306
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:26:38",
+            "elapsed_seconds": 1509,
+            "bpm": 115,
+            "steps_per_minute": 104.29,
+            "sequence": 307
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:26:43",
+            "elapsed_seconds": 1514,
+            "bpm": 112,
+            "steps_per_minute": 104.5,
+            "sequence": 308
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:26:48",
+            "elapsed_seconds": 1519,
+            "bpm": 115,
+            "steps_per_minute": 104.67,
+            "sequence": 309
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:26:53",
+            "elapsed_seconds": 1524,
+            "bpm": 116,
+            "steps_per_minute": 104.92,
+            "sequence": 310
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:26:58",
+            "elapsed_seconds": 1529,
+            "bpm": 112,
+            "steps_per_minute": 105.09,
+            "sequence": 311
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:27:03",
+            "elapsed_seconds": 1534,
+            "bpm": 110,
+            "steps_per_minute": 105.1,
+            "sequence": 312
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:27:08",
+            "elapsed_seconds": 1539,
+            "bpm": 112,
+            "steps_per_minute": 104.76,
+            "sequence": 313
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:27:13",
+            "elapsed_seconds": 1544,
+            "bpm": 105,
+            "steps_per_minute": 104.42,
+            "sequence": 314
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:27:18",
+            "elapsed_seconds": 1549,
+            "bpm": 103,
+            "steps_per_minute": 104.08,
+            "sequence": 315
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:27:23",
+            "elapsed_seconds": 1554,
+            "bpm": 112,
+            "steps_per_minute": 103.75,
+            "sequence": 316
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:27:28",
+            "elapsed_seconds": 1558,
+            "bpm": 108,
+            "steps_per_minute": 103.48,
+            "sequence": 317
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:27:33",
+            "elapsed_seconds": 1563,
+            "bpm": 102,
+            "steps_per_minute": 103.15,
+            "sequence": 318
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:27:38",
+            "elapsed_seconds": 1568,
+            "bpm": 108,
+            "steps_per_minute": 102.9,
+            "sequence": 319
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:27:43",
+            "elapsed_seconds": 1573,
+            "bpm": 106,
+            "steps_per_minute": 102.95,
+            "sequence": 320
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:27:48",
+            "elapsed_seconds": 1578,
+            "bpm": 106,
+            "steps_per_minute": 103.42,
+            "sequence": 321
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:27:53",
+            "elapsed_seconds": 1583,
+            "bpm": 111,
+            "steps_per_minute": 103.82,
+            "sequence": 322
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:27:58",
+            "elapsed_seconds": 1588,
+            "bpm": 120,
+            "steps_per_minute": 103.94,
+            "sequence": 323
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:28:03",
+            "elapsed_seconds": 1593,
+            "bpm": 116,
+            "steps_per_minute": 104.29,
+            "sequence": 324
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:28:08",
+            "elapsed_seconds": 1598,
+            "bpm": 118,
+            "steps_per_minute": 104.72,
+            "sequence": 325
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:28:13",
+            "elapsed_seconds": 1603,
+            "bpm": 127,
+            "steps_per_minute": 105.51,
+            "sequence": 326
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:28:18",
+            "elapsed_seconds": 1608,
+            "bpm": 138,
+            "steps_per_minute": 105.9,
+            "sequence": 327
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:28:23",
+            "elapsed_seconds": 1613,
+            "bpm": 147,
+            "steps_per_minute": 106.35,
+            "sequence": 328
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:28:28",
+            "elapsed_seconds": 1618,
+            "bpm": 152,
+            "steps_per_minute": 106.69,
+            "sequence": 329
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:28:33",
+            "elapsed_seconds": 1622,
+            "bpm": 152,
+            "steps_per_minute": 107.31,
+            "sequence": 330
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:28:38",
+            "elapsed_seconds": 1627,
+            "bpm": 149,
+            "steps_per_minute": 107.76,
+            "sequence": 331
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:28:43",
+            "elapsed_seconds": 1632,
+            "bpm": 146,
+            "steps_per_minute": 108.35,
+            "sequence": 332
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:28:48",
+            "elapsed_seconds": 1637,
+            "bpm": 148,
+            "steps_per_minute": 108.93,
+            "sequence": 333
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:28:53",
+            "elapsed_seconds": 1642,
+            "bpm": 151,
+            "steps_per_minute": 109.07,
+            "sequence": 334
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:28:58",
+            "elapsed_seconds": 1647,
+            "bpm": 151,
+            "steps_per_minute": 109.29,
+            "sequence": 335
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:29:03",
+            "elapsed_seconds": 1652,
+            "bpm": 150,
+            "steps_per_minute": 109.47,
+            "sequence": 336
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:29:08",
+            "elapsed_seconds": 1657,
+            "bpm": 148,
+            "steps_per_minute": 109.64,
+            "sequence": 337
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:29:13",
+            "elapsed_seconds": 1662,
+            "bpm": 148,
+            "steps_per_minute": 109.93,
+            "sequence": 338
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:29:18",
+            "elapsed_seconds": 1667,
+            "bpm": 147,
+            "steps_per_minute": 110.32,
+            "sequence": 339
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:29:23",
+            "elapsed_seconds": 1672,
+            "bpm": 147,
+            "steps_per_minute": 110.74,
+            "sequence": 340
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:29:28",
+            "elapsed_seconds": 1677,
+            "bpm": 143,
+            "steps_per_minute": 111.27,
+            "sequence": 341
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:29:33",
+            "elapsed_seconds": 1682,
+            "bpm": 150,
+            "steps_per_minute": 111.8,
+            "sequence": 342
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:29:38",
+            "elapsed_seconds": 1687,
+            "bpm": 157,
+            "steps_per_minute": 112.32,
+            "sequence": 343
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:29:43",
+            "elapsed_seconds": 1691,
+            "bpm": 160,
+            "steps_per_minute": 112.09,
+            "sequence": 344
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:29:48",
+            "elapsed_seconds": 1696,
+            "bpm": 156,
+            "steps_per_minute": 111.76,
+            "sequence": 345
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:29:53",
+            "elapsed_seconds": 1701,
+            "bpm": 152,
+            "steps_per_minute": 111.43,
+            "sequence": 346
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:29:58",
+            "elapsed_seconds": 1706,
+            "bpm": 143,
+            "steps_per_minute": 111.1,
+            "sequence": 347
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:30:03",
+            "elapsed_seconds": 1711,
+            "bpm": 138,
+            "steps_per_minute": 110.78,
+            "sequence": 348
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:30:08",
+            "elapsed_seconds": 1716,
+            "bpm": 131,
+            "steps_per_minute": 110.45,
+            "sequence": 349
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:30:13",
+            "elapsed_seconds": 1721,
+            "bpm": 126,
+            "steps_per_minute": 110.13,
+            "sequence": 350
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:30:18",
+            "elapsed_seconds": 1726,
+            "bpm": 124,
+            "steps_per_minute": 109.81,
+            "sequence": 351
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:30:23",
+            "elapsed_seconds": 1731,
+            "bpm": 116,
+            "steps_per_minute": 109.5,
+            "sequence": 352
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:30:28",
+            "elapsed_seconds": 1736,
+            "bpm": 115,
+            "steps_per_minute": 109.53,
+            "sequence": 353
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:30:33",
+            "elapsed_seconds": 1741,
+            "bpm": 113,
+            "steps_per_minute": 109.66,
+            "sequence": 354
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:30:38",
+            "elapsed_seconds": 1746,
+            "bpm": 104,
+            "steps_per_minute": 109.52,
+            "sequence": 355
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:30:43",
+            "elapsed_seconds": 1751,
+            "bpm": 104,
+            "steps_per_minute": 109.69,
+            "sequence": 356
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:30:48",
+            "elapsed_seconds": 1755,
+            "bpm": 114,
+            "steps_per_minute": 110.05,
+            "sequence": 357
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:30:53",
+            "elapsed_seconds": 1760,
+            "bpm": 122,
+            "steps_per_minute": 110.45,
+            "sequence": 358
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:30:58",
+            "elapsed_seconds": 1765,
+            "bpm": 125,
+            "steps_per_minute": 110.82,
+            "sequence": 359
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:31:03",
+            "elapsed_seconds": 1770,
+            "bpm": 134,
+            "steps_per_minute": 111.29,
+            "sequence": 360
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:31:08",
+            "elapsed_seconds": 1775,
+            "bpm": 136,
+            "steps_per_minute": 111.58,
+            "sequence": 361
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:31:13",
+            "elapsed_seconds": 1780,
+            "bpm": 140,
+            "steps_per_minute": 111.98,
+            "sequence": 362
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:31:18",
+            "elapsed_seconds": 1785,
+            "bpm": 144,
+            "steps_per_minute": 112.4,
+            "sequence": 363
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:31:23",
+            "elapsed_seconds": 1790,
+            "bpm": 143,
+            "steps_per_minute": 112.76,
+            "sequence": 364
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:31:28",
+            "elapsed_seconds": 1795,
+            "bpm": 142,
+            "steps_per_minute": 112.88,
+            "sequence": 365
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:31:33",
+            "elapsed_seconds": 1800,
+            "bpm": 142,
+            "steps_per_minute": 112.57,
+            "sequence": 366
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:31:38",
+            "elapsed_seconds": 1805,
+            "bpm": 140,
+            "steps_per_minute": 112.25,
+            "sequence": 367
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:31:43",
+            "elapsed_seconds": 1810,
+            "bpm": 139,
+            "steps_per_minute": 112.04,
+            "sequence": 368
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:31:48",
+            "elapsed_seconds": 1815,
+            "bpm": 133,
+            "steps_per_minute": 111.74,
+            "sequence": 369
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:31:53",
+            "elapsed_seconds": 1819,
+            "bpm": 130,
+            "steps_per_minute": 111.65,
+            "sequence": 370
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:31:58",
+            "elapsed_seconds": 1824,
+            "bpm": 126,
+            "steps_per_minute": 111.74,
+            "sequence": 371
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:32:03",
+            "elapsed_seconds": 1829,
+            "bpm": 124,
+            "steps_per_minute": 111.9,
+            "sequence": 372
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:32:08",
+            "elapsed_seconds": 1834,
+            "bpm": 126,
+            "steps_per_minute": 112.21,
+            "sequence": 373
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:32:13",
+            "elapsed_seconds": 1839,
+            "bpm": 123,
+            "steps_per_minute": 112.3,
+            "sequence": 374
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:32:18",
+            "elapsed_seconds": 1844,
+            "bpm": 124,
+            "steps_per_minute": 112.48,
+            "sequence": 375
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:32:23",
+            "elapsed_seconds": 1849,
+            "bpm": 125,
+            "steps_per_minute": 112.76,
+            "sequence": 376
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:32:28",
+            "elapsed_seconds": 1854,
+            "bpm": 127,
+            "steps_per_minute": 112.85,
+            "sequence": 377
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:32:34",
+            "elapsed_seconds": 1859,
+            "bpm": 128,
+            "steps_per_minute": 112.96,
+            "sequence": 378
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:32:39",
+            "elapsed_seconds": 1864,
+            "bpm": 125,
+            "steps_per_minute": 113.05,
+            "sequence": 379
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:32:44",
+            "elapsed_seconds": 1869,
+            "bpm": 124,
+            "steps_per_minute": 113.19,
+            "sequence": 380
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:32:49",
+            "elapsed_seconds": 1874,
+            "bpm": 121,
+            "steps_per_minute": 113.37,
+            "sequence": 381
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:32:54",
+            "elapsed_seconds": 1879,
+            "bpm": 122,
+            "steps_per_minute": 113.49,
+            "sequence": 382
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:32:59",
+            "elapsed_seconds": 1883,
+            "bpm": 124,
+            "steps_per_minute": 113.63,
+            "sequence": 383
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:33:04",
+            "elapsed_seconds": 1888,
+            "bpm": 129,
+            "steps_per_minute": 113.8,
+            "sequence": 384
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:33:09",
+            "elapsed_seconds": 1893,
+            "bpm": 126,
+            "steps_per_minute": 114.14,
+            "sequence": 385
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:33:14",
+            "elapsed_seconds": 1898,
+            "bpm": 126,
+            "steps_per_minute": 114.47,
+            "sequence": 386
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:33:19",
+            "elapsed_seconds": 1903,
+            "bpm": 125,
+            "steps_per_minute": 114.61,
+            "sequence": 387
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:33:24",
+            "elapsed_seconds": 1908,
+            "bpm": 126,
+            "steps_per_minute": 114.75,
+            "sequence": 388
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:33:29",
+            "elapsed_seconds": 1913,
+            "bpm": 124,
+            "steps_per_minute": 115.08,
+            "sequence": 389
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:33:34",
+            "elapsed_seconds": 1918,
+            "bpm": 121,
+            "steps_per_minute": 115.31,
+            "sequence": 390
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:33:39",
+            "elapsed_seconds": 1923,
+            "bpm": 122,
+            "steps_per_minute": 115.41,
+            "sequence": 391
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:33:44",
+            "elapsed_seconds": 1928,
+            "bpm": 122,
+            "steps_per_minute": 115.55,
+            "sequence": 392
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:33:49",
+            "elapsed_seconds": 1933,
+            "bpm": 121,
+            "steps_per_minute": 115.59,
+            "sequence": 393
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:33:54",
+            "elapsed_seconds": 1938,
+            "bpm": 123,
+            "steps_per_minute": 115.29,
+            "sequence": 394
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:33:59",
+            "elapsed_seconds": 1943,
+            "bpm": 121,
+            "steps_per_minute": 115.0,
+            "sequence": 395
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:34:04",
+            "elapsed_seconds": 1947,
+            "bpm": 120,
+            "steps_per_minute": 114.76,
+            "sequence": 396
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:34:09",
+            "elapsed_seconds": 1952,
+            "bpm": 122,
+            "steps_per_minute": 114.47,
+            "sequence": 397
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:34:14",
+            "elapsed_seconds": 1957,
+            "bpm": 124,
+            "steps_per_minute": 114.17,
+            "sequence": 398
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:34:19",
+            "elapsed_seconds": 1962,
+            "bpm": 123,
+            "steps_per_minute": 113.88,
+            "sequence": 399
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:34:24",
+            "elapsed_seconds": 1967,
+            "bpm": 120,
+            "steps_per_minute": 113.59,
+            "sequence": 400
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:34:29",
+            "elapsed_seconds": 1972,
+            "bpm": 118,
+            "steps_per_minute": 113.4,
+            "sequence": 401
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:34:34",
+            "elapsed_seconds": 1977,
+            "bpm": 113,
+            "steps_per_minute": 113.38,
+            "sequence": 402
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:34:39",
+            "elapsed_seconds": 1982,
+            "bpm": 108,
+            "steps_per_minute": 113.37,
+            "sequence": 403
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:34:44",
+            "elapsed_seconds": 1987,
+            "bpm": 108,
+            "steps_per_minute": 113.54,
+            "sequence": 404
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:34:49",
+            "elapsed_seconds": 1992,
+            "bpm": 115,
+            "steps_per_minute": 113.7,
+            "sequence": 405
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:34:54",
+            "elapsed_seconds": 1997,
+            "bpm": 114,
+            "steps_per_minute": 113.87,
+            "sequence": 406
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:34:59",
+            "elapsed_seconds": 2002,
+            "bpm": 116,
+            "steps_per_minute": 114.01,
+            "sequence": 407
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:35:04",
+            "elapsed_seconds": 2007,
+            "bpm": 115,
+            "steps_per_minute": 114.26,
+            "sequence": 408
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:35:09",
+            "elapsed_seconds": 2011,
+            "bpm": 121,
+            "steps_per_minute": 114.48,
+            "sequence": 409
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:35:14",
+            "elapsed_seconds": 2016,
+            "bpm": 128,
+            "steps_per_minute": 114.76,
+            "sequence": 410
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:35:19",
+            "elapsed_seconds": 2021,
+            "bpm": 128,
+            "steps_per_minute": 114.89,
+            "sequence": 411
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:35:24",
+            "elapsed_seconds": 2026,
+            "bpm": 125,
+            "steps_per_minute": 115.2,
+            "sequence": 412
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:35:29",
+            "elapsed_seconds": 2031,
+            "bpm": 126,
+            "steps_per_minute": 115.54,
+            "sequence": 413
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:35:34",
+            "elapsed_seconds": 2036,
+            "bpm": 127,
+            "steps_per_minute": 115.76,
+            "sequence": 414
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:35:39",
+            "elapsed_seconds": 2041,
+            "bpm": 132,
+            "steps_per_minute": 116.06,
+            "sequence": 415
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:35:44",
+            "elapsed_seconds": 2046,
+            "bpm": 134,
+            "steps_per_minute": 116.19,
+            "sequence": 416
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:35:49",
+            "elapsed_seconds": 2051,
+            "bpm": 139,
+            "steps_per_minute": 116.4,
+            "sequence": 417
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:35:54",
+            "elapsed_seconds": 2056,
+            "bpm": 137,
+            "steps_per_minute": 116.59,
+            "sequence": 418
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:35:59",
+            "elapsed_seconds": 2061,
+            "bpm": 136,
+            "steps_per_minute": 116.77,
+            "sequence": 419
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:36:04",
+            "elapsed_seconds": 2066,
+            "bpm": 137,
+            "steps_per_minute": 117.01,
+            "sequence": 420
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:36:09",
+            "elapsed_seconds": 2071,
+            "bpm": 138,
+            "steps_per_minute": 117.31,
+            "sequence": 421
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:36:14",
+            "elapsed_seconds": 2075,
+            "bpm": 133,
+            "steps_per_minute": 117.14,
+            "sequence": 422
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:36:19",
+            "elapsed_seconds": 2080,
+            "bpm": 129,
+            "steps_per_minute": 116.86,
+            "sequence": 423
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:36:24",
+            "elapsed_seconds": 2085,
+            "bpm": 128,
+            "steps_per_minute": 116.58,
+            "sequence": 424
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:36:29",
+            "elapsed_seconds": 2090,
+            "bpm": 128,
+            "steps_per_minute": 116.3,
+            "sequence": 425
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:36:34",
+            "elapsed_seconds": 2095,
+            "bpm": 131,
+            "steps_per_minute": 116.02,
+            "sequence": 426
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:36:39",
+            "elapsed_seconds": 2100,
+            "bpm": 131,
+            "steps_per_minute": 115.74,
+            "sequence": 427
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:36:44",
+            "elapsed_seconds": 2105,
+            "bpm": 128,
+            "steps_per_minute": 115.47,
+            "sequence": 428
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:36:49",
+            "elapsed_seconds": 2110,
+            "bpm": 126,
+            "steps_per_minute": 115.19,
+            "sequence": 429
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:36:54",
+            "elapsed_seconds": 2115,
+            "bpm": 122,
+            "steps_per_minute": 114.92,
+            "sequence": 430
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:36:59",
+            "elapsed_seconds": 2120,
+            "bpm": 118,
+            "steps_per_minute": 114.65,
+            "sequence": 431
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:37:04",
+            "elapsed_seconds": 2125,
+            "bpm": 122,
+            "steps_per_minute": 114.38,
+            "sequence": 432
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:37:09",
+            "elapsed_seconds": 2130,
+            "bpm": 112,
+            "steps_per_minute": 114.11,
+            "sequence": 433
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:37:14",
+            "elapsed_seconds": 2135,
+            "bpm": 103,
+            "steps_per_minute": 113.85,
+            "sequence": 434
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:37:19",
+            "elapsed_seconds": 2139,
+            "bpm": 102,
+            "steps_per_minute": 113.74,
+            "sequence": 435
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:37:24",
+            "elapsed_seconds": 2144,
+            "bpm": 109,
+            "steps_per_minute": 113.82,
+            "sequence": 436
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:37:29",
+            "elapsed_seconds": 2149,
+            "bpm": 109,
+            "steps_per_minute": 113.77,
+            "sequence": 437
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:37:34",
+            "elapsed_seconds": 2154,
+            "bpm": 106,
+            "steps_per_minute": 113.79,
+            "sequence": 438
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:37:39",
+            "elapsed_seconds": 2159,
+            "bpm": 105,
+            "steps_per_minute": 113.86,
+            "sequence": 439
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:37:44",
+            "elapsed_seconds": 2164,
+            "bpm": 103,
+            "steps_per_minute": 113.84,
+            "sequence": 440
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:37:49",
+            "elapsed_seconds": 2169,
+            "bpm": 104,
+            "steps_per_minute": 113.97,
+            "sequence": 441
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:37:54",
+            "elapsed_seconds": 2174,
+            "bpm": 104,
+            "steps_per_minute": 114.09,
+            "sequence": 442
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:37:59",
+            "elapsed_seconds": 2179,
+            "bpm": 106,
+            "steps_per_minute": 114.19,
+            "sequence": 443
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:38:04",
+            "elapsed_seconds": 2184,
+            "bpm": 110,
+            "steps_per_minute": 114.31,
+            "sequence": 444
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:38:09",
+            "elapsed_seconds": 2189,
+            "bpm": 115,
+            "steps_per_minute": 114.41,
+            "sequence": 445
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:38:14",
+            "elapsed_seconds": 2194,
+            "bpm": 114,
+            "steps_per_minute": 114.56,
+            "sequence": 446
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:38:19",
+            "elapsed_seconds": 2199,
+            "bpm": 115,
+            "steps_per_minute": 114.57,
+            "sequence": 447
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:38:24",
+            "elapsed_seconds": 2204,
+            "bpm": 115,
+            "steps_per_minute": 114.64,
+            "sequence": 448
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:38:30",
+            "elapsed_seconds": 2208,
+            "bpm": 116,
+            "steps_per_minute": 114.78,
+            "sequence": 449
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:38:35",
+            "elapsed_seconds": 2213,
+            "bpm": 115,
+            "steps_per_minute": 114.88,
+            "sequence": 450
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:38:40",
+            "elapsed_seconds": 2218,
+            "bpm": 112,
+            "steps_per_minute": 114.81,
+            "sequence": 451
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:38:45",
+            "elapsed_seconds": 2223,
+            "bpm": 111,
+            "steps_per_minute": 114.98,
+            "sequence": 452
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:38:50",
+            "elapsed_seconds": 2228,
+            "bpm": 115,
+            "steps_per_minute": 115.23,
+            "sequence": 453
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:38:55",
+            "elapsed_seconds": 2233,
+            "bpm": 114,
+            "steps_per_minute": 115.43,
+            "sequence": 454
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:39:00",
+            "elapsed_seconds": 2238,
+            "bpm": 113,
+            "steps_per_minute": 115.55,
+            "sequence": 455
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:39:05",
+            "elapsed_seconds": 2243,
+            "bpm": 113,
+            "steps_per_minute": 115.67,
+            "sequence": 456
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:39:10",
+            "elapsed_seconds": 2248,
+            "bpm": 112,
+            "steps_per_minute": 115.89,
+            "sequence": 457
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:39:15",
+            "elapsed_seconds": 2253,
+            "bpm": 111,
+            "steps_per_minute": 116.09,
+            "sequence": 458
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:39:20",
+            "elapsed_seconds": 2258,
+            "bpm": 111,
+            "steps_per_minute": 115.83,
+            "sequence": 459
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:39:25",
+            "elapsed_seconds": 2263,
+            "bpm": 106,
+            "steps_per_minute": 115.57,
+            "sequence": 460
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:39:30",
+            "elapsed_seconds": 2268,
+            "bpm": 110,
+            "steps_per_minute": 115.32,
+            "sequence": 461
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:39:35",
+            "elapsed_seconds": 2272,
+            "bpm": 118,
+            "steps_per_minute": 115.11,
+            "sequence": 462
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:39:40",
+            "elapsed_seconds": 2277,
+            "bpm": 114,
+            "steps_per_minute": 114.86,
+            "sequence": 463
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:39:45",
+            "elapsed_seconds": 2282,
+            "bpm": 106,
+            "steps_per_minute": 114.64,
+            "sequence": 464
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:39:50",
+            "elapsed_seconds": 2287,
+            "bpm": 106,
+            "steps_per_minute": 114.62,
+            "sequence": 465
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:39:55",
+            "elapsed_seconds": 2292,
+            "bpm": 109,
+            "steps_per_minute": 114.5,
+            "sequence": 466
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:40:00",
+            "elapsed_seconds": 2297,
+            "bpm": 106,
+            "steps_per_minute": 114.59,
+            "sequence": 467
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:40:05",
+            "elapsed_seconds": 2302,
+            "bpm": 110,
+            "steps_per_minute": 114.68,
+            "sequence": 468
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:40:10",
+            "elapsed_seconds": 2307,
+            "bpm": 108,
+            "steps_per_minute": 114.8,
+            "sequence": 469
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:40:15",
+            "elapsed_seconds": 2312,
+            "bpm": 108,
+            "steps_per_minute": 114.91,
+            "sequence": 470
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:40:20",
+            "elapsed_seconds": 2317,
+            "bpm": 110,
+            "steps_per_minute": 115.05,
+            "sequence": 471
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:40:25",
+            "elapsed_seconds": 2322,
+            "bpm": 113,
+            "steps_per_minute": 115.19,
+            "sequence": 472
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:40:30",
+            "elapsed_seconds": 2327,
+            "bpm": 116,
+            "steps_per_minute": 115.33,
+            "sequence": 473
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:40:35",
+            "elapsed_seconds": 2332,
+            "bpm": 119,
+            "steps_per_minute": 115.47,
+            "sequence": 474
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:40:40",
+            "elapsed_seconds": 2336,
+            "bpm": 121,
+            "steps_per_minute": 115.66,
+            "sequence": 475
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:40:45",
+            "elapsed_seconds": 2341,
+            "bpm": 122,
+            "steps_per_minute": 115.95,
+            "sequence": 476
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:40:50",
+            "elapsed_seconds": 2346,
+            "bpm": 123,
+            "steps_per_minute": 116.24,
+            "sequence": 477
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:40:55",
+            "elapsed_seconds": 2351,
+            "bpm": 124,
+            "steps_per_minute": 116.48,
+            "sequence": 478
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:41:00",
+            "elapsed_seconds": 2356,
+            "bpm": 127,
+            "steps_per_minute": 116.38,
+            "sequence": 479
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:41:05",
+            "elapsed_seconds": 2361,
+            "bpm": 128,
+            "steps_per_minute": 116.37,
+            "sequence": 480
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:41:10",
+            "elapsed_seconds": 2366,
+            "bpm": 124,
+            "steps_per_minute": 116.48,
+            "sequence": 481
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:41:15",
+            "elapsed_seconds": 2371,
+            "bpm": 124,
+            "steps_per_minute": 116.63,
+            "sequence": 482
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:41:20",
+            "elapsed_seconds": 2376,
+            "bpm": 125,
+            "steps_per_minute": 116.84,
+            "sequence": 483
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:41:25",
+            "elapsed_seconds": 2381,
+            "bpm": 129,
+            "steps_per_minute": 117.15,
+            "sequence": 484
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:41:30",
+            "elapsed_seconds": 2386,
+            "bpm": 128,
+            "steps_per_minute": 117.31,
+            "sequence": 485
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:41:35",
+            "elapsed_seconds": 2391,
+            "bpm": 135,
+            "steps_per_minute": 117.34,
+            "sequence": 486
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:41:40",
+            "elapsed_seconds": 2396,
+            "bpm": 134,
+            "steps_per_minute": 117.12,
+            "sequence": 487
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:41:45",
+            "elapsed_seconds": 2400,
+            "bpm": 127,
+            "steps_per_minute": 116.92,
+            "sequence": 488
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:41:50",
+            "elapsed_seconds": 2405,
+            "bpm": 122,
+            "steps_per_minute": 116.68,
+            "sequence": 489
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:41:55",
+            "elapsed_seconds": 2410,
+            "bpm": 123,
+            "steps_per_minute": 116.44,
+            "sequence": 490
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:42:00",
+            "elapsed_seconds": 2415,
+            "bpm": 119,
+            "steps_per_minute": 116.2,
+            "sequence": 491
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:42:05",
+            "elapsed_seconds": 2420,
+            "bpm": 120,
+            "steps_per_minute": 115.98,
+            "sequence": 492
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:42:10",
+            "elapsed_seconds": 2425,
+            "bpm": 116,
+            "steps_per_minute": 115.84,
+            "sequence": 493
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:42:15",
+            "elapsed_seconds": 2430,
+            "bpm": 115,
+            "steps_per_minute": 115.95,
+            "sequence": 494
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:42:20",
+            "elapsed_seconds": 2435,
+            "bpm": 119,
+            "steps_per_minute": 116.03,
+            "sequence": 495
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:42:25",
+            "elapsed_seconds": 2440,
+            "bpm": 119,
+            "steps_per_minute": 116.21,
+            "sequence": 496
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:42:30",
+            "elapsed_seconds": 2445,
+            "bpm": 119,
+            "steps_per_minute": 116.39,
+            "sequence": 497
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:42:35",
+            "elapsed_seconds": 2450,
+            "bpm": 124,
+            "steps_per_minute": 116.55,
+            "sequence": 498
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:42:40",
+            "elapsed_seconds": 2455,
+            "bpm": 125,
+            "steps_per_minute": 116.7,
+            "sequence": 499
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:42:45",
+            "elapsed_seconds": 2459,
+            "bpm": 122,
+            "steps_per_minute": 116.95,
+            "sequence": 500
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:42:50",
+            "elapsed_seconds": 2464,
+            "bpm": 125,
+            "steps_per_minute": 117.08,
+            "sequence": 501
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:42:55",
+            "elapsed_seconds": 2469,
+            "bpm": 125,
+            "steps_per_minute": 117.21,
+            "sequence": 502
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:43:00",
+            "elapsed_seconds": 2474,
+            "bpm": 123,
+            "steps_per_minute": 117.36,
+            "sequence": 503
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:43:05",
+            "elapsed_seconds": 2479,
+            "bpm": 129,
+            "steps_per_minute": 117.51,
+            "sequence": 504
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:43:10",
+            "elapsed_seconds": 2484,
+            "bpm": 129,
+            "steps_per_minute": 117.63,
+            "sequence": 505
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:43:15",
+            "elapsed_seconds": 2489,
+            "bpm": 127,
+            "steps_per_minute": 117.64,
+            "sequence": 506
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:43:20",
+            "elapsed_seconds": 2494,
+            "bpm": 124,
+            "steps_per_minute": 117.64,
+            "sequence": 507
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:43:25",
+            "elapsed_seconds": 2499,
+            "bpm": 123,
+            "steps_per_minute": 117.86,
+            "sequence": 508
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:43:30",
+            "elapsed_seconds": 2504,
+            "bpm": 123,
+            "steps_per_minute": 117.96,
+            "sequence": 509
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:43:35",
+            "elapsed_seconds": 2509,
+            "bpm": 128,
+            "steps_per_minute": 118.13,
+            "sequence": 510
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:43:40",
+            "elapsed_seconds": 2514,
+            "bpm": 129,
+            "steps_per_minute": 118.28,
+            "sequence": 511
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:43:45",
+            "elapsed_seconds": 2519,
+            "bpm": 129,
+            "steps_per_minute": 118.43,
+            "sequence": 512
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:43:50",
+            "elapsed_seconds": 2523,
+            "bpm": 126,
+            "steps_per_minute": 118.67,
+            "sequence": 513
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:43:55",
+            "elapsed_seconds": 2528,
+            "bpm": 124,
+            "steps_per_minute": 118.88,
+            "sequence": 514
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:44:00",
+            "elapsed_seconds": 2533,
+            "bpm": 125,
+            "steps_per_minute": 118.91,
+            "sequence": 515
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:44:05",
+            "elapsed_seconds": 2538,
+            "bpm": 123,
+            "steps_per_minute": 118.68,
+            "sequence": 516
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:44:10",
+            "elapsed_seconds": 2543,
+            "bpm": 109,
+            "steps_per_minute": 118.44,
+            "sequence": 517
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:44:15",
+            "elapsed_seconds": 2548,
+            "bpm": 117,
+            "steps_per_minute": 118.21,
+            "sequence": 518
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:44:20",
+            "elapsed_seconds": 2553,
+            "bpm": 122,
+            "steps_per_minute": 117.98,
+            "sequence": 519
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:44:25",
+            "elapsed_seconds": 2558,
+            "bpm": 119,
+            "steps_per_minute": 117.75,
+            "sequence": 520
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:44:30",
+            "elapsed_seconds": 2563,
+            "bpm": 116,
+            "steps_per_minute": 117.52,
+            "sequence": 521
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:44:35",
+            "elapsed_seconds": 2568,
+            "bpm": 118,
+            "steps_per_minute": 117.41,
+            "sequence": 522
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:44:40",
+            "elapsed_seconds": 2573,
+            "bpm": 120,
+            "steps_per_minute": 117.36,
+            "sequence": 523
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:44:45",
+            "elapsed_seconds": 2578,
+            "bpm": 115,
+            "steps_per_minute": 117.35,
+            "sequence": 524
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:44:50",
+            "elapsed_seconds": 2583,
+            "bpm": 111,
+            "steps_per_minute": 117.51,
+            "sequence": 525
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:44:55",
+            "elapsed_seconds": 2588,
+            "bpm": 114,
+            "steps_per_minute": 117.68,
+            "sequence": 526
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:45:01",
+            "elapsed_seconds": 2592,
+            "bpm": 120,
+            "steps_per_minute": 117.87,
+            "sequence": 527
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:45:06",
+            "elapsed_seconds": 2597,
+            "bpm": 121,
+            "steps_per_minute": 118.08,
+            "sequence": 528
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:45:11",
+            "elapsed_seconds": 2602,
+            "bpm": 124,
+            "steps_per_minute": 118.29,
+            "sequence": 529
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:45:16",
+            "elapsed_seconds": 2607,
+            "bpm": 126,
+            "steps_per_minute": 118.48,
+            "sequence": 530
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:45:21",
+            "elapsed_seconds": 2612,
+            "bpm": 129,
+            "steps_per_minute": 118.67,
+            "sequence": 531
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:45:26",
+            "elapsed_seconds": 2617,
+            "bpm": 126,
+            "steps_per_minute": 118.85,
+            "sequence": 532
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:45:31",
+            "elapsed_seconds": 2622,
+            "bpm": 130,
+            "steps_per_minute": 119.06,
+            "sequence": 533
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:45:36",
+            "elapsed_seconds": 2627,
+            "bpm": 130,
+            "steps_per_minute": 119.06,
+            "sequence": 534
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:45:41",
+            "elapsed_seconds": 2632,
+            "bpm": 132,
+            "steps_per_minute": 119.25,
+            "sequence": 535
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:45:46",
+            "elapsed_seconds": 2637,
+            "bpm": 133,
+            "steps_per_minute": 119.45,
+            "sequence": 536
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:45:51",
+            "elapsed_seconds": 2642,
+            "bpm": 136,
+            "steps_per_minute": 119.52,
+            "sequence": 537
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:45:56",
+            "elapsed_seconds": 2647,
+            "bpm": 136,
+            "steps_per_minute": 119.66,
+            "sequence": 538
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:46:01",
+            "elapsed_seconds": 2652,
+            "bpm": 134,
+            "steps_per_minute": 119.93,
+            "sequence": 539
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:46:06",
+            "elapsed_seconds": 2656,
+            "bpm": 133,
+            "steps_per_minute": 120.29,
+            "sequence": 540
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:46:11",
+            "elapsed_seconds": 2661,
+            "bpm": 139,
+            "steps_per_minute": 120.61,
+            "sequence": 541
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:46:16",
+            "elapsed_seconds": 2666,
+            "bpm": 143,
+            "steps_per_minute": 120.9,
+            "sequence": 542
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:46:21",
+            "elapsed_seconds": 2671,
+            "bpm": 141,
+            "steps_per_minute": 121.21,
+            "sequence": 543
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:46:26",
+            "elapsed_seconds": 2676,
+            "bpm": 141,
+            "steps_per_minute": 121.46,
+            "sequence": 544
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:46:31",
+            "elapsed_seconds": 2681,
+            "bpm": 143,
+            "steps_per_minute": 121.61,
+            "sequence": 545
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:46:36",
+            "elapsed_seconds": 2686,
+            "bpm": 142,
+            "steps_per_minute": 121.41,
+            "sequence": 546
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:46:41",
+            "elapsed_seconds": 2691,
+            "bpm": 130,
+            "steps_per_minute": 121.18,
+            "sequence": 547
+        },
+        {
+            "session_id": "session_2025-07-13-14-59",
+            "clock_time": "15:46:46",
+            "elapsed_seconds": 2696,
+            "bpm": 121,
+            "steps_per_minute": 120.96,
+            "sequence": 548
+        }
+    ],
+    "songs": [],
+    "session_steps": {
+        "flawless": 0,
+        "perfect": 0,
+        "great": 0,
+        "good": 0,
+        "boo": 0,
+        "miss": 0,
+        "total_dance_steps": 0,
+        "overall_accuracy": 0.0,
+        "combo_accuracy_fpg": 0.0
+    }
+}
