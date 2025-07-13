@@ -12,6 +12,7 @@ import os #needed to access files for saving json
 import threading
 import asyncio #needed for xml try / for
 from bleak import BleakClient #needed to connect to bt hr monitor
+import pygame #needed for dance pad listening
 
 
 
@@ -47,7 +48,8 @@ device_address = "F9:2D:CB:FD:CD:87" #specific address for BT device. If this ge
 #session specific variables
 timestamp = datetime.now().strftime("%Y-%m-%d-%H-%M")
 session_id = f"session_{timestamp}"
-json_format = "version 1.0"
+json_format = "version 1.1"
+json_format_update_date = "7/13/2025"
 dance_pad = "OSTENT EVA/PVC" #metal pad is "LTEK Prime Metal"
 event_log = []
 
@@ -166,6 +168,7 @@ def start_tracking():
     update_labels()
     start_btn.config(state="disabled", bg="#666")
 
+#with the way stepmania writes the XML file this function cannot handle if I play the same song twice in a session. that is an issue, but not one I want to tackle right now. Need to chew on it. :(
 def get_stepmania_session_songs():
     global session_start, session_end
     try:
@@ -219,6 +222,7 @@ def get_stepmania_session_songs():
                 perfect = tap_scores.findtext("W2") if tap_scores is not None else None
                 flawless = tap_scores.findtext("W1") if tap_scores is not None else None
 
+                safe_song_count
                 songs.append({
                     "session_id": session_id,
                     "song": os.path.basename(os.path.normpath(song_path)),
@@ -275,6 +279,7 @@ def save_to_json():
     session_information = {
     "date": datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
     "json_version": json_format,
+    "json_format_update_date": json_format_update_date,
     "dance_pad_type": dance_pad
     }
 
@@ -282,6 +287,7 @@ def save_to_json():
     "weight_kg": weight_kg,
     "age": age,
     "steps": steps,
+    "songs_played_count": safe_song_count, #I put this in biometrics because I think it will be helpful down the line for data manipulation even though I think it should go in session info
     "elapsed_seconds":elapsed_time,
     "formatted_duration": duration,
     "average_bpm": average_bpm,
@@ -326,12 +332,15 @@ def save_to_json():
     
     #creates an accuracy statistic
     denominator = total_dance_steps + session_steps_rating["miss"]
-    accuracy = 100 * total_dance_steps / denominator if denominator > 0 else 0.0 #ugh okay I would rather do this than have it get borqed
+    overall_accuracy = 100 * total_dance_steps / denominator if denominator > 0 else 0.0 #ugh okay I would rather do this than have it get borqed
+
+    #this is a stricter accuracy that focuses on the steps that retain combos in step mania 'flawless, perfect, great' the above accuracy has been giving me scores that are too high lol
+    combo_accuracy = 100 * (session_steps_rating["flawless"] + session_steps_rating["perfect"] + session_steps_rating["great"]) / denominator if denominator > 0 else 0.0
 
     #adds the above count of total steps to json
     session_steps_rating["total_dance_steps"] = total_dance_steps
-    session_steps_rating["accuracy"] = accuracy
-    
+    session_steps_rating["overall_accuracy"] = overall_accuracy
+    session_steps_rating["combo_accuracy_fpg"] = combo_accuracy
     
     # jason data structure
     session_data = {
@@ -469,10 +478,44 @@ pause_btn.pack(side="left", padx=10)
 ### GUI ENDS
 
 # Keyboard listeners (this will need to change when I get my DDR pad!)
-for key in ['up', 'down', 'left', 'right']:
-    keyboard.on_press_key(key, on_arrow_press)
+# for key in ['up', 'down', 'left', 'right']:
+#     keyboard.on_press_key(key, on_arrow_press)
 
-#*** I should have a rescan check and also an indicator that BT is connected. It would stink to have a long session where I cant get HR data back
+#*****For crappy plastic pad
+def ddr_listener():
+    pygame.init()
+    pygame.joystick.init()
+
+    if pygame.joystick.get_count() == 0:
+        print("No joystick detected.")
+        return
+
+    joystick = pygame.joystick.Joystick(0)
+    joystick.init()
+
+    button_map = {
+        0: "left",
+        1: "down",
+        2: "up",
+        3: "right"
+    }
+
+    print(f"Listening for DDR pad input: {joystick.get_name()}")
+
+    while True:
+        for event in pygame.event.get():
+            if event.type == pygame.JOYBUTTONDOWN:
+                direction = button_map.get(event.button)
+                if direction:
+                    fake_event = type("Event", (object,), {"name": direction})()
+                    on_arrow_press(fake_event)
+
+#replace keyboard listener with threaded DDR listener
+threading.Thread(target=ddr_listener, daemon=True).start()
+
+#*** END for crappy plastic pad
+
+#bluetooth connection and status function
 def start_ble_loop():
     async def run():
         while True:
