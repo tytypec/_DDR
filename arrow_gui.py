@@ -49,7 +49,7 @@ device_address = "F9:2D:CB:FD:CD:87" #specific address for BT device. If this ge
 timestamp = datetime.now().strftime("%Y-%m-%d-%H-%M")
 session_id = f"session_{timestamp}"
 json_format = "version 1.1"
-json_format_update_date = "7/13/2025"
+json_format_update_date = "2025-07-13" #date format updated for consistency #ISO8601Gang4Lyfe
 dance_pad = "OSTENT EVA/PVC" #metal pad is "LTEK Prime Metal"
 event_log = []
 
