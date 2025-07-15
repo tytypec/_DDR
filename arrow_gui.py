@@ -7,7 +7,7 @@ import time
 #import csv #elected to go with json instead of csv to track songs and biometrics
 import json 
 import xml.etree.ElementTree as ET #needed for pulling information from stepmania XML file data
-from datetime import datetime
+from datetime import datetime, timedelta
 import os #needed to access files for saving json
 import threading
 import asyncio #needed for xml try / for
@@ -48,7 +48,7 @@ device_address = "F9:2D:CB:FD:CD:87" #specific address for BT device. If this ge
 #session specific variables
 timestamp = datetime.now().strftime("%Y-%m-%d-%H-%M")
 session_id = f"session_{timestamp}"
-json_format = "version 1.1"
+json_format = "version 1.2"
 json_format_update_date = "2025-07-13" #date format updated for consistency #ISO8601Gang4Lyfe
 dance_pad = "OSTENT EVA/PVC" #metal pad is "LTEK Prime Metal"
 event_log = []
@@ -156,6 +156,10 @@ def on_arrow_press(event):
         calories_from_steps = steps * calories_per_step  # Only counts calories from steps with our made up magic number
         update_labels()
 
+def on_enter_press(event):
+    if tracking and not paused:
+        log_event("you hit enter", elapsed_time)
+
 #this is what my start button activates when pressed! It begins the timer and step tracker
 #***Do I want a pause button?
 def start_tracking():
@@ -168,7 +172,6 @@ def start_tracking():
     update_labels()
     start_btn.config(state="disabled", bg="#666")
 
-#with the way stepmania writes the XML file this function cannot handle if I play the same song twice in a session. that is an issue, but not one I want to tackle right now. Need to chew on it. :(
 def get_stepmania_session_songs():
     global session_start, session_end
     try:
@@ -179,28 +182,28 @@ def get_stepmania_session_songs():
         root = tree.getroot()
         songs = []
 
-        for song in root.findall(".//Song"): #loops through all <Song> entries stepmania stats XML
-            song_path = song.attrib.get("Dir", "Unknown Song") #gets song name from Dir like "Dance Dance Revolution/Butterfly"
+        for song in root.findall(".//Song"):
+            song_path = song.attrib.get("Dir", "Unknown Song")
 
-            for steps in song.findall(".//Steps"): #loops through all <Steps> entries for the specific <Song>
+            for steps in song.findall(".//Steps"):
                 highscore_list = steps.find("HighScoreList")
                 if highscore_list is None:
                     continue
 
-                highscore = highscore_list.find("HighScore") #looks for <Highscore>
+                highscore = highscore_list.find("HighScore")
                 if highscore is None:
                     continue
 
-                datetime_text = highscore.findtext("DateTime") #This is what makes the session specific song list work
-                if not datetime_text:                          #the value above stores the last time you plated the song in <DateTime>
+                datetime_text = highscore.findtext("DateTime")
+                if not datetime_text:
                     continue
 
                 try:
-                    song_datetime = datetime.strptime(datetime_text, "%Y-%m-%d %H:%M:%S") #we convert our time to the same format as <DateTime>
+                    song_datetime = datetime.strptime(datetime_text, "%Y-%m-%d %H:%M:%S")
                 except ValueError:
                     continue
 
-                if session_start is None or session_end is None: #then we check to see if the song played time matches the range for our play session!
+                if session_start is None or session_end is None:
                     continue
                 if not (session_start <= song_datetime <= session_end):
                     continue
@@ -208,12 +211,22 @@ def get_stepmania_session_songs():
                 difficulty = steps.attrib.get("Difficulty", "Unknown")
                 score = highscore.findtext("Score")
 
+                #parse duration and calculate start time (if possible)
                 raw_duration = highscore.findtext("SurviveSeconds")
                 try:
                     duration = float(raw_duration) if raw_duration else None
                 except ValueError:
                     duration = None
 
+                if duration:
+                    try:
+                        start_time = song_datetime - timedelta(seconds=duration)
+                    except Exception:
+                        start_time = None
+                else:
+                    start_time = None
+
+                # Tap note breakdown
                 tap_scores = highscore.find("TapNoteScores")
                 miss = tap_scores.findtext("Miss") if tap_scores is not None else None
                 boo = tap_scores.findtext("W5") if tap_scores is not None else None
@@ -222,13 +235,19 @@ def get_stepmania_session_songs():
                 perfect = tap_scores.findtext("W2") if tap_scores is not None else None
                 flawless = tap_scores.findtext("W1") if tap_scores is not None else None
 
+                #compute elapsed seconds from session start to song end
+                end_time_elapsed = (song_datetime - session_start).total_seconds() if session_start and song_datetime else None
+                start_time_elapsed = (end_time_elapsed - duration) if end_time_elapsed and duration else None
+
                 songs.append({
                     "session_id": session_id,
                     "song": os.path.basename(os.path.normpath(song_path)),
                     "difficulty": difficulty,
                     "score": score,
                     "duration": duration,
-                    "played_at": datetime_text,
+                    "end_time": song_datetime.strftime("%H:%M:%S"),
+                    "end_time_elapsed": round(end_time_elapsed, 2) if end_time_elapsed is not None else None,
+                    "start_time_elapsed": round(start_time_elapsed, 2) if start_time_elapsed is not None else None,
                     "miss": miss,
                     "boo": boo,
                     "good": good,
@@ -242,6 +261,7 @@ def get_stepmania_session_songs():
     except Exception as error:
         print(f"Error reading StepMania stats: {error}")
         return []
+
 
 def save_to_json():
     global elapsed_time, session_end
@@ -479,6 +499,10 @@ pause_btn.pack(side="left", padx=10)
 # Keyboard listeners (this will need to change when I get my DDR pad!)
 # for key in ['up', 'down', 'left', 'right']:
 #     keyboard.on_press_key(key, on_arrow_press)
+
+
+# listener for enter so help track songs being played
+keyboard.on_press_key('enter', on_enter_press)
 
 #*****For crappy plastic pad
 def ddr_listener():
