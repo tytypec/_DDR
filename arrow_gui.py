@@ -23,12 +23,13 @@ previous_step_count = 0 #global for step per min gui
 elapsed_time = 0 #global time variable used
 calories_from_steps = 0.0 #need 2 calorie counters so I can add up both steps and basal calorie stuff
 calories_from_hr = 0.0 #this creates a variable for us to count in our calories burned from heart rate using Male formula from Keytel paper
-calories_per_step = 0.05 #calories_per_step is a made up number we assign to each step to get an estimated calorie count when multiplied by step count
+calories_per_step = 0.005 #calories_per_step is a made up number we assign to each step to get an estimated calorie count when multiplied by step count I lowered this alot 
 start_time = None #start_time starts at 'None' so we can 'turn it on' when we are ready to dance!
 tracking = False # tracking starts as false because we dont want the calorie counter to start until we are ready to dance (just like the timer)
 paused = False #adding a pause button incase of... emergencies :)
 session_start = None
 session_end = None
+held_keys = set() #the key bouncer
 
 #HR variables
 bpm = 0 #creates a variable for our heart rate readings from BT monitor
@@ -48,17 +49,17 @@ device_address = "F9:2D:CB:FD:CD:87" #specific address for BT device. If this ge
 #session specific variables
 timestamp = datetime.now().strftime("%Y-%m-%d-%H-%M")
 session_id = f"session_{timestamp}"
-json_format = "version 1.2"
-json_format_update_date = "2025-07-13" #date format updated for consistency #ISO8601Gang4Lyfe
-dance_pad = "OSTENT EVA/PVC" #metal pad is "LTEK Prime Metal"
+json_format = "version 1.3"
+json_format_update_date = "2025-07-16" #date format updated for consistency #ISO8601Gang4Lyfe
+dance_pad = "LTEK Prime Metal" #metal pad is "LTEK Prime Metal" plastic is "OSTENT EVA/PVC"
 event_log = []
 
 
 
 # GUI colors ** maybe I can add a profile for 'green screen mode' to chroma key out gui
-BG_GRADIENT = "#6dcfff"
-TEXT_COLOR = "#ffffff"
-ACCENT = "#e754c2"
+BG_GRADIENT ="#a613f5"   # teal "#6dcfff" purple #a613f5
+TEXT_COLOR = "#000000"
+ACCENT = "#ce7dfc"  # pinkish "#e754c2"
 
 #this creates our text for our GUI elements. we have a step_label and a calorie_label
 def update_labels():
@@ -89,8 +90,8 @@ def log_event(event_type, elapsed_seconds):
 
 #handles heart rate and steps per minute data
 def log_hr_over_time():
-    global previous_step_count
-
+    global previous_step_count, calories_from_steps, calories_from_hr
+    
     if tracking and not paused and bpm > 0:
         current_time = datetime.now().strftime("%H:%M:%S")
         interval_seconds = bpm_interval_ms / 1000
@@ -104,14 +105,15 @@ def log_hr_over_time():
 
         #calculate average SPM 
         avg_steps_per_minute = (steps / elapsed_time) * 60 if elapsed_time > 0 else 0
-
+        total_calories = calories_from_steps + calories_from_hr #this exists twice, the other instance is in update_labels
         # Append to time series **Switched back to a dictionary for easier intergration with r and tidyverse
         hr_time_series.append({
             "session_id": session_id,
             "clock_time": current_time,
             "elapsed_seconds": elapsed_time,
             "bpm": bpm,
-            "steps_per_minute": round(avg_steps_per_minute, 2),
+            "steps_per_minute": round(avg_steps_per_minute, 2), #this is useless in its current form. Should try a moving avg or something
+            "calories_burned": round(total_calories, 2),
             "sequence": len(hr_time_series) + 1 #just some extra bloat. fall back if elapsed_seconds runs into issues
         })
 
@@ -158,7 +160,7 @@ def on_arrow_press(event):
 
 def on_enter_press(event):
     if tracking and not paused:
-        log_event("you hit enter", elapsed_time)
+      return  #log_event("you hit enter", elapsed_time)
 
 #this is what my start button activates when pressed! It begins the timer and step tracker
 #***Do I want a pause button?
@@ -500,43 +502,59 @@ pause_btn.pack(side="left", padx=10)
 # for key in ['up', 'down', 'left', 'right']:
 #     keyboard.on_press_key(key, on_arrow_press)
 
+# for key in ['w', 'a', 's', 'd']:
+#     keyboard.on_press_key(key, on_arrow_press)
+
+def on_pad_key_down(e):
+    if e.name not in held_keys and tracking and not paused: #logic to prevent key holds counting multipul times or before session starts of if tracking paused
+        held_keys.add(e.name) #marks the key as being held
+        on_arrow_press(e)
+
+def on_pad_key_up(e):
+    held_keys.discard(e.name) #takes it off the 'naughty' held key list
+
+for key in ['w', 'a', 's', 'd']:
+    keyboard.on_press_key(key, on_pad_key_down)
+    keyboard.on_release_key(key, on_pad_key_up)
 
 # listener for enter so help track songs being played
 keyboard.on_press_key('enter', on_enter_press)
 
 #*****For crappy plastic pad
-def ddr_listener():
-    pygame.init()
-    pygame.joystick.init()
+# def ddr_listener():
+#     pygame.init()
+#     pygame.joystick.init()
 
-    if pygame.joystick.get_count() == 0:
-        print("No joystick detected.")
-        return
+#     if pygame.joystick.get_count() == 0:
+#         print("No joystick detected.")
+#         return
 
-    joystick = pygame.joystick.Joystick(0)
-    joystick.init()
+#     joystick = pygame.joystick.Joystick(0)
+#     joystick.init()
 
-    button_map = {
-        0: "left",
-        1: "down",
-        2: "up",
-        3: "right"
-    }
+#     button_map = {
+#         4: "left",
+#         1: "down",
+#         2: "up",
+#         3: "right"
+#     }
 
-    print(f"Listening for DDR pad input: {joystick.get_name()}")
+#     print(f"Listening for DDR pad input: {joystick.get_name()}")
 
-    while True:
-        for event in pygame.event.get():
-            if event.type == pygame.JOYBUTTONDOWN:
-                direction = button_map.get(event.button)
-                if direction:
-                    fake_event = type("Event", (object,), {"name": direction})()
-                    on_arrow_press(fake_event)
+#     while True:
+#         for event in pygame.event.get():
+#             if event.type == pygame.JOYBUTTONDOWN:
+#                 direction = button_map.get(event.button)
+#                 if direction:
+#                     fake_event = type("Event", (object,), {"name": direction})()
+#                     on_arrow_press(fake_event)
 
-#replace keyboard listener with threaded DDR listener
-threading.Thread(target=ddr_listener, daemon=True).start()
+# #replace keyboard listener with threaded DDR listener
+# threading.Thread(target=ddr_listener, daemon=True).start()
 
 #*** END for crappy plastic pad
+
+
 
 #bluetooth connection and status function
 def start_ble_loop():
