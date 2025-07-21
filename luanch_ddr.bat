@@ -1,4 +1,4 @@
 @echo off
 cd /d D:\Code\_DDR\python-version
-py TrackTrackRevolution.py
+py track_track_revolution.py
 pause
