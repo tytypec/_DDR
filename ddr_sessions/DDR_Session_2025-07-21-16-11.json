@@ -1,0 +1,4419 @@
+{
+    "session_id": "session_2025-07-21-16-11",
+    "session_information": {
+        "date": "2025-07-21 16:50:54",
+        "json_version": "version 1.3",
+        "json_format_update_date": "2025-07-16",
+        "dance_pad_type": "LTEK Prime Metal"
+    },
+    "event_log": [],
+    "biometrics": {
+        "weight_kg": 79.106509328,
+        "age": 33,
+        "steps": 5144,
+        "songs_played_count": 16,
+        "elapsed_seconds": 2282,
+        "formatted_duration": "00:38:02",
+        "average_bpm": 142.41,
+        "max_bpm": 195,
+        "total_calories": 554.92,
+        "calories_from_steps": 25.72,
+        "calories_from_hr": 529.2,
+        "step_density_per_second": 2.254,
+        "avg_steps_per_song": 321.5,
+        "session_intensity": 321.02
+    },
+    "hr_time_series": [
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:12:44",
+            "elapsed_seconds": 3,
+            "bpm": 88,
+            "steps_per_minute": 0.0,
+            "calories_burned": 0.27,
+            "sequence": 1
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:12:49",
+            "elapsed_seconds": 8,
+            "bpm": 91,
+            "steps_per_minute": 0.0,
+            "calories_burned": 0.73,
+            "sequence": 2
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:12:54",
+            "elapsed_seconds": 13,
+            "bpm": 99,
+            "steps_per_minute": 0.0,
+            "calories_burned": 1.27,
+            "sequence": 3
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:12:59",
+            "elapsed_seconds": 18,
+            "bpm": 105,
+            "steps_per_minute": 6.67,
+            "calories_burned": 1.93,
+            "sequence": 4
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:13:04",
+            "elapsed_seconds": 23,
+            "bpm": 98,
+            "steps_per_minute": 52.17,
+            "calories_burned": 2.65,
+            "sequence": 5
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:13:09",
+            "elapsed_seconds": 28,
+            "bpm": 98,
+            "steps_per_minute": 68.57,
+            "calories_burned": 3.25,
+            "sequence": 6
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:13:14",
+            "elapsed_seconds": 33,
+            "bpm": 104,
+            "steps_per_minute": 90.91,
+            "calories_burned": 3.96,
+            "sequence": 7
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:13:19",
+            "elapsed_seconds": 38,
+            "bpm": 112,
+            "steps_per_minute": 110.53,
+            "calories_burned": 4.77,
+            "sequence": 8
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:13:24",
+            "elapsed_seconds": 43,
+            "bpm": 121,
+            "steps_per_minute": 126.98,
+            "calories_burned": 5.7,
+            "sequence": 9
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:13:29",
+            "elapsed_seconds": 48,
+            "bpm": 128,
+            "steps_per_minute": 131.25,
+            "calories_burned": 6.69,
+            "sequence": 10
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:13:34",
+            "elapsed_seconds": 53,
+            "bpm": 134,
+            "steps_per_minute": 132.45,
+            "calories_burned": 7.75,
+            "sequence": 11
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:13:39",
+            "elapsed_seconds": 58,
+            "bpm": 136,
+            "steps_per_minute": 137.59,
+            "calories_burned": 8.87,
+            "sequence": 12
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:13:44",
+            "elapsed_seconds": 63,
+            "bpm": 136,
+            "steps_per_minute": 142.86,
+            "calories_burned": 10.02,
+            "sequence": 13
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:13:49",
+            "elapsed_seconds": 68,
+            "bpm": 135,
+            "steps_per_minute": 146.47,
+            "calories_burned": 11.13,
+            "sequence": 14
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:13:54",
+            "elapsed_seconds": 73,
+            "bpm": 134,
+            "steps_per_minute": 147.12,
+            "calories_burned": 12.24,
+            "sequence": 15
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:13:59",
+            "elapsed_seconds": 78,
+            "bpm": 136,
+            "steps_per_minute": 154.62,
+            "calories_burned": 13.39,
+            "sequence": 16
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:14:04",
+            "elapsed_seconds": 83,
+            "bpm": 138,
+            "steps_per_minute": 156.87,
+            "calories_burned": 14.55,
+            "sequence": 17
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:14:09",
+            "elapsed_seconds": 88,
+            "bpm": 140,
+            "steps_per_minute": 160.91,
+            "calories_burned": 15.74,
+            "sequence": 18
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:14:14",
+            "elapsed_seconds": 93,
+            "bpm": 140,
+            "steps_per_minute": 161.94,
+            "calories_burned": 16.92,
+            "sequence": 19
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:14:19",
+            "elapsed_seconds": 98,
+            "bpm": 140,
+            "steps_per_minute": 162.86,
+            "calories_burned": 18.11,
+            "sequence": 20
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:14:24",
+            "elapsed_seconds": 103,
+            "bpm": 137,
+            "steps_per_minute": 163.11,
+            "calories_burned": 19.25,
+            "sequence": 21
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:14:29",
+            "elapsed_seconds": 108,
+            "bpm": 139,
+            "steps_per_minute": 157.78,
+            "calories_burned": 20.36,
+            "sequence": 22
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:14:34",
+            "elapsed_seconds": 113,
+            "bpm": 137,
+            "steps_per_minute": 150.8,
+            "calories_burned": 21.45,
+            "sequence": 23
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:14:39",
+            "elapsed_seconds": 118,
+            "bpm": 135,
+            "steps_per_minute": 144.41,
+            "calories_burned": 22.5,
+            "sequence": 24
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:14:44",
+            "elapsed_seconds": 123,
+            "bpm": 130,
+            "steps_per_minute": 138.54,
+            "calories_burned": 23.51,
+            "sequence": 25
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:14:49",
+            "elapsed_seconds": 128,
+            "bpm": 124,
+            "steps_per_minute": 133.12,
+            "calories_burned": 24.44,
+            "sequence": 26
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:14:54",
+            "elapsed_seconds": 133,
+            "bpm": 122,
+            "steps_per_minute": 128.12,
+            "calories_burned": 25.33,
+            "sequence": 27
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:14:59",
+            "elapsed_seconds": 138,
+            "bpm": 109,
+            "steps_per_minute": 123.91,
+            "calories_burned": 26.16,
+            "sequence": 28
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:15:04",
+            "elapsed_seconds": 143,
+            "bpm": 105,
+            "steps_per_minute": 126.29,
+            "calories_burned": 26.93,
+            "sequence": 29
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:15:09",
+            "elapsed_seconds": 148,
+            "bpm": 114,
+            "steps_per_minute": 127.7,
+            "calories_burned": 27.71,
+            "sequence": 30
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:15:14",
+            "elapsed_seconds": 153,
+            "bpm": 122,
+            "steps_per_minute": 129.02,
+            "calories_burned": 28.62,
+            "sequence": 31
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:15:19",
+            "elapsed_seconds": 158,
+            "bpm": 127,
+            "steps_per_minute": 131.77,
+            "calories_burned": 29.63,
+            "sequence": 32
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:15:24",
+            "elapsed_seconds": 163,
+            "bpm": 128,
+            "steps_per_minute": 133.62,
+            "calories_burned": 30.67,
+            "sequence": 33
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:15:29",
+            "elapsed_seconds": 168,
+            "bpm": 127,
+            "steps_per_minute": 136.07,
+            "calories_burned": 31.71,
+            "sequence": 34
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:15:34",
+            "elapsed_seconds": 173,
+            "bpm": 128,
+            "steps_per_minute": 137.69,
+            "calories_burned": 32.74,
+            "sequence": 35
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:15:39",
+            "elapsed_seconds": 177,
+            "bpm": 131,
+            "steps_per_minute": 138.98,
+            "calories_burned": 33.59,
+            "sequence": 36
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:15:44",
+            "elapsed_seconds": 182,
+            "bpm": 131,
+            "steps_per_minute": 140.77,
+            "calories_burned": 34.67,
+            "sequence": 37
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:15:49",
+            "elapsed_seconds": 187,
+            "bpm": 133,
+            "steps_per_minute": 141.5,
+            "calories_burned": 35.75,
+            "sequence": 38
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:15:54",
+            "elapsed_seconds": 192,
+            "bpm": 134,
+            "steps_per_minute": 146.56,
+            "calories_burned": 36.92,
+            "sequence": 39
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:15:59",
+            "elapsed_seconds": 197,
+            "bpm": 138,
+            "steps_per_minute": 148.02,
+            "calories_burned": 38.06,
+            "sequence": 40
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:16:04",
+            "elapsed_seconds": 202,
+            "bpm": 139,
+            "steps_per_minute": 150.59,
+            "calories_burned": 39.25,
+            "sequence": 41
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:16:09",
+            "elapsed_seconds": 207,
+            "bpm": 140,
+            "steps_per_minute": 151.59,
+            "calories_burned": 40.44,
+            "sequence": 42
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:16:14",
+            "elapsed_seconds": 212,
+            "bpm": 137,
+            "steps_per_minute": 153.11,
+            "calories_burned": 41.61,
+            "sequence": 43
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:16:19",
+            "elapsed_seconds": 217,
+            "bpm": 138,
+            "steps_per_minute": 153.73,
+            "calories_burned": 42.76,
+            "sequence": 44
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:16:24",
+            "elapsed_seconds": 222,
+            "bpm": 140,
+            "steps_per_minute": 155.14,
+            "calories_burned": 43.95,
+            "sequence": 45
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:16:29",
+            "elapsed_seconds": 227,
+            "bpm": 143,
+            "steps_per_minute": 153.04,
+            "calories_burned": 45.11,
+            "sequence": 46
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:16:34",
+            "elapsed_seconds": 232,
+            "bpm": 142,
+            "steps_per_minute": 149.74,
+            "calories_burned": 46.26,
+            "sequence": 47
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:16:39",
+            "elapsed_seconds": 237,
+            "bpm": 136,
+            "steps_per_minute": 146.58,
+            "calories_burned": 47.36,
+            "sequence": 48
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:16:44",
+            "elapsed_seconds": 242,
+            "bpm": 131,
+            "steps_per_minute": 143.55,
+            "calories_burned": 48.37,
+            "sequence": 49
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:16:49",
+            "elapsed_seconds": 247,
+            "bpm": 129,
+            "steps_per_minute": 140.65,
+            "calories_burned": 49.35,
+            "sequence": 50
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:16:54",
+            "elapsed_seconds": 252,
+            "bpm": 118,
+            "steps_per_minute": 137.86,
+            "calories_burned": 50.24,
+            "sequence": 51
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:16:59",
+            "elapsed_seconds": 257,
+            "bpm": 117,
+            "steps_per_minute": 135.18,
+            "calories_burned": 51.07,
+            "sequence": 52
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:17:04",
+            "elapsed_seconds": 262,
+            "bpm": 113,
+            "steps_per_minute": 132.6,
+            "calories_burned": 51.86,
+            "sequence": 53
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:17:09",
+            "elapsed_seconds": 267,
+            "bpm": 117,
+            "steps_per_minute": 130.11,
+            "calories_burned": 52.64,
+            "sequence": 54
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:17:14",
+            "elapsed_seconds": 272,
+            "bpm": 117,
+            "steps_per_minute": 127.72,
+            "calories_burned": 53.47,
+            "sequence": 55
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:17:19",
+            "elapsed_seconds": 277,
+            "bpm": 112,
+            "steps_per_minute": 125.42,
+            "calories_burned": 54.26,
+            "sequence": 56
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:17:24",
+            "elapsed_seconds": 282,
+            "bpm": 109,
+            "steps_per_minute": 124.47,
+            "calories_burned": 55.03,
+            "sequence": 57
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:17:29",
+            "elapsed_seconds": 287,
+            "bpm": 108,
+            "steps_per_minute": 125.64,
+            "calories_burned": 55.81,
+            "sequence": 58
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:17:34",
+            "elapsed_seconds": 292,
+            "bpm": 116,
+            "steps_per_minute": 126.16,
+            "calories_burned": 56.65,
+            "sequence": 59
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:17:39",
+            "elapsed_seconds": 297,
+            "bpm": 120,
+            "steps_per_minute": 127.07,
+            "calories_burned": 57.54,
+            "sequence": 60
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:17:44",
+            "elapsed_seconds": 302,
+            "bpm": 122,
+            "steps_per_minute": 127.15,
+            "calories_burned": 58.47,
+            "sequence": 61
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:17:49",
+            "elapsed_seconds": 307,
+            "bpm": 123,
+            "steps_per_minute": 127.23,
+            "calories_burned": 59.42,
+            "sequence": 62
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:17:54",
+            "elapsed_seconds": 312,
+            "bpm": 125,
+            "steps_per_minute": 128.65,
+            "calories_burned": 60.42,
+            "sequence": 63
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:17:59",
+            "elapsed_seconds": 317,
+            "bpm": 129,
+            "steps_per_minute": 129.27,
+            "calories_burned": 61.43,
+            "sequence": 64
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:18:04",
+            "elapsed_seconds": 322,
+            "bpm": 135,
+            "steps_per_minute": 130.06,
+            "calories_burned": 62.52,
+            "sequence": 65
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:18:09",
+            "elapsed_seconds": 327,
+            "bpm": 136,
+            "steps_per_minute": 130.83,
+            "calories_burned": 63.65,
+            "sequence": 66
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:18:14",
+            "elapsed_seconds": 332,
+            "bpm": 138,
+            "steps_per_minute": 131.93,
+            "calories_burned": 64.81,
+            "sequence": 67
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:18:19",
+            "elapsed_seconds": 337,
+            "bpm": 137,
+            "steps_per_minute": 132.11,
+            "calories_burned": 65.95,
+            "sequence": 68
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:18:24",
+            "elapsed_seconds": 342,
+            "bpm": 137,
+            "steps_per_minute": 132.63,
+            "calories_burned": 67.09,
+            "sequence": 69
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:18:29",
+            "elapsed_seconds": 347,
+            "bpm": 137,
+            "steps_per_minute": 133.83,
+            "calories_burned": 68.26,
+            "sequence": 70
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:18:34",
+            "elapsed_seconds": 352,
+            "bpm": 136,
+            "steps_per_minute": 134.83,
+            "calories_burned": 69.41,
+            "sequence": 71
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:18:39",
+            "elapsed_seconds": 357,
+            "bpm": 137,
+            "steps_per_minute": 136.47,
+            "calories_burned": 70.57,
+            "sequence": 72
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:18:44",
+            "elapsed_seconds": 362,
+            "bpm": 141,
+            "steps_per_minute": 137.24,
+            "calories_burned": 71.75,
+            "sequence": 73
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:18:49",
+            "elapsed_seconds": 367,
+            "bpm": 147,
+            "steps_per_minute": 137.66,
+            "calories_burned": 72.99,
+            "sequence": 74
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:18:54",
+            "elapsed_seconds": 372,
+            "bpm": 150,
+            "steps_per_minute": 138.71,
+            "calories_burned": 74.3,
+            "sequence": 75
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:18:59",
+            "elapsed_seconds": 377,
+            "bpm": 149,
+            "steps_per_minute": 138.94,
+            "calories_burned": 75.59,
+            "sequence": 76
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:19:04",
+            "elapsed_seconds": 382,
+            "bpm": 150,
+            "steps_per_minute": 137.59,
+            "calories_burned": 76.83,
+            "sequence": 77
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:19:09",
+            "elapsed_seconds": 387,
+            "bpm": 151,
+            "steps_per_minute": 135.81,
+            "calories_burned": 78.07,
+            "sequence": 78
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:19:14",
+            "elapsed_seconds": 392,
+            "bpm": 148,
+            "steps_per_minute": 134.08,
+            "calories_burned": 79.3,
+            "sequence": 79
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:19:19",
+            "elapsed_seconds": 397,
+            "bpm": 136,
+            "steps_per_minute": 132.39,
+            "calories_burned": 80.41,
+            "sequence": 80
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:19:24",
+            "elapsed_seconds": 402,
+            "bpm": 129,
+            "steps_per_minute": 130.75,
+            "calories_burned": 81.42,
+            "sequence": 81
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:19:29",
+            "elapsed_seconds": 407,
+            "bpm": 127,
+            "steps_per_minute": 129.14,
+            "calories_burned": 82.37,
+            "sequence": 82
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:19:34",
+            "elapsed_seconds": 412,
+            "bpm": 115,
+            "steps_per_minute": 127.57,
+            "calories_burned": 83.25,
+            "sequence": 83
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:19:39",
+            "elapsed_seconds": 417,
+            "bpm": 111,
+            "steps_per_minute": 126.04,
+            "calories_burned": 84.02,
+            "sequence": 84
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:19:44",
+            "elapsed_seconds": 422,
+            "bpm": 104,
+            "steps_per_minute": 124.55,
+            "calories_burned": 84.72,
+            "sequence": 85
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:19:49",
+            "elapsed_seconds": 427,
+            "bpm": 103,
+            "steps_per_minute": 123.09,
+            "calories_burned": 85.36,
+            "sequence": 86
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:19:54",
+            "elapsed_seconds": 432,
+            "bpm": 110,
+            "steps_per_minute": 121.67,
+            "calories_burned": 86.06,
+            "sequence": 87
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:19:59",
+            "elapsed_seconds": 437,
+            "bpm": 114,
+            "steps_per_minute": 120.27,
+            "calories_burned": 86.84,
+            "sequence": 88
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:20:04",
+            "elapsed_seconds": 441,
+            "bpm": 108,
+            "steps_per_minute": 120.54,
+            "calories_burned": 87.49,
+            "sequence": 89
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:20:09",
+            "elapsed_seconds": 446,
+            "bpm": 106,
+            "steps_per_minute": 120.81,
+            "calories_burned": 88.24,
+            "sequence": 90
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:20:14",
+            "elapsed_seconds": 451,
+            "bpm": 115,
+            "steps_per_minute": 121.06,
+            "calories_burned": 89.02,
+            "sequence": 91
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:20:19",
+            "elapsed_seconds": 456,
+            "bpm": 116,
+            "steps_per_minute": 121.18,
+            "calories_burned": 89.88,
+            "sequence": 92
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:20:24",
+            "elapsed_seconds": 461,
+            "bpm": 116,
+            "steps_per_minute": 121.82,
+            "calories_burned": 90.75,
+            "sequence": 93
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:20:29",
+            "elapsed_seconds": 466,
+            "bpm": 120,
+            "steps_per_minute": 122.58,
+            "calories_burned": 91.65,
+            "sequence": 94
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:20:34",
+            "elapsed_seconds": 471,
+            "bpm": 125,
+            "steps_per_minute": 123.44,
+            "calories_burned": 92.63,
+            "sequence": 95
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:20:39",
+            "elapsed_seconds": 476,
+            "bpm": 126,
+            "steps_per_minute": 123.66,
+            "calories_burned": 93.61,
+            "sequence": 96
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:20:44",
+            "elapsed_seconds": 481,
+            "bpm": 127,
+            "steps_per_minute": 123.74,
+            "calories_burned": 94.61,
+            "sequence": 97
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:20:49",
+            "elapsed_seconds": 486,
+            "bpm": 128,
+            "steps_per_minute": 124.32,
+            "calories_burned": 95.64,
+            "sequence": 98
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:20:54",
+            "elapsed_seconds": 491,
+            "bpm": 127,
+            "steps_per_minute": 124.64,
+            "calories_burned": 96.66,
+            "sequence": 99
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:20:59",
+            "elapsed_seconds": 496,
+            "bpm": 127,
+            "steps_per_minute": 124.72,
+            "calories_burned": 97.66,
+            "sequence": 100
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:21:04",
+            "elapsed_seconds": 501,
+            "bpm": 130,
+            "steps_per_minute": 125.51,
+            "calories_burned": 98.7,
+            "sequence": 101
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:21:09",
+            "elapsed_seconds": 506,
+            "bpm": 133,
+            "steps_per_minute": 126.17,
+            "calories_burned": 99.79,
+            "sequence": 102
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:21:14",
+            "elapsed_seconds": 511,
+            "bpm": 136,
+            "steps_per_minute": 127.05,
+            "calories_burned": 100.92,
+            "sequence": 103
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:21:19",
+            "elapsed_seconds": 516,
+            "bpm": 137,
+            "steps_per_minute": 128.02,
+            "calories_burned": 102.08,
+            "sequence": 104
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:21:24",
+            "elapsed_seconds": 521,
+            "bpm": 140,
+            "steps_per_minute": 128.87,
+            "calories_burned": 103.26,
+            "sequence": 105
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:21:29",
+            "elapsed_seconds": 526,
+            "bpm": 142,
+            "steps_per_minute": 129.58,
+            "calories_burned": 104.48,
+            "sequence": 106
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:21:34",
+            "elapsed_seconds": 531,
+            "bpm": 142,
+            "steps_per_minute": 128.7,
+            "calories_burned": 105.62,
+            "sequence": 107
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:21:39",
+            "elapsed_seconds": 536,
+            "bpm": 140,
+            "steps_per_minute": 127.5,
+            "calories_burned": 106.74,
+            "sequence": 108
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:21:44",
+            "elapsed_seconds": 541,
+            "bpm": 135,
+            "steps_per_minute": 126.32,
+            "calories_burned": 107.83,
+            "sequence": 109
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:21:49",
+            "elapsed_seconds": 546,
+            "bpm": 129,
+            "steps_per_minute": 125.16,
+            "calories_burned": 108.82,
+            "sequence": 110
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:21:54",
+            "elapsed_seconds": 551,
+            "bpm": 127,
+            "steps_per_minute": 124.03,
+            "calories_burned": 109.78,
+            "sequence": 111
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:21:59",
+            "elapsed_seconds": 556,
+            "bpm": 127,
+            "steps_per_minute": 122.91,
+            "calories_burned": 110.72,
+            "sequence": 112
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:22:04",
+            "elapsed_seconds": 561,
+            "bpm": 129,
+            "steps_per_minute": 121.82,
+            "calories_burned": 111.68,
+            "sequence": 113
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:22:09",
+            "elapsed_seconds": 566,
+            "bpm": 123,
+            "steps_per_minute": 120.74,
+            "calories_burned": 112.61,
+            "sequence": 114
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:22:14",
+            "elapsed_seconds": 571,
+            "bpm": 123,
+            "steps_per_minute": 119.68,
+            "calories_burned": 113.5,
+            "sequence": 115
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:22:19",
+            "elapsed_seconds": 576,
+            "bpm": 122,
+            "steps_per_minute": 120.73,
+            "calories_burned": 114.49,
+            "sequence": 116
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:22:24",
+            "elapsed_seconds": 581,
+            "bpm": 127,
+            "steps_per_minute": 122.07,
+            "calories_burned": 115.51,
+            "sequence": 117
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:22:29",
+            "elapsed_seconds": 586,
+            "bpm": 135,
+            "steps_per_minute": 123.69,
+            "calories_burned": 116.64,
+            "sequence": 118
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:22:34",
+            "elapsed_seconds": 591,
+            "bpm": 146,
+            "steps_per_minute": 125.28,
+            "calories_burned": 117.9,
+            "sequence": 119
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:22:39",
+            "elapsed_seconds": 596,
+            "bpm": 158,
+            "steps_per_minute": 126.85,
+            "calories_burned": 119.3,
+            "sequence": 120
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:22:44",
+            "elapsed_seconds": 601,
+            "bpm": 167,
+            "steps_per_minute": 127.89,
+            "calories_burned": 120.79,
+            "sequence": 121
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:22:49",
+            "elapsed_seconds": 606,
+            "bpm": 173,
+            "steps_per_minute": 129.31,
+            "calories_burned": 122.41,
+            "sequence": 122
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:22:54",
+            "elapsed_seconds": 611,
+            "bpm": 175,
+            "steps_per_minute": 131.0,
+            "calories_burned": 124.09,
+            "sequence": 123
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:22:59",
+            "elapsed_seconds": 616,
+            "bpm": 177,
+            "steps_per_minute": 132.27,
+            "calories_burned": 125.78,
+            "sequence": 124
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:23:04",
+            "elapsed_seconds": 621,
+            "bpm": 179,
+            "steps_per_minute": 133.91,
+            "calories_burned": 127.5,
+            "sequence": 125
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:23:09",
+            "elapsed_seconds": 626,
+            "bpm": 182,
+            "steps_per_minute": 135.05,
+            "calories_burned": 129.24,
+            "sequence": 126
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:23:14",
+            "elapsed_seconds": 631,
+            "bpm": 186,
+            "steps_per_minute": 136.35,
+            "calories_burned": 131.03,
+            "sequence": 127
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:23:19",
+            "elapsed_seconds": 636,
+            "bpm": 189,
+            "steps_per_minute": 137.26,
+            "calories_burned": 132.84,
+            "sequence": 128
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:23:24",
+            "elapsed_seconds": 641,
+            "bpm": 188,
+            "steps_per_minute": 138.63,
+            "calories_burned": 134.69,
+            "sequence": 129
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:23:29",
+            "elapsed_seconds": 646,
+            "bpm": 189,
+            "steps_per_minute": 138.02,
+            "calories_burned": 136.43,
+            "sequence": 130
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:23:34",
+            "elapsed_seconds": 651,
+            "bpm": 187,
+            "steps_per_minute": 136.96,
+            "calories_burned": 138.15,
+            "sequence": 131
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:23:39",
+            "elapsed_seconds": 656,
+            "bpm": 181,
+            "steps_per_minute": 135.91,
+            "calories_burned": 139.81,
+            "sequence": 132
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:23:44",
+            "elapsed_seconds": 661,
+            "bpm": 176,
+            "steps_per_minute": 134.89,
+            "calories_burned": 141.4,
+            "sequence": 133
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:23:49",
+            "elapsed_seconds": 666,
+            "bpm": 175,
+            "steps_per_minute": 133.87,
+            "calories_burned": 142.95,
+            "sequence": 134
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:23:55",
+            "elapsed_seconds": 671,
+            "bpm": 173,
+            "steps_per_minute": 133.06,
+            "calories_burned": 144.49,
+            "sequence": 135
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:24:00",
+            "elapsed_seconds": 676,
+            "bpm": 171,
+            "steps_per_minute": 133.22,
+            "calories_burned": 146.07,
+            "sequence": 136
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:24:05",
+            "elapsed_seconds": 681,
+            "bpm": 165,
+            "steps_per_minute": 133.57,
+            "calories_burned": 147.6,
+            "sequence": 137
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:24:10",
+            "elapsed_seconds": 686,
+            "bpm": 163,
+            "steps_per_minute": 133.64,
+            "calories_burned": 149.06,
+            "sequence": 138
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:24:15",
+            "elapsed_seconds": 691,
+            "bpm": 163,
+            "steps_per_minute": 134.24,
+            "calories_burned": 150.54,
+            "sequence": 139
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:24:20",
+            "elapsed_seconds": 696,
+            "bpm": 161,
+            "steps_per_minute": 134.48,
+            "calories_burned": 152.0,
+            "sequence": 140
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:24:25",
+            "elapsed_seconds": 701,
+            "bpm": 160,
+            "steps_per_minute": 134.47,
+            "calories_burned": 153.41,
+            "sequence": 141
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:24:30",
+            "elapsed_seconds": 706,
+            "bpm": 161,
+            "steps_per_minute": 135.13,
+            "calories_burned": 154.86,
+            "sequence": 142
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:24:35",
+            "elapsed_seconds": 711,
+            "bpm": 161,
+            "steps_per_minute": 135.44,
+            "calories_burned": 156.31,
+            "sequence": 143
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:24:40",
+            "elapsed_seconds": 716,
+            "bpm": 160,
+            "steps_per_minute": 135.5,
+            "calories_burned": 157.74,
+            "sequence": 144
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:24:45",
+            "elapsed_seconds": 720,
+            "bpm": 156,
+            "steps_per_minute": 136.17,
+            "calories_burned": 158.9,
+            "sequence": 145
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:24:50",
+            "elapsed_seconds": 725,
+            "bpm": 155,
+            "steps_per_minute": 136.72,
+            "calories_burned": 160.3,
+            "sequence": 146
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:24:55",
+            "elapsed_seconds": 730,
+            "bpm": 157,
+            "steps_per_minute": 137.1,
+            "calories_burned": 161.69,
+            "sequence": 147
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:25:00",
+            "elapsed_seconds": 735,
+            "bpm": 160,
+            "steps_per_minute": 137.22,
+            "calories_burned": 163.09,
+            "sequence": 148
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:25:05",
+            "elapsed_seconds": 740,
+            "bpm": 157,
+            "steps_per_minute": 137.92,
+            "calories_burned": 164.53,
+            "sequence": 149
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:25:10",
+            "elapsed_seconds": 745,
+            "bpm": 158,
+            "steps_per_minute": 138.68,
+            "calories_burned": 165.97,
+            "sequence": 150
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:25:15",
+            "elapsed_seconds": 750,
+            "bpm": 160,
+            "steps_per_minute": 139.52,
+            "calories_burned": 167.42,
+            "sequence": 151
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:25:20",
+            "elapsed_seconds": 755,
+            "bpm": 162,
+            "steps_per_minute": 140.26,
+            "calories_burned": 168.9,
+            "sequence": 152
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:25:25",
+            "elapsed_seconds": 760,
+            "bpm": 165,
+            "steps_per_minute": 141.16,
+            "calories_burned": 170.42,
+            "sequence": 153
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:25:30",
+            "elapsed_seconds": 765,
+            "bpm": 167,
+            "steps_per_minute": 141.88,
+            "calories_burned": 171.96,
+            "sequence": 154
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:25:35",
+            "elapsed_seconds": 770,
+            "bpm": 169,
+            "steps_per_minute": 142.6,
+            "calories_burned": 173.53,
+            "sequence": 155
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:25:40",
+            "elapsed_seconds": 775,
+            "bpm": 169,
+            "steps_per_minute": 142.99,
+            "calories_burned": 175.09,
+            "sequence": 156
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:25:45",
+            "elapsed_seconds": 780,
+            "bpm": 168,
+            "steps_per_minute": 143.69,
+            "calories_burned": 176.66,
+            "sequence": 157
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:25:50",
+            "elapsed_seconds": 785,
+            "bpm": 169,
+            "steps_per_minute": 143.46,
+            "calories_burned": 178.18,
+            "sequence": 158
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:25:55",
+            "elapsed_seconds": 790,
+            "bpm": 168,
+            "steps_per_minute": 142.56,
+            "calories_burned": 179.64,
+            "sequence": 159
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:26:00",
+            "elapsed_seconds": 795,
+            "bpm": 166,
+            "steps_per_minute": 141.66,
+            "calories_burned": 181.09,
+            "sequence": 160
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:26:05",
+            "elapsed_seconds": 800,
+            "bpm": 165,
+            "steps_per_minute": 140.78,
+            "calories_burned": 182.51,
+            "sequence": 161
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:26:10",
+            "elapsed_seconds": 805,
+            "bpm": 159,
+            "steps_per_minute": 139.9,
+            "calories_burned": 183.89,
+            "sequence": 162
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:26:15",
+            "elapsed_seconds": 810,
+            "bpm": 151,
+            "steps_per_minute": 139.04,
+            "calories_burned": 185.17,
+            "sequence": 163
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:26:20",
+            "elapsed_seconds": 815,
+            "bpm": 150,
+            "steps_per_minute": 139.29,
+            "calories_burned": 186.48,
+            "sequence": 164
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:26:25",
+            "elapsed_seconds": 820,
+            "bpm": 149,
+            "steps_per_minute": 139.68,
+            "calories_burned": 187.8,
+            "sequence": 165
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:26:30",
+            "elapsed_seconds": 825,
+            "bpm": 144,
+            "steps_per_minute": 140.0,
+            "calories_burned": 189.05,
+            "sequence": 166
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:26:35",
+            "elapsed_seconds": 830,
+            "bpm": 143,
+            "steps_per_minute": 140.46,
+            "calories_burned": 190.3,
+            "sequence": 167
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:26:40",
+            "elapsed_seconds": 835,
+            "bpm": 141,
+            "steps_per_minute": 140.84,
+            "calories_burned": 191.51,
+            "sequence": 168
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:26:45",
+            "elapsed_seconds": 840,
+            "bpm": 141,
+            "steps_per_minute": 140.93,
+            "calories_burned": 192.69,
+            "sequence": 169
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:26:50",
+            "elapsed_seconds": 845,
+            "bpm": 140,
+            "steps_per_minute": 141.3,
+            "calories_burned": 193.89,
+            "sequence": 170
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:26:55",
+            "elapsed_seconds": 850,
+            "bpm": 139,
+            "steps_per_minute": 141.53,
+            "calories_burned": 195.06,
+            "sequence": 171
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:27:00",
+            "elapsed_seconds": 855,
+            "bpm": 139,
+            "steps_per_minute": 141.82,
+            "calories_burned": 196.24,
+            "sequence": 172
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:27:05",
+            "elapsed_seconds": 860,
+            "bpm": 138,
+            "steps_per_minute": 142.19,
+            "calories_burned": 197.42,
+            "sequence": 173
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:27:10",
+            "elapsed_seconds": 865,
+            "bpm": 140,
+            "steps_per_minute": 142.54,
+            "calories_burned": 198.6,
+            "sequence": 174
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:27:15",
+            "elapsed_seconds": 870,
+            "bpm": 141,
+            "steps_per_minute": 143.17,
+            "calories_burned": 199.82,
+            "sequence": 175
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:27:20",
+            "elapsed_seconds": 875,
+            "bpm": 143,
+            "steps_per_minute": 142.49,
+            "calories_burned": 200.97,
+            "sequence": 176
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:27:25",
+            "elapsed_seconds": 880,
+            "bpm": 143,
+            "steps_per_minute": 142.91,
+            "calories_burned": 202.2,
+            "sequence": 177
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:27:30",
+            "elapsed_seconds": 885,
+            "bpm": 144,
+            "steps_per_minute": 143.32,
+            "calories_burned": 203.45,
+            "sequence": 178
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:27:35",
+            "elapsed_seconds": 890,
+            "bpm": 144,
+            "steps_per_minute": 143.8,
+            "calories_burned": 204.7,
+            "sequence": 179
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:27:40",
+            "elapsed_seconds": 895,
+            "bpm": 148,
+            "steps_per_minute": 144.07,
+            "calories_burned": 205.97,
+            "sequence": 180
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:27:45",
+            "elapsed_seconds": 900,
+            "bpm": 150,
+            "steps_per_minute": 144.27,
+            "calories_burned": 207.26,
+            "sequence": 181
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:27:50",
+            "elapsed_seconds": 905,
+            "bpm": 147,
+            "steps_per_minute": 143.47,
+            "calories_burned": 208.48,
+            "sequence": 182
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:27:55",
+            "elapsed_seconds": 910,
+            "bpm": 141,
+            "steps_per_minute": 142.68,
+            "calories_burned": 209.64,
+            "sequence": 183
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:28:00",
+            "elapsed_seconds": 915,
+            "bpm": 134,
+            "steps_per_minute": 141.9,
+            "calories_burned": 210.71,
+            "sequence": 184
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:28:05",
+            "elapsed_seconds": 920,
+            "bpm": 128,
+            "steps_per_minute": 141.13,
+            "calories_burned": 211.68,
+            "sequence": 185
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:28:10",
+            "elapsed_seconds": 925,
+            "bpm": 127,
+            "steps_per_minute": 140.37,
+            "calories_burned": 212.63,
+            "sequence": 186
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:28:15",
+            "elapsed_seconds": 930,
+            "bpm": 127,
+            "steps_per_minute": 139.81,
+            "calories_burned": 213.59,
+            "sequence": 187
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:28:20",
+            "elapsed_seconds": 935,
+            "bpm": 128,
+            "steps_per_minute": 139.89,
+            "calories_burned": 214.6,
+            "sequence": 188
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:28:25",
+            "elapsed_seconds": 940,
+            "bpm": 128,
+            "steps_per_minute": 139.85,
+            "calories_burned": 215.61,
+            "sequence": 189
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:28:30",
+            "elapsed_seconds": 945,
+            "bpm": 127,
+            "steps_per_minute": 139.94,
+            "calories_burned": 216.62,
+            "sequence": 190
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:28:35",
+            "elapsed_seconds": 950,
+            "bpm": 126,
+            "steps_per_minute": 140.02,
+            "calories_burned": 217.63,
+            "sequence": 191
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:28:40",
+            "elapsed_seconds": 955,
+            "bpm": 125,
+            "steps_per_minute": 140.23,
+            "calories_burned": 218.63,
+            "sequence": 192
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:28:45",
+            "elapsed_seconds": 960,
+            "bpm": 128,
+            "steps_per_minute": 140.56,
+            "calories_burned": 219.65,
+            "sequence": 193
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:28:50",
+            "elapsed_seconds": 965,
+            "bpm": 129,
+            "steps_per_minute": 140.7,
+            "calories_burned": 220.69,
+            "sequence": 194
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:28:55",
+            "elapsed_seconds": 970,
+            "bpm": 131,
+            "steps_per_minute": 140.85,
+            "calories_burned": 221.75,
+            "sequence": 195
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:29:00",
+            "elapsed_seconds": 975,
+            "bpm": 132,
+            "steps_per_minute": 141.29,
+            "calories_burned": 222.84,
+            "sequence": 196
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:29:05",
+            "elapsed_seconds": 980,
+            "bpm": 134,
+            "steps_per_minute": 141.49,
+            "calories_burned": 223.94,
+            "sequence": 197
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:29:10",
+            "elapsed_seconds": 985,
+            "bpm": 136,
+            "steps_per_minute": 141.75,
+            "calories_burned": 225.07,
+            "sequence": 198
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:29:15",
+            "elapsed_seconds": 990,
+            "bpm": 137,
+            "steps_per_minute": 141.88,
+            "calories_burned": 226.21,
+            "sequence": 199
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:29:20",
+            "elapsed_seconds": 995,
+            "bpm": 139,
+            "steps_per_minute": 141.83,
+            "calories_burned": 227.35,
+            "sequence": 200
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:29:25",
+            "elapsed_seconds": 1000,
+            "bpm": 140,
+            "steps_per_minute": 141.9,
+            "calories_burned": 228.51,
+            "sequence": 201
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:29:30",
+            "elapsed_seconds": 1004,
+            "bpm": 140,
+            "steps_per_minute": 142.05,
+            "calories_burned": 229.46,
+            "sequence": 202
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:29:35",
+            "elapsed_seconds": 1009,
+            "bpm": 139,
+            "steps_per_minute": 142.3,
+            "calories_burned": 230.64,
+            "sequence": 203
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:29:40",
+            "elapsed_seconds": 1014,
+            "bpm": 139,
+            "steps_per_minute": 142.43,
+            "calories_burned": 231.81,
+            "sequence": 204
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:29:45",
+            "elapsed_seconds": 1019,
+            "bpm": 141,
+            "steps_per_minute": 142.67,
+            "calories_burned": 232.99,
+            "sequence": 205
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:29:50",
+            "elapsed_seconds": 1024,
+            "bpm": 142,
+            "steps_per_minute": 142.91,
+            "calories_burned": 234.2,
+            "sequence": 206
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:29:55",
+            "elapsed_seconds": 1029,
+            "bpm": 141,
+            "steps_per_minute": 143.15,
+            "calories_burned": 235.41,
+            "sequence": 207
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:30:00",
+            "elapsed_seconds": 1034,
+            "bpm": 141,
+            "steps_per_minute": 143.68,
+            "calories_burned": 236.64,
+            "sequence": 208
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:30:05",
+            "elapsed_seconds": 1039,
+            "bpm": 142,
+            "steps_per_minute": 143.1,
+            "calories_burned": 237.79,
+            "sequence": 209
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:30:10",
+            "elapsed_seconds": 1044,
+            "bpm": 138,
+            "steps_per_minute": 142.41,
+            "calories_burned": 238.89,
+            "sequence": 210
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:30:15",
+            "elapsed_seconds": 1049,
+            "bpm": 132,
+            "steps_per_minute": 141.73,
+            "calories_burned": 239.95,
+            "sequence": 211
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:30:20",
+            "elapsed_seconds": 1054,
+            "bpm": 128,
+            "steps_per_minute": 141.06,
+            "calories_burned": 240.93,
+            "sequence": 212
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:30:25",
+            "elapsed_seconds": 1059,
+            "bpm": 127,
+            "steps_per_minute": 140.4,
+            "calories_burned": 241.88,
+            "sequence": 213
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:30:30",
+            "elapsed_seconds": 1064,
+            "bpm": 124,
+            "steps_per_minute": 139.74,
+            "calories_burned": 242.8,
+            "sequence": 214
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:30:35",
+            "elapsed_seconds": 1069,
+            "bpm": 122,
+            "steps_per_minute": 139.2,
+            "calories_burned": 243.71,
+            "sequence": 215
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:30:40",
+            "elapsed_seconds": 1074,
+            "bpm": 123,
+            "steps_per_minute": 139.16,
+            "calories_burned": 244.65,
+            "sequence": 216
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:30:45",
+            "elapsed_seconds": 1079,
+            "bpm": 119,
+            "steps_per_minute": 139.02,
+            "calories_burned": 245.57,
+            "sequence": 217
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:30:50",
+            "elapsed_seconds": 1084,
+            "bpm": 118,
+            "steps_per_minute": 139.37,
+            "calories_burned": 246.48,
+            "sequence": 218
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:30:55",
+            "elapsed_seconds": 1089,
+            "bpm": 128,
+            "steps_per_minute": 139.94,
+            "calories_burned": 247.49,
+            "sequence": 219
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:31:00",
+            "elapsed_seconds": 1094,
+            "bpm": 134,
+            "steps_per_minute": 140.35,
+            "calories_burned": 248.58,
+            "sequence": 220
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:31:05",
+            "elapsed_seconds": 1099,
+            "bpm": 139,
+            "steps_per_minute": 140.75,
+            "calories_burned": 249.75,
+            "sequence": 221
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:31:10",
+            "elapsed_seconds": 1104,
+            "bpm": 143,
+            "steps_per_minute": 141.14,
+            "calories_burned": 250.97,
+            "sequence": 222
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:31:15",
+            "elapsed_seconds": 1109,
+            "bpm": 145,
+            "steps_per_minute": 141.59,
+            "calories_burned": 252.23,
+            "sequence": 223
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:31:20",
+            "elapsed_seconds": 1114,
+            "bpm": 147,
+            "steps_per_minute": 142.03,
+            "calories_burned": 253.52,
+            "sequence": 224
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:31:25",
+            "elapsed_seconds": 1119,
+            "bpm": 151,
+            "steps_per_minute": 142.47,
+            "calories_burned": 254.85,
+            "sequence": 225
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:31:30",
+            "elapsed_seconds": 1124,
+            "bpm": 153,
+            "steps_per_minute": 142.9,
+            "calories_burned": 256.2,
+            "sequence": 226
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:31:35",
+            "elapsed_seconds": 1129,
+            "bpm": 155,
+            "steps_per_minute": 143.22,
+            "calories_burned": 257.57,
+            "sequence": 227
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:31:40",
+            "elapsed_seconds": 1134,
+            "bpm": 157,
+            "steps_per_minute": 143.49,
+            "calories_burned": 258.97,
+            "sequence": 228
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:31:45",
+            "elapsed_seconds": 1139,
+            "bpm": 157,
+            "steps_per_minute": 143.76,
+            "calories_burned": 260.37,
+            "sequence": 229
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:31:50",
+            "elapsed_seconds": 1144,
+            "bpm": 158,
+            "steps_per_minute": 144.23,
+            "calories_burned": 261.81,
+            "sequence": 230
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:31:55",
+            "elapsed_seconds": 1149,
+            "bpm": 160,
+            "steps_per_minute": 144.44,
+            "calories_burned": 263.23,
+            "sequence": 231
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:32:00",
+            "elapsed_seconds": 1154,
+            "bpm": 160,
+            "steps_per_minute": 144.64,
+            "calories_burned": 264.67,
+            "sequence": 232
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:32:05",
+            "elapsed_seconds": 1159,
+            "bpm": 163,
+            "steps_per_minute": 145.31,
+            "calories_burned": 266.17,
+            "sequence": 233
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:32:10",
+            "elapsed_seconds": 1164,
+            "bpm": 166,
+            "steps_per_minute": 146.08,
+            "calories_burned": 267.72,
+            "sequence": 234
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:32:15",
+            "elapsed_seconds": 1169,
+            "bpm": 171,
+            "steps_per_minute": 146.02,
+            "calories_burned": 269.24,
+            "sequence": 235
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:32:20",
+            "elapsed_seconds": 1174,
+            "bpm": 171,
+            "steps_per_minute": 145.4,
+            "calories_burned": 270.75,
+            "sequence": 236
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:32:25",
+            "elapsed_seconds": 1179,
+            "bpm": 168,
+            "steps_per_minute": 144.78,
+            "calories_burned": 272.23,
+            "sequence": 237
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:32:30",
+            "elapsed_seconds": 1184,
+            "bpm": 165,
+            "steps_per_minute": 144.17,
+            "calories_burned": 273.67,
+            "sequence": 238
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:32:35",
+            "elapsed_seconds": 1189,
+            "bpm": 160,
+            "steps_per_minute": 143.57,
+            "calories_burned": 275.05,
+            "sequence": 239
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:32:40",
+            "elapsed_seconds": 1194,
+            "bpm": 157,
+            "steps_per_minute": 142.96,
+            "calories_burned": 276.39,
+            "sequence": 240
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:32:45",
+            "elapsed_seconds": 1199,
+            "bpm": 151,
+            "steps_per_minute": 142.37,
+            "calories_burned": 277.68,
+            "sequence": 241
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:32:50",
+            "elapsed_seconds": 1204,
+            "bpm": 145,
+            "steps_per_minute": 141.78,
+            "calories_burned": 278.89,
+            "sequence": 242
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:32:55",
+            "elapsed_seconds": 1209,
+            "bpm": 136,
+            "steps_per_minute": 141.84,
+            "calories_burned": 280.06,
+            "sequence": 243
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:33:00",
+            "elapsed_seconds": 1214,
+            "bpm": 139,
+            "steps_per_minute": 142.39,
+            "calories_burned": 281.24,
+            "sequence": 244
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:33:05",
+            "elapsed_seconds": 1219,
+            "bpm": 140,
+            "steps_per_minute": 142.84,
+            "calories_burned": 282.45,
+            "sequence": 245
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:33:10",
+            "elapsed_seconds": 1224,
+            "bpm": 144,
+            "steps_per_minute": 143.14,
+            "calories_burned": 283.67,
+            "sequence": 246
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:33:15",
+            "elapsed_seconds": 1229,
+            "bpm": 148,
+            "steps_per_minute": 143.53,
+            "calories_burned": 284.94,
+            "sequence": 247
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:33:20",
+            "elapsed_seconds": 1234,
+            "bpm": 151,
+            "steps_per_minute": 143.82,
+            "calories_burned": 286.27,
+            "sequence": 248
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:33:25",
+            "elapsed_seconds": 1239,
+            "bpm": 154,
+            "steps_per_minute": 144.02,
+            "calories_burned": 287.62,
+            "sequence": 249
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:33:30",
+            "elapsed_seconds": 1244,
+            "bpm": 153,
+            "steps_per_minute": 144.36,
+            "calories_burned": 288.99,
+            "sequence": 250
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:33:35",
+            "elapsed_seconds": 1249,
+            "bpm": 154,
+            "steps_per_minute": 144.55,
+            "calories_burned": 290.35,
+            "sequence": 251
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:33:40",
+            "elapsed_seconds": 1254,
+            "bpm": 157,
+            "steps_per_minute": 144.83,
+            "calories_burned": 291.74,
+            "sequence": 252
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:33:45",
+            "elapsed_seconds": 1259,
+            "bpm": 160,
+            "steps_per_minute": 145.31,
+            "calories_burned": 293.2,
+            "sequence": 253
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:33:50",
+            "elapsed_seconds": 1264,
+            "bpm": 161,
+            "steps_per_minute": 145.78,
+            "calories_burned": 294.68,
+            "sequence": 254
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:33:55",
+            "elapsed_seconds": 1269,
+            "bpm": 162,
+            "steps_per_minute": 146.15,
+            "calories_burned": 296.17,
+            "sequence": 255
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:34:00",
+            "elapsed_seconds": 1274,
+            "bpm": 161,
+            "steps_per_minute": 146.33,
+            "calories_burned": 297.62,
+            "sequence": 256
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:34:05",
+            "elapsed_seconds": 1278,
+            "bpm": 162,
+            "steps_per_minute": 146.76,
+            "calories_burned": 298.81,
+            "sequence": 257
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:34:10",
+            "elapsed_seconds": 1283,
+            "bpm": 163,
+            "steps_per_minute": 146.61,
+            "calories_burned": 300.24,
+            "sequence": 258
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:34:15",
+            "elapsed_seconds": 1288,
+            "bpm": 164,
+            "steps_per_minute": 146.69,
+            "calories_burned": 301.71,
+            "sequence": 259
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:34:20",
+            "elapsed_seconds": 1293,
+            "bpm": 165,
+            "steps_per_minute": 147.05,
+            "calories_burned": 303.23,
+            "sequence": 260
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:34:25",
+            "elapsed_seconds": 1298,
+            "bpm": 166,
+            "steps_per_minute": 147.46,
+            "calories_burned": 304.76,
+            "sequence": 261
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:34:30",
+            "elapsed_seconds": 1303,
+            "bpm": 165,
+            "steps_per_minute": 147.08,
+            "calories_burned": 306.21,
+            "sequence": 262
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:34:35",
+            "elapsed_seconds": 1308,
+            "bpm": 161,
+            "steps_per_minute": 146.51,
+            "calories_burned": 307.6,
+            "sequence": 263
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:34:40",
+            "elapsed_seconds": 1313,
+            "bpm": 155,
+            "steps_per_minute": 145.96,
+            "calories_burned": 308.94,
+            "sequence": 264
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:34:45",
+            "elapsed_seconds": 1318,
+            "bpm": 145,
+            "steps_per_minute": 145.4,
+            "calories_burned": 310.18,
+            "sequence": 265
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:34:50",
+            "elapsed_seconds": 1323,
+            "bpm": 143,
+            "steps_per_minute": 144.85,
+            "calories_burned": 311.34,
+            "sequence": 266
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:34:55",
+            "elapsed_seconds": 1328,
+            "bpm": 137,
+            "steps_per_minute": 144.31,
+            "calories_burned": 312.43,
+            "sequence": 267
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:35:00",
+            "elapsed_seconds": 1333,
+            "bpm": 132,
+            "steps_per_minute": 143.77,
+            "calories_burned": 313.46,
+            "sequence": 268
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:35:05",
+            "elapsed_seconds": 1338,
+            "bpm": 130,
+            "steps_per_minute": 143.23,
+            "calories_burned": 314.46,
+            "sequence": 269
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:35:10",
+            "elapsed_seconds": 1343,
+            "bpm": 124,
+            "steps_per_minute": 142.7,
+            "calories_burned": 315.42,
+            "sequence": 270
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:35:15",
+            "elapsed_seconds": 1348,
+            "bpm": 119,
+            "steps_per_minute": 142.17,
+            "calories_burned": 316.28,
+            "sequence": 271
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:35:20",
+            "elapsed_seconds": 1353,
+            "bpm": 117,
+            "steps_per_minute": 141.64,
+            "calories_burned": 317.11,
+            "sequence": 272
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:35:25",
+            "elapsed_seconds": 1358,
+            "bpm": 109,
+            "steps_per_minute": 141.12,
+            "calories_burned": 317.88,
+            "sequence": 273
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:35:30",
+            "elapsed_seconds": 1363,
+            "bpm": 109,
+            "steps_per_minute": 140.6,
+            "calories_burned": 318.59,
+            "sequence": 274
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:35:35",
+            "elapsed_seconds": 1368,
+            "bpm": 109,
+            "steps_per_minute": 140.09,
+            "calories_burned": 319.31,
+            "sequence": 275
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:35:40",
+            "elapsed_seconds": 1373,
+            "bpm": 110,
+            "steps_per_minute": 139.58,
+            "calories_burned": 320.03,
+            "sequence": 276
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:35:45",
+            "elapsed_seconds": 1378,
+            "bpm": 111,
+            "steps_per_minute": 139.07,
+            "calories_burned": 320.77,
+            "sequence": 277
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:35:50",
+            "elapsed_seconds": 1383,
+            "bpm": 112,
+            "steps_per_minute": 138.57,
+            "calories_burned": 321.51,
+            "sequence": 278
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:35:55",
+            "elapsed_seconds": 1388,
+            "bpm": 114,
+            "steps_per_minute": 138.07,
+            "calories_burned": 322.29,
+            "sequence": 279
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:36:00",
+            "elapsed_seconds": 1393,
+            "bpm": 114,
+            "steps_per_minute": 137.57,
+            "calories_burned": 323.07,
+            "sequence": 280
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:36:05",
+            "elapsed_seconds": 1398,
+            "bpm": 116,
+            "steps_per_minute": 137.08,
+            "calories_burned": 323.86,
+            "sequence": 281
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:36:10",
+            "elapsed_seconds": 1403,
+            "bpm": 119,
+            "steps_per_minute": 136.59,
+            "calories_burned": 324.68,
+            "sequence": 282
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:36:15",
+            "elapsed_seconds": 1408,
+            "bpm": 116,
+            "steps_per_minute": 136.11,
+            "calories_burned": 325.51,
+            "sequence": 283
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:36:20",
+            "elapsed_seconds": 1413,
+            "bpm": 115,
+            "steps_per_minute": 135.63,
+            "calories_burned": 326.31,
+            "sequence": 284
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:36:25",
+            "elapsed_seconds": 1418,
+            "bpm": 115,
+            "steps_per_minute": 135.15,
+            "calories_burned": 327.1,
+            "sequence": 285
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:36:30",
+            "elapsed_seconds": 1423,
+            "bpm": 118,
+            "steps_per_minute": 134.67,
+            "calories_burned": 327.92,
+            "sequence": 286
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:36:35",
+            "elapsed_seconds": 1428,
+            "bpm": 116,
+            "steps_per_minute": 134.37,
+            "calories_burned": 328.76,
+            "sequence": 287
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:36:40",
+            "elapsed_seconds": 1433,
+            "bpm": 118,
+            "steps_per_minute": 134.82,
+            "calories_burned": 329.69,
+            "sequence": 288
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:36:45",
+            "elapsed_seconds": 1438,
+            "bpm": 129,
+            "steps_per_minute": 135.23,
+            "calories_burned": 330.7,
+            "sequence": 289
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:36:50",
+            "elapsed_seconds": 1443,
+            "bpm": 140,
+            "steps_per_minute": 135.68,
+            "calories_burned": 331.84,
+            "sequence": 290
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:36:55",
+            "elapsed_seconds": 1448,
+            "bpm": 155,
+            "steps_per_minute": 136.08,
+            "calories_burned": 333.14,
+            "sequence": 291
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:37:00",
+            "elapsed_seconds": 1453,
+            "bpm": 161,
+            "steps_per_minute": 136.6,
+            "calories_burned": 334.6,
+            "sequence": 292
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:37:05",
+            "elapsed_seconds": 1458,
+            "bpm": 164,
+            "steps_per_minute": 137.08,
+            "calories_burned": 336.11,
+            "sequence": 293
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:37:10",
+            "elapsed_seconds": 1463,
+            "bpm": 164,
+            "steps_per_minute": 137.55,
+            "calories_burned": 337.64,
+            "sequence": 294
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:37:15",
+            "elapsed_seconds": 1468,
+            "bpm": 163,
+            "steps_per_minute": 137.86,
+            "calories_burned": 339.13,
+            "sequence": 295
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:37:20",
+            "elapsed_seconds": 1473,
+            "bpm": 166,
+            "steps_per_minute": 138.37,
+            "calories_burned": 340.67,
+            "sequence": 296
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:37:25",
+            "elapsed_seconds": 1478,
+            "bpm": 167,
+            "steps_per_minute": 138.76,
+            "calories_burned": 342.21,
+            "sequence": 297
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:37:30",
+            "elapsed_seconds": 1483,
+            "bpm": 169,
+            "steps_per_minute": 138.98,
+            "calories_burned": 343.76,
+            "sequence": 298
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:37:35",
+            "elapsed_seconds": 1488,
+            "bpm": 170,
+            "steps_per_minute": 139.15,
+            "calories_burned": 345.32,
+            "sequence": 299
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:37:40",
+            "elapsed_seconds": 1493,
+            "bpm": 172,
+            "steps_per_minute": 139.57,
+            "calories_burned": 346.93,
+            "sequence": 300
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:37:45",
+            "elapsed_seconds": 1498,
+            "bpm": 174,
+            "steps_per_minute": 139.95,
+            "calories_burned": 348.55,
+            "sequence": 301
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:37:50",
+            "elapsed_seconds": 1503,
+            "bpm": 176,
+            "steps_per_minute": 140.36,
+            "calories_burned": 350.2,
+            "sequence": 302
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:37:55",
+            "elapsed_seconds": 1508,
+            "bpm": 178,
+            "steps_per_minute": 140.65,
+            "calories_burned": 351.88,
+            "sequence": 303
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:38:00",
+            "elapsed_seconds": 1513,
+            "bpm": 180,
+            "steps_per_minute": 140.94,
+            "calories_burned": 353.58,
+            "sequence": 304
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:38:05",
+            "elapsed_seconds": 1518,
+            "bpm": 176,
+            "steps_per_minute": 140.47,
+            "calories_burned": 355.17,
+            "sequence": 305
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:38:10",
+            "elapsed_seconds": 1523,
+            "bpm": 170,
+            "steps_per_minute": 140.01,
+            "calories_burned": 356.7,
+            "sequence": 306
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:38:15",
+            "elapsed_seconds": 1528,
+            "bpm": 165,
+            "steps_per_minute": 139.55,
+            "calories_burned": 358.14,
+            "sequence": 307
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:38:20",
+            "elapsed_seconds": 1532,
+            "bpm": 163,
+            "steps_per_minute": 139.19,
+            "calories_burned": 359.28,
+            "sequence": 308
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:38:25",
+            "elapsed_seconds": 1537,
+            "bpm": 164,
+            "steps_per_minute": 138.74,
+            "calories_burned": 360.68,
+            "sequence": 309
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:38:30",
+            "elapsed_seconds": 1542,
+            "bpm": 162,
+            "steps_per_minute": 138.29,
+            "calories_burned": 362.08,
+            "sequence": 310
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:38:35",
+            "elapsed_seconds": 1547,
+            "bpm": 150,
+            "steps_per_minute": 137.84,
+            "calories_burned": 363.39,
+            "sequence": 311
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:38:40",
+            "elapsed_seconds": 1552,
+            "bpm": 145,
+            "steps_per_minute": 137.86,
+            "calories_burned": 364.65,
+            "sequence": 312
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:38:45",
+            "elapsed_seconds": 1557,
+            "bpm": 142,
+            "steps_per_minute": 137.92,
+            "calories_burned": 365.87,
+            "sequence": 313
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:38:50",
+            "elapsed_seconds": 1562,
+            "bpm": 144,
+            "steps_per_minute": 138.05,
+            "calories_burned": 367.08,
+            "sequence": 314
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:38:55",
+            "elapsed_seconds": 1567,
+            "bpm": 145,
+            "steps_per_minute": 138.0,
+            "calories_burned": 368.29,
+            "sequence": 315
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:39:00",
+            "elapsed_seconds": 1572,
+            "bpm": 145,
+            "steps_per_minute": 137.94,
+            "calories_burned": 369.51,
+            "sequence": 316
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:39:05",
+            "elapsed_seconds": 1577,
+            "bpm": 142,
+            "steps_per_minute": 137.92,
+            "calories_burned": 370.7,
+            "sequence": 317
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:39:10",
+            "elapsed_seconds": 1582,
+            "bpm": 143,
+            "steps_per_minute": 138.09,
+            "calories_burned": 371.93,
+            "sequence": 318
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:39:15",
+            "elapsed_seconds": 1587,
+            "bpm": 143,
+            "steps_per_minute": 138.19,
+            "calories_burned": 373.14,
+            "sequence": 319
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:39:20",
+            "elapsed_seconds": 1592,
+            "bpm": 143,
+            "steps_per_minute": 138.39,
+            "calories_burned": 374.37,
+            "sequence": 320
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:39:25",
+            "elapsed_seconds": 1597,
+            "bpm": 144,
+            "steps_per_minute": 138.41,
+            "calories_burned": 375.59,
+            "sequence": 321
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:39:30",
+            "elapsed_seconds": 1602,
+            "bpm": 142,
+            "steps_per_minute": 138.61,
+            "calories_burned": 376.81,
+            "sequence": 322
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:39:35",
+            "elapsed_seconds": 1607,
+            "bpm": 142,
+            "steps_per_minute": 138.63,
+            "calories_burned": 378.0,
+            "sequence": 323
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:39:40",
+            "elapsed_seconds": 1612,
+            "bpm": 142,
+            "steps_per_minute": 138.2,
+            "calories_burned": 379.14,
+            "sequence": 324
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:39:45",
+            "elapsed_seconds": 1617,
+            "bpm": 141,
+            "steps_per_minute": 137.77,
+            "calories_burned": 380.26,
+            "sequence": 325
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:39:50",
+            "elapsed_seconds": 1622,
+            "bpm": 139,
+            "steps_per_minute": 137.35,
+            "calories_burned": 381.36,
+            "sequence": 326
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:39:55",
+            "elapsed_seconds": 1627,
+            "bpm": 139,
+            "steps_per_minute": 136.93,
+            "calories_burned": 382.47,
+            "sequence": 327
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:40:00",
+            "elapsed_seconds": 1632,
+            "bpm": 136,
+            "steps_per_minute": 136.51,
+            "calories_burned": 383.54,
+            "sequence": 328
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:40:05",
+            "elapsed_seconds": 1637,
+            "bpm": 134,
+            "steps_per_minute": 136.46,
+            "calories_burned": 384.64,
+            "sequence": 329
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:40:10",
+            "elapsed_seconds": 1642,
+            "bpm": 132,
+            "steps_per_minute": 136.52,
+            "calories_burned": 385.73,
+            "sequence": 330
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:40:15",
+            "elapsed_seconds": 1647,
+            "bpm": 134,
+            "steps_per_minute": 136.72,
+            "calories_burned": 386.83,
+            "sequence": 331
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:40:20",
+            "elapsed_seconds": 1652,
+            "bpm": 140,
+            "steps_per_minute": 136.96,
+            "calories_burned": 387.99,
+            "sequence": 332
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:40:25",
+            "elapsed_seconds": 1657,
+            "bpm": 141,
+            "steps_per_minute": 137.02,
+            "calories_burned": 389.18,
+            "sequence": 333
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:40:30",
+            "elapsed_seconds": 1662,
+            "bpm": 141,
+            "steps_per_minute": 137.11,
+            "calories_burned": 390.36,
+            "sequence": 334
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:40:35",
+            "elapsed_seconds": 1667,
+            "bpm": 144,
+            "steps_per_minute": 137.35,
+            "calories_burned": 391.59,
+            "sequence": 335
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:40:40",
+            "elapsed_seconds": 1672,
+            "bpm": 149,
+            "steps_per_minute": 137.58,
+            "calories_burned": 392.87,
+            "sequence": 336
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:40:45",
+            "elapsed_seconds": 1677,
+            "bpm": 155,
+            "steps_per_minute": 137.78,
+            "calories_burned": 394.22,
+            "sequence": 337
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:40:50",
+            "elapsed_seconds": 1682,
+            "bpm": 158,
+            "steps_per_minute": 137.94,
+            "calories_burned": 395.62,
+            "sequence": 338
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:40:55",
+            "elapsed_seconds": 1687,
+            "bpm": 161,
+            "steps_per_minute": 138.14,
+            "calories_burned": 397.07,
+            "sequence": 339
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:41:00",
+            "elapsed_seconds": 1692,
+            "bpm": 162,
+            "steps_per_minute": 138.37,
+            "calories_burned": 398.54,
+            "sequence": 340
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:41:06",
+            "elapsed_seconds": 1697,
+            "bpm": 161,
+            "steps_per_minute": 138.49,
+            "calories_burned": 399.99,
+            "sequence": 341
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:41:11",
+            "elapsed_seconds": 1702,
+            "bpm": 161,
+            "steps_per_minute": 138.61,
+            "calories_burned": 401.43,
+            "sequence": 342
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:41:16",
+            "elapsed_seconds": 1707,
+            "bpm": 162,
+            "steps_per_minute": 138.8,
+            "calories_burned": 402.9,
+            "sequence": 343
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:41:21",
+            "elapsed_seconds": 1712,
+            "bpm": 165,
+            "steps_per_minute": 139.0,
+            "calories_burned": 404.38,
+            "sequence": 344
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:41:26",
+            "elapsed_seconds": 1717,
+            "bpm": 167,
+            "steps_per_minute": 139.18,
+            "calories_burned": 405.91,
+            "sequence": 345
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:41:31",
+            "elapsed_seconds": 1722,
+            "bpm": 166,
+            "steps_per_minute": 139.34,
+            "calories_burned": 407.43,
+            "sequence": 346
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:41:36",
+            "elapsed_seconds": 1727,
+            "bpm": 164,
+            "steps_per_minute": 138.93,
+            "calories_burned": 408.85,
+            "sequence": 347
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:41:41",
+            "elapsed_seconds": 1732,
+            "bpm": 159,
+            "steps_per_minute": 138.53,
+            "calories_burned": 410.23,
+            "sequence": 348
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:41:46",
+            "elapsed_seconds": 1737,
+            "bpm": 152,
+            "steps_per_minute": 138.13,
+            "calories_burned": 411.52,
+            "sequence": 349
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:41:51",
+            "elapsed_seconds": 1742,
+            "bpm": 151,
+            "steps_per_minute": 137.74,
+            "calories_burned": 412.77,
+            "sequence": 350
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:41:56",
+            "elapsed_seconds": 1747,
+            "bpm": 150,
+            "steps_per_minute": 137.34,
+            "calories_burned": 414.01,
+            "sequence": 351
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:42:01",
+            "elapsed_seconds": 1752,
+            "bpm": 147,
+            "steps_per_minute": 136.95,
+            "calories_burned": 415.21,
+            "sequence": 352
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:42:06",
+            "elapsed_seconds": 1757,
+            "bpm": 148,
+            "steps_per_minute": 136.56,
+            "calories_burned": 416.42,
+            "sequence": 353
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:42:11",
+            "elapsed_seconds": 1762,
+            "bpm": 143,
+            "steps_per_minute": 136.17,
+            "calories_burned": 417.6,
+            "sequence": 354
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:42:16",
+            "elapsed_seconds": 1767,
+            "bpm": 139,
+            "steps_per_minute": 135.79,
+            "calories_burned": 418.72,
+            "sequence": 355
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:42:21",
+            "elapsed_seconds": 1772,
+            "bpm": 133,
+            "steps_per_minute": 135.41,
+            "calories_burned": 419.78,
+            "sequence": 356
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:42:26",
+            "elapsed_seconds": 1777,
+            "bpm": 128,
+            "steps_per_minute": 135.03,
+            "calories_burned": 420.76,
+            "sequence": 357
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:42:31",
+            "elapsed_seconds": 1782,
+            "bpm": 122,
+            "steps_per_minute": 134.65,
+            "calories_burned": 421.66,
+            "sequence": 358
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:42:36",
+            "elapsed_seconds": 1787,
+            "bpm": 115,
+            "steps_per_minute": 134.27,
+            "calories_burned": 422.51,
+            "sequence": 359
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:42:41",
+            "elapsed_seconds": 1792,
+            "bpm": 116,
+            "steps_per_minute": 133.9,
+            "calories_burned": 423.31,
+            "sequence": 360
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:42:46",
+            "elapsed_seconds": 1797,
+            "bpm": 116,
+            "steps_per_minute": 133.52,
+            "calories_burned": 424.13,
+            "sequence": 361
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:42:51",
+            "elapsed_seconds": 1801,
+            "bpm": 115,
+            "steps_per_minute": 133.23,
+            "calories_burned": 424.77,
+            "sequence": 362
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:42:56",
+            "elapsed_seconds": 1806,
+            "bpm": 115,
+            "steps_per_minute": 132.86,
+            "calories_burned": 425.56,
+            "sequence": 363
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:43:01",
+            "elapsed_seconds": 1811,
+            "bpm": 112,
+            "steps_per_minute": 132.49,
+            "calories_burned": 426.33,
+            "sequence": 364
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:43:06",
+            "elapsed_seconds": 1816,
+            "bpm": 114,
+            "steps_per_minute": 132.13,
+            "calories_burned": 427.09,
+            "sequence": 365
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:43:11",
+            "elapsed_seconds": 1821,
+            "bpm": 114,
+            "steps_per_minute": 131.76,
+            "calories_burned": 427.87,
+            "sequence": 366
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:43:16",
+            "elapsed_seconds": 1826,
+            "bpm": 112,
+            "steps_per_minute": 131.4,
+            "calories_burned": 428.63,
+            "sequence": 367
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:43:21",
+            "elapsed_seconds": 1831,
+            "bpm": 109,
+            "steps_per_minute": 131.04,
+            "calories_burned": 429.37,
+            "sequence": 368
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:43:26",
+            "elapsed_seconds": 1836,
+            "bpm": 110,
+            "steps_per_minute": 130.69,
+            "calories_burned": 430.09,
+            "sequence": 369
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:43:31",
+            "elapsed_seconds": 1841,
+            "bpm": 110,
+            "steps_per_minute": 130.33,
+            "calories_burned": 430.83,
+            "sequence": 370
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:43:36",
+            "elapsed_seconds": 1846,
+            "bpm": 109,
+            "steps_per_minute": 129.98,
+            "calories_burned": 431.54,
+            "sequence": 371
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:43:41",
+            "elapsed_seconds": 1851,
+            "bpm": 107,
+            "steps_per_minute": 129.63,
+            "calories_burned": 432.24,
+            "sequence": 372
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:43:46",
+            "elapsed_seconds": 1856,
+            "bpm": 104,
+            "steps_per_minute": 129.28,
+            "calories_burned": 432.92,
+            "sequence": 373
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:43:51",
+            "elapsed_seconds": 1861,
+            "bpm": 104,
+            "steps_per_minute": 128.93,
+            "calories_burned": 433.57,
+            "sequence": 374
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:43:56",
+            "elapsed_seconds": 1866,
+            "bpm": 107,
+            "steps_per_minute": 128.59,
+            "calories_burned": 434.25,
+            "sequence": 375
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:44:01",
+            "elapsed_seconds": 1871,
+            "bpm": 103,
+            "steps_per_minute": 128.24,
+            "calories_burned": 434.93,
+            "sequence": 376
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:44:06",
+            "elapsed_seconds": 1876,
+            "bpm": 99,
+            "steps_per_minute": 127.9,
+            "calories_burned": 435.53,
+            "sequence": 377
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:44:11",
+            "elapsed_seconds": 1881,
+            "bpm": 100,
+            "steps_per_minute": 127.56,
+            "calories_burned": 436.13,
+            "sequence": 378
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:44:16",
+            "elapsed_seconds": 1886,
+            "bpm": 100,
+            "steps_per_minute": 127.22,
+            "calories_burned": 436.74,
+            "sequence": 379
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:44:21",
+            "elapsed_seconds": 1891,
+            "bpm": 106,
+            "steps_per_minute": 126.89,
+            "calories_burned": 437.38,
+            "sequence": 380
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:44:26",
+            "elapsed_seconds": 1896,
+            "bpm": 113,
+            "steps_per_minute": 126.55,
+            "calories_burned": 438.12,
+            "sequence": 381
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:44:31",
+            "elapsed_seconds": 1901,
+            "bpm": 112,
+            "steps_per_minute": 126.53,
+            "calories_burned": 438.94,
+            "sequence": 382
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:44:36",
+            "elapsed_seconds": 1906,
+            "bpm": 110,
+            "steps_per_minute": 126.77,
+            "calories_burned": 439.77,
+            "sequence": 383
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:44:41",
+            "elapsed_seconds": 1911,
+            "bpm": 123,
+            "steps_per_minute": 127.19,
+            "calories_burned": 440.7,
+            "sequence": 384
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:44:46",
+            "elapsed_seconds": 1916,
+            "bpm": 137,
+            "steps_per_minute": 127.52,
+            "calories_burned": 441.8,
+            "sequence": 385
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:44:51",
+            "elapsed_seconds": 1921,
+            "bpm": 151,
+            "steps_per_minute": 127.84,
+            "calories_burned": 443.06,
+            "sequence": 386
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:44:56",
+            "elapsed_seconds": 1926,
+            "bpm": 156,
+            "steps_per_minute": 128.22,
+            "calories_burned": 444.45,
+            "sequence": 387
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:45:01",
+            "elapsed_seconds": 1931,
+            "bpm": 160,
+            "steps_per_minute": 128.58,
+            "calories_burned": 445.89,
+            "sequence": 388
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:45:06",
+            "elapsed_seconds": 1936,
+            "bpm": 163,
+            "steps_per_minute": 128.83,
+            "calories_burned": 447.37,
+            "sequence": 389
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:45:11",
+            "elapsed_seconds": 1941,
+            "bpm": 167,
+            "steps_per_minute": 129.27,
+            "calories_burned": 448.93,
+            "sequence": 390
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:45:16",
+            "elapsed_seconds": 1946,
+            "bpm": 169,
+            "steps_per_minute": 129.56,
+            "calories_burned": 450.49,
+            "sequence": 391
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:45:21",
+            "elapsed_seconds": 1951,
+            "bpm": 171,
+            "steps_per_minute": 129.84,
+            "calories_burned": 452.08,
+            "sequence": 392
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:45:26",
+            "elapsed_seconds": 1956,
+            "bpm": 174,
+            "steps_per_minute": 130.15,
+            "calories_burned": 453.69,
+            "sequence": 393
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:45:31",
+            "elapsed_seconds": 1961,
+            "bpm": 179,
+            "steps_per_minute": 130.43,
+            "calories_burned": 455.37,
+            "sequence": 394
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:45:36",
+            "elapsed_seconds": 1966,
+            "bpm": 180,
+            "steps_per_minute": 130.83,
+            "calories_burned": 457.09,
+            "sequence": 395
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:45:41",
+            "elapsed_seconds": 1971,
+            "bpm": 181,
+            "steps_per_minute": 131.2,
+            "calories_burned": 458.82,
+            "sequence": 396
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:45:46",
+            "elapsed_seconds": 1976,
+            "bpm": 184,
+            "steps_per_minute": 131.54,
+            "calories_burned": 460.58,
+            "sequence": 397
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:45:51",
+            "elapsed_seconds": 1981,
+            "bpm": 185,
+            "steps_per_minute": 132.02,
+            "calories_burned": 462.38,
+            "sequence": 398
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:45:56",
+            "elapsed_seconds": 1986,
+            "bpm": 186,
+            "steps_per_minute": 132.42,
+            "calories_burned": 464.18,
+            "sequence": 399
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:46:01",
+            "elapsed_seconds": 1991,
+            "bpm": 189,
+            "steps_per_minute": 132.72,
+            "calories_burned": 465.99,
+            "sequence": 400
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:46:06",
+            "elapsed_seconds": 1996,
+            "bpm": 190,
+            "steps_per_minute": 132.99,
+            "calories_burned": 467.81,
+            "sequence": 401
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:46:11",
+            "elapsed_seconds": 2001,
+            "bpm": 193,
+            "steps_per_minute": 133.22,
+            "calories_burned": 469.66,
+            "sequence": 402
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:46:16",
+            "elapsed_seconds": 2006,
+            "bpm": 194,
+            "steps_per_minute": 132.89,
+            "calories_burned": 471.45,
+            "sequence": 403
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:46:21",
+            "elapsed_seconds": 2011,
+            "bpm": 189,
+            "steps_per_minute": 132.56,
+            "calories_burned": 473.22,
+            "sequence": 404
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:46:26",
+            "elapsed_seconds": 2016,
+            "bpm": 184,
+            "steps_per_minute": 132.23,
+            "calories_burned": 474.91,
+            "sequence": 405
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:46:31",
+            "elapsed_seconds": 2021,
+            "bpm": 181,
+            "steps_per_minute": 131.93,
+            "calories_burned": 476.56,
+            "sequence": 406
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:46:36",
+            "elapsed_seconds": 2026,
+            "bpm": 178,
+            "steps_per_minute": 131.96,
+            "calories_burned": 478.22,
+            "sequence": 407
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:46:41",
+            "elapsed_seconds": 2031,
+            "bpm": 176,
+            "steps_per_minute": 132.14,
+            "calories_burned": 479.88,
+            "sequence": 408
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:46:46",
+            "elapsed_seconds": 2036,
+            "bpm": 175,
+            "steps_per_minute": 132.35,
+            "calories_burned": 481.53,
+            "sequence": 409
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:46:51",
+            "elapsed_seconds": 2041,
+            "bpm": 174,
+            "steps_per_minute": 132.61,
+            "calories_burned": 483.17,
+            "sequence": 410
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:46:56",
+            "elapsed_seconds": 2046,
+            "bpm": 175,
+            "steps_per_minute": 132.84,
+            "calories_burned": 484.8,
+            "sequence": 411
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:47:01",
+            "elapsed_seconds": 2051,
+            "bpm": 178,
+            "steps_per_minute": 133.08,
+            "calories_burned": 486.47,
+            "sequence": 412
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:47:06",
+            "elapsed_seconds": 2056,
+            "bpm": 178,
+            "steps_per_minute": 133.22,
+            "calories_burned": 488.13,
+            "sequence": 413
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:47:11",
+            "elapsed_seconds": 2060,
+            "bpm": 178,
+            "steps_per_minute": 133.54,
+            "calories_burned": 489.5,
+            "sequence": 414
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:47:16",
+            "elapsed_seconds": 2065,
+            "bpm": 179,
+            "steps_per_minute": 133.77,
+            "calories_burned": 491.18,
+            "sequence": 415
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:47:21",
+            "elapsed_seconds": 2070,
+            "bpm": 178,
+            "steps_per_minute": 134.06,
+            "calories_burned": 492.88,
+            "sequence": 416
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:47:26",
+            "elapsed_seconds": 2075,
+            "bpm": 179,
+            "steps_per_minute": 134.31,
+            "calories_burned": 494.56,
+            "sequence": 417
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:47:31",
+            "elapsed_seconds": 2080,
+            "bpm": 180,
+            "steps_per_minute": 134.57,
+            "calories_burned": 496.28,
+            "sequence": 418
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:47:36",
+            "elapsed_seconds": 2085,
+            "bpm": 181,
+            "steps_per_minute": 134.79,
+            "calories_burned": 497.99,
+            "sequence": 419
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:47:41",
+            "elapsed_seconds": 2090,
+            "bpm": 181,
+            "steps_per_minute": 135.07,
+            "calories_burned": 499.71,
+            "sequence": 420
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:47:46",
+            "elapsed_seconds": 2095,
+            "bpm": 180,
+            "steps_per_minute": 135.38,
+            "calories_burned": 501.43,
+            "sequence": 421
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:47:51",
+            "elapsed_seconds": 2100,
+            "bpm": 180,
+            "steps_per_minute": 135.69,
+            "calories_burned": 503.15,
+            "sequence": 422
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:47:56",
+            "elapsed_seconds": 2105,
+            "bpm": 182,
+            "steps_per_minute": 135.99,
+            "calories_burned": 504.89,
+            "sequence": 423
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:48:01",
+            "elapsed_seconds": 2110,
+            "bpm": 184,
+            "steps_per_minute": 136.29,
+            "calories_burned": 506.64,
+            "sequence": 424
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:48:06",
+            "elapsed_seconds": 2115,
+            "bpm": 188,
+            "steps_per_minute": 136.54,
+            "calories_burned": 508.43,
+            "sequence": 425
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:48:11",
+            "elapsed_seconds": 2120,
+            "bpm": 189,
+            "steps_per_minute": 136.81,
+            "calories_burned": 510.26,
+            "sequence": 426
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:48:16",
+            "elapsed_seconds": 2125,
+            "bpm": 188,
+            "steps_per_minute": 137.0,
+            "calories_burned": 512.08,
+            "sequence": 427
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:48:21",
+            "elapsed_seconds": 2130,
+            "bpm": 187,
+            "steps_per_minute": 136.68,
+            "calories_burned": 513.79,
+            "sequence": 428
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:48:26",
+            "elapsed_seconds": 2135,
+            "bpm": 184,
+            "steps_per_minute": 136.36,
+            "calories_burned": 515.48,
+            "sequence": 429
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:48:31",
+            "elapsed_seconds": 2140,
+            "bpm": 180,
+            "steps_per_minute": 136.04,
+            "calories_burned": 517.11,
+            "sequence": 430
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:48:36",
+            "elapsed_seconds": 2145,
+            "bpm": 175,
+            "steps_per_minute": 135.72,
+            "calories_burned": 518.69,
+            "sequence": 431
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:48:41",
+            "elapsed_seconds": 2150,
+            "bpm": 171,
+            "steps_per_minute": 135.4,
+            "calories_burned": 520.23,
+            "sequence": 432
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:48:46",
+            "elapsed_seconds": 2155,
+            "bpm": 170,
+            "steps_per_minute": 135.09,
+            "calories_burned": 521.72,
+            "sequence": 433
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:48:51",
+            "elapsed_seconds": 2160,
+            "bpm": 166,
+            "steps_per_minute": 134.81,
+            "calories_burned": 523.19,
+            "sequence": 434
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:48:56",
+            "elapsed_seconds": 2165,
+            "bpm": 157,
+            "steps_per_minute": 134.49,
+            "calories_burned": 524.55,
+            "sequence": 435
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:49:01",
+            "elapsed_seconds": 2170,
+            "bpm": 152,
+            "steps_per_minute": 134.38,
+            "calories_burned": 525.86,
+            "sequence": 436
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:49:06",
+            "elapsed_seconds": 2175,
+            "bpm": 151,
+            "steps_per_minute": 134.34,
+            "calories_burned": 527.17,
+            "sequence": 437
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:49:11",
+            "elapsed_seconds": 2180,
+            "bpm": 150,
+            "steps_per_minute": 134.37,
+            "calories_burned": 528.47,
+            "sequence": 438
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:49:16",
+            "elapsed_seconds": 2185,
+            "bpm": 148,
+            "steps_per_minute": 134.33,
+            "calories_burned": 529.74,
+            "sequence": 439
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:49:21",
+            "elapsed_seconds": 2190,
+            "bpm": 149,
+            "steps_per_minute": 134.38,
+            "calories_burned": 531.02,
+            "sequence": 440
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:49:26",
+            "elapsed_seconds": 2195,
+            "bpm": 150,
+            "steps_per_minute": 134.49,
+            "calories_burned": 532.33,
+            "sequence": 441
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:49:31",
+            "elapsed_seconds": 2200,
+            "bpm": 149,
+            "steps_per_minute": 134.56,
+            "calories_burned": 533.62,
+            "sequence": 442
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:49:36",
+            "elapsed_seconds": 2205,
+            "bpm": 149,
+            "steps_per_minute": 134.64,
+            "calories_burned": 534.91,
+            "sequence": 443
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:49:41",
+            "elapsed_seconds": 2210,
+            "bpm": 148,
+            "steps_per_minute": 134.69,
+            "calories_burned": 536.19,
+            "sequence": 444
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:49:46",
+            "elapsed_seconds": 2215,
+            "bpm": 149,
+            "steps_per_minute": 134.82,
+            "calories_burned": 537.49,
+            "sequence": 445
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:49:51",
+            "elapsed_seconds": 2220,
+            "bpm": 148,
+            "steps_per_minute": 134.95,
+            "calories_burned": 538.79,
+            "sequence": 446
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:49:56",
+            "elapsed_seconds": 2225,
+            "bpm": 147,
+            "steps_per_minute": 135.05,
+            "calories_burned": 540.07,
+            "sequence": 447
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:50:01",
+            "elapsed_seconds": 2230,
+            "bpm": 146,
+            "steps_per_minute": 135.12,
+            "calories_burned": 541.33,
+            "sequence": 448
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:50:06",
+            "elapsed_seconds": 2235,
+            "bpm": 147,
+            "steps_per_minute": 135.25,
+            "calories_burned": 542.6,
+            "sequence": 449
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:50:11",
+            "elapsed_seconds": 2240,
+            "bpm": 148,
+            "steps_per_minute": 135.43,
+            "calories_burned": 543.89,
+            "sequence": 450
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:50:16",
+            "elapsed_seconds": 2245,
+            "bpm": 150,
+            "steps_per_minute": 135.63,
+            "calories_burned": 545.2,
+            "sequence": 451
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:50:21",
+            "elapsed_seconds": 2250,
+            "bpm": 152,
+            "steps_per_minute": 135.87,
+            "calories_burned": 546.55,
+            "sequence": 452
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:50:26",
+            "elapsed_seconds": 2255,
+            "bpm": 153,
+            "steps_per_minute": 135.94,
+            "calories_burned": 547.89,
+            "sequence": 453
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:50:31",
+            "elapsed_seconds": 2260,
+            "bpm": 153,
+            "steps_per_minute": 136.06,
+            "calories_burned": 549.24,
+            "sequence": 454
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:50:36",
+            "elapsed_seconds": 2265,
+            "bpm": 155,
+            "steps_per_minute": 136.13,
+            "calories_burned": 550.59,
+            "sequence": 455
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:50:41",
+            "elapsed_seconds": 2270,
+            "bpm": 155,
+            "steps_per_minute": 135.89,
+            "calories_burned": 551.9,
+            "sequence": 456
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:50:46",
+            "elapsed_seconds": 2275,
+            "bpm": 153,
+            "steps_per_minute": 135.67,
+            "calories_burned": 553.2,
+            "sequence": 457
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "clock_time": "16:50:51",
+            "elapsed_seconds": 2280,
+            "bpm": 150,
+            "steps_per_minute": 135.37,
+            "calories_burned": 554.44,
+            "sequence": 458
+        }
+    ],
+    "songs": [
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "song": "END OF THE CENTURY",
+            "difficulty": "Medium",
+            "score": "77240661",
+            "duration": 98.927834,
+            "end_time": "16:38:05",
+            "end_time_elapsed": 1523.31,
+            "start_time_elapsed": 1424.38,
+            "miss": "8",
+            "boo": "11",
+            "good": "14",
+            "great": "47",
+            "perfect": "77",
+            "flawless": "150"
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "song": "KEEP ON MOVIN'",
+            "difficulty": "Medium",
+            "score": "93255247",
+            "duration": 73.557915,
+            "end_time": "16:39:39",
+            "end_time_elapsed": 1617.31,
+            "start_time_elapsed": 1543.75,
+            "miss": "1",
+            "boo": "0",
+            "good": "0",
+            "great": "8",
+            "perfect": "34",
+            "flawless": "97"
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "song": "LUV TO ME (AMD MIX)",
+            "difficulty": "Medium",
+            "score": "81603395",
+            "duration": 102.914291,
+            "end_time": "16:41:35",
+            "end_time_elapsed": 1733.31,
+            "start_time_elapsed": 1630.4,
+            "miss": "3",
+            "boo": "4",
+            "good": "13",
+            "great": "45",
+            "perfect": "77",
+            "flawless": "128"
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "song": "SAKURA",
+            "difficulty": "Easy",
+            "score": "91921383",
+            "duration": 103.314209,
+            "end_time": "16:21:36",
+            "end_time_elapsed": 534.31,
+            "start_time_elapsed": 431.0,
+            "miss": "1",
+            "boo": "1",
+            "good": "1",
+            "great": "21",
+            "perfect": "59",
+            "flawless": "145"
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "song": "Himawari",
+            "difficulty": "Medium",
+            "score": "92620252",
+            "duration": 109.885651,
+            "end_time": "16:30:05",
+            "end_time_elapsed": 1043.31,
+            "start_time_elapsed": 933.42,
+            "miss": "0",
+            "boo": "0",
+            "good": "4",
+            "great": "16",
+            "perfect": "65",
+            "flawless": "193"
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "song": "TRUE LOVE",
+            "difficulty": "Medium",
+            "score": "88477217",
+            "duration": 101.496483,
+            "end_time": "16:32:17",
+            "end_time_elapsed": 1175.31,
+            "start_time_elapsed": 1073.81,
+            "miss": "8",
+            "boo": "0",
+            "good": "2",
+            "great": "14",
+            "perfect": "71",
+            "flawless": "170"
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "song": "SUNKiSS DROP~Alison Side~",
+            "difficulty": "Medium",
+            "score": "87314831",
+            "duration": 109.306686,
+            "end_time": "16:19:05",
+            "end_time_elapsed": 383.31,
+            "start_time_elapsed": 274.0,
+            "miss": "1",
+            "boo": "1",
+            "good": "4",
+            "great": "32",
+            "perfect": "62",
+            "flawless": "134"
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "song": "PONPONPON",
+            "difficulty": "Medium",
+            "score": "91246316",
+            "duration": 120.19368,
+            "end_time": "16:50:48",
+            "end_time_elapsed": 2286.31,
+            "start_time_elapsed": 2166.12,
+            "miss": "3",
+            "boo": "1",
+            "good": "1",
+            "great": "20",
+            "perfect": "61",
+            "flawless": "159"
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "song": "Sakura Reflection",
+            "difficulty": "Medium",
+            "score": "78386954",
+            "duration": 108.434814,
+            "end_time": "16:48:20",
+            "end_time_elapsed": 2138.31,
+            "start_time_elapsed": 2029.87,
+            "miss": "7",
+            "boo": "12",
+            "good": "28",
+            "great": "60",
+            "perfect": "93",
+            "flawless": "162"
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "song": "We No Speak Americano",
+            "difficulty": "Hard",
+            "score": "68638228",
+            "duration": 115.324272,
+            "end_time": "16:46:15",
+            "end_time_elapsed": 2013.31,
+            "start_time_elapsed": 1897.99,
+            "miss": "21",
+            "boo": "14",
+            "good": "38",
+            "great": "85",
+            "perfect": "116",
+            "flawless": "137"
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "song": "Healing Vision~Angelic mix~",
+            "difficulty": "Easy",
+            "score": "92661700",
+            "duration": 104.566238,
+            "end_time": "16:27:49",
+            "end_time_elapsed": 907.31,
+            "start_time_elapsed": 802.74,
+            "miss": "2",
+            "boo": "3",
+            "good": "2",
+            "great": "11",
+            "perfect": "78",
+            "flawless": "177"
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "song": "Healing Vision~Angelic mix~",
+            "difficulty": "Medium",
+            "score": "36697850",
+            "duration": 84.969963,
+            "end_time": "16:23:28",
+            "end_time_elapsed": 646.31,
+            "start_time_elapsed": 561.34,
+            "miss": "12",
+            "boo": "9",
+            "good": "17",
+            "great": "70",
+            "perfect": "86",
+            "flawless": "87"
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "song": "BREAK DOWN!",
+            "difficulty": "Medium",
+            "score": "95559642",
+            "duration": 107.350021,
+            "end_time": "16:34:32",
+            "end_time_elapsed": 1310.31,
+            "start_time_elapsed": 1202.96,
+            "miss": "1",
+            "boo": "1",
+            "good": "0",
+            "great": "11",
+            "perfect": "66",
+            "flawless": "200"
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "song": "CANDY HEART",
+            "difficulty": "Medium",
+            "score": "89605057",
+            "duration": 100.695656,
+            "end_time": "16:16:31",
+            "end_time_elapsed": 229.31,
+            "start_time_elapsed": 128.61,
+            "miss": "5",
+            "boo": "0",
+            "good": "1",
+            "great": "27",
+            "perfect": "69",
+            "flawless": "128"
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "song": "D2R",
+            "difficulty": "Medium",
+            "score": "93521892",
+            "duration": 101.127319,
+            "end_time": "16:14:31",
+            "end_time_elapsed": 109.31,
+            "start_time_elapsed": 8.18,
+            "miss": "0",
+            "boo": "2",
+            "good": "2",
+            "great": "18",
+            "perfect": "54",
+            "flawless": "160"
+        },
+        {
+            "session_id": "session_2025-07-21-16-11",
+            "song": "Harder Better Faster Stronger",
+            "difficulty": "Medium",
+            "score": "83568234",
+            "duration": 122.827553,
+            "end_time": "16:25:52",
+            "end_time_elapsed": 790.31,
+            "start_time_elapsed": 667.48,
+            "miss": "9",
+            "boo": "2",
+            "good": "10",
+            "great": "49",
+            "perfect": "104",
+            "flawless": "152"
+        }
+    ],
+    "session_steps": {
+        "flawless": 2379,
+        "perfect": 1172,
+        "great": 534,
+        "good": 137,
+        "boo": 61,
+        "miss": 82,
+        "total_dance_steps": 4283,
+        "overall_accuracy": 98.12142038946163,
+        "combo_accuracy_fpg": 93.58533791523482
+    }
+}
